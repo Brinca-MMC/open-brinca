@@ -1,0 +1,34 @@
+name: Corrección
+description: Un nombre mal escrito, una frase mal transcrita, una cita mal atribuida o una cifra que no calza con su fuente.
+title: "Corrección: "
+labels: ["corrección"]
+body:
+  - type: input
+    id: archivo
+    attributes:
+      label: Dónde está
+      description: El archivo o la sesión, por ejemplo eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/transcripcion.md
+    validations:
+      required: true
+  - type: input
+    id: marca
+    attributes:
+      label: Marca de tiempo
+      description: La marca [mm:ss] más cercana, si la hay.
+  - type: textarea
+    id: dice
+    attributes:
+      label: Qué dice
+    validations:
+      required: true
+  - type: textarea
+    id: deberia
+    attributes:
+      label: Qué debería decir
+    validations:
+      required: true
+  - type: textarea
+    id: fuente
+    attributes:
+      label: Cómo lo sabes
+      description: El video en esa marca, la lámina, el informe citado u otra fuente.
