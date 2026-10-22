@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si usas Open Brinca, cítalo así."
+title: "Open Brinca"
+abstract: "Sesiones de eventos y webinars sobre adopción de IA en las empresas, transcritas y revisadas por Brinca, con fichas que resumen cada sesión, cifras contrastadas con su fuente y marcas de tiempo al segundo del video."
+type: dataset
+authors:
+  - name: "Brinca"
+    website: "https://www.brinca.com"
+repository-code: "https://github.com/Brinca-MMC/open-brinca"
+url: "https://github.com/Brinca-MMC/open-brinca"
+license: CC-BY-4.0
+version: "2026.10"
+date-released: 2026-10-22
+keywords:
+  - inteligencia artificial
+  - adopción de IA
+  - transcripciones
+  - Chile
+  - gestión del conocimiento
