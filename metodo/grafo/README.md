@@ -45,6 +45,13 @@ El tipo dice cómo se relacionan los dos documentos y el porqué dice en qué. E
 
 Necesita Python 3.11 o posterior y no usa librerías externas.
 
+## Consultar el grafo desde otro programa
+
+`grafo.py` también responde consultas sin escribir nada, para que un visor, un servidor o un agente lean el grafo sin reimplementar la sintaxis:
+
+- `python3 <carpeta>/grafo.py --json` entrega el grafo entero: los documentos que tienen aristas, con su título y su resumen; cada arista con origen, tipo, destino, lugar exacto, porqué y estado; y el vocabulario declarado.
+- `python3 <carpeta>/grafo.py vecinos <ruta>` muestra lo que sale de un documento y lo que le llega. Con `--json`, lo mismo en JSON.
+
 ## Licencia
 
 El texto de esta carpeta se publica bajo [Creative Commons Atribución 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): se puede usar y adaptar citando «Método de grafo de Brinca» con un enlace a este repositorio. `grafo.py` se publica bajo licencia [MIT](https://opensource.org/license/mit).
