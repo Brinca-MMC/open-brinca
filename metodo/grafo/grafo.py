@@ -82,7 +82,9 @@ def leer_config(repo, args):
     excluir = set(cfg.get("excluir", [])) | set(args.excluir or [])
     return {
         "detectar_generados": bool(cfg.get("detectar_generados", False)),
-        "no_escribir": {os.path.normpath(os.path.join(repo, p)) for p in cfg.get("no_escribir", [])},
+        # La copia del núcleo tampoco recibe espejo: tiene que seguir idéntica a la original.
+        "no_escribir": {os.path.normpath(os.path.join(repo, p)) for p in cfg.get("no_escribir", [])}
+                       | {os.path.normpath(nucleo)},
         "repo": repo,
         "nucleo": nucleo,
         "locales": [os.path.join(repo, p) for p in locales],
@@ -444,7 +446,7 @@ def main():
     for c in changed:
         print(f"  ~ {os.path.relpath(c, repo)}")
     if generados:
-        print(f"generados por otro programa (no se les escribe el espejo): {len(generados)}")
+        print(f"sin espejo (la copia del núcleo o archivos que escribe otro programa): {len(generados)}")
         for g in generados:
             print(f"  · {os.path.relpath(g, repo)}")
     if dangling:
