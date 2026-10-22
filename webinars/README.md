@@ -1,3 +1,10 @@
+---
+id: webinars
+tipo: indice
+actualizado: 2026-10-22
+tags: [webinars]
+---
+
 # Webinars
 
 Webinars sobre IA y adopción de IA, grabados con permiso de sus autores y procesados con el mismo método que las sesiones de Impacta IA. Cada uno trae la transcripción revisada en el idioma en que se habló, las voces identificadas, las láminas comentadas y las cifras contrastadas con el estudio que se presenta.
