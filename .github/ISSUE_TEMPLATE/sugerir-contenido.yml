@@ -1,0 +1,28 @@
+name: Sugerir contenido
+description: Un evento o un webinar sobre adopción de IA que valdría la pena publicar aquí.
+title: "Sugerencia: "
+labels: ["sugerencia"]
+body:
+  - type: input
+    id: que
+    attributes:
+      label: Qué evento o webinar
+    validations:
+      required: true
+  - type: input
+    id: donde
+    attributes:
+      label: Dónde está la grabación
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por qué vale la pena
+  - type: dropdown
+    id: permiso
+    attributes:
+      label: ¿Quienes hablan autorizan publicarlo?
+      options:
+        - Sí, y tengo cómo mostrarlo
+        - No lo sé
+    validations:
+      required: true
