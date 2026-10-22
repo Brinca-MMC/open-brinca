@@ -1,7 +1,7 @@
 ---
 id: impacta-ia-2026
 tipo: indice
-actualizado: 2026-10-20
+actualizado: 2026-10-22
 tags: [impacta-ia, evento, transcripciones]
 ---
 
@@ -47,4 +47,4 @@ Los streams completos están en YouTube: [día 1](https://www.youtube.com/watch?
 5. Un agente de IA revisó cada sesión en tres pasadas: lo que Whisper escuchó mal, lo que quedó en un idioma distinto al hablado y lo que el speaker dijo mal. Ese mismo agente limpió las muletillas, resumió en una línea en cursiva lo protocolar (presentaciones de currículum, logística, aplausos) y eligió las imágenes notables.
 6. Un verificador independiente, con otro modelo, revisó las correcciones, las frases citables y las imágenes. Brinca revisó las dudas que quedaron.
 
-Las transcripciones pueden tener errores menores. Ante una cita importante, conviene contrastarla con el video en el segundo que indica la marca.
+Las transcripciones pueden tener errores menores. Ante una cita importante, conviene contrastarla con el video en el segundo que indica la marca. El método completo, con sus convenciones, está en [`metodo/transcripcion/`](../../metodo/transcripcion/README.md).
