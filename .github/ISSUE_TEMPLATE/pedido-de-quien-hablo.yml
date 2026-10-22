@@ -1,0 +1,39 @@
+name: Pedido de quien habló
+description: Hablaste en una sesión y quieres corregir lo que dijiste, retirar un fragmento o retirar la sesión.
+title: "Pedido de quien habló: "
+labels: ["pedido de speaker"]
+body:
+  - type: markdown
+    attributes:
+      value: Este formulario es público. Si prefieres no hacerlo aquí, escríbele a Brinca desde https://www.brinca.com.
+  - type: input
+    id: sesion
+    attributes:
+      label: Sesión
+      description: El evento o webinar y la sesión.
+    validations:
+      required: true
+  - type: dropdown
+    id: pedido
+    attributes:
+      label: Qué pides
+      options:
+        - Corregir lo que dije
+        - Retirar un fragmento
+        - Retirar la sesión
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Detalle
+      description: Qué fragmento (con su marca de tiempo, si puedes) y qué debería quedar.
+    validations:
+      required: true
+  - type: input
+    id: relacion
+    attributes:
+      label: Quién eres en la sesión
+      description: Por ejemplo, «soy quien habló» o «represento a quien habló».
+    validations:
+      required: true
