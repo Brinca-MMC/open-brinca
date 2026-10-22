@@ -1,7 +1,7 @@
 ---
 id: metodo
 tipo: indice
-actualizado: 2026-10-21
+actualizado: 2026-10-22
 tags: [metodo]
 ---
 
@@ -11,4 +11,5 @@ Cómo trabaja Brinca el conocimiento que publica en este repositorio, explicado 
 
 | Carpeta | Qué es |
 |---|---|
+| [`transcripcion/`](transcripcion/README.md) | Cómo se transcribe y se revisa cada sesión: los pasos, las convenciones y cuánto confiar en el resultado |
 | [`grafo/`](grafo/README.md) | El método de grafo: cómo se escriben las relaciones entre documentos dentro de los mismos archivos markdown. Incluye el script que las mantiene |
