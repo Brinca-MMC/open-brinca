@@ -23,10 +23,17 @@ Configuración opcional en `.grafo.toml`, en la raíz del repositorio:
   excluir = ["borradores", "eventos/x"]  # nombres de carpeta o rutas que no se recorren
 
 Uso:
-  python3 metodo/grafo/grafo.py          # aplica los cambios
-  python3 metodo/grafo/grafo.py --check  # no escribe; reporta deriva y errores (exit 1)
+  python3 metodo/grafo/grafo.py                       # aplica los cambios
+  python3 metodo/grafo/grafo.py --check               # no escribe; reporta deriva y errores (exit 1)
+  python3 metodo/grafo/grafo.py --json                # el grafo entero en JSON; no escribe
+  python3 metodo/grafo/grafo.py vecinos RUTA [--json] # lo que sale de un documento y lo que le llega
+
+El JSON trae los nodos que participan en alguna arista ({ruta, titulo, lede}), las aristas
+({origen, tipo, destino, titulo_destino, locus, porque, estado}) y el vocabulario declarado
+({tipo: {glosa, fuente}}). Las rutas son relativas a la raíz del repositorio. `estado` es `ok`,
+`roto` (el destino no existe) o `externo` (sale del repositorio).
 """
-import argparse, os, re, subprocess, sys
+import argparse, json, os, re, subprocess, sys
 import tomllib
 from urllib.parse import unquote
 
@@ -169,8 +176,41 @@ def title(path):
     return os.path.splitext(os.path.basename(path))[0]
 
 
-def conexiones_edges(text):
-    """(tipo, ruta) de cada arista DENTRO del bloque `## Conexiones`."""
+def lede(path):
+    """El resumen del nodo: la primera línea `>` bajo el H1 o, si no hay, su primer párrafo."""
+    try:
+        with open(path, encoding="utf-8", errors="replace") as f:
+            txt = f.read()
+    except OSError:
+        return ""
+    txt = re.sub(r"\A---\n.*?\n---\n", "", txt, flags=re.S)
+    m = re.search(r"^# .*\n", txt, re.M)
+    cuerpo = txt[m.end():] if m else txt
+    for parrafo in re.split(r"\n\s*\n", cuerpo):
+        p = parrafo.strip()
+        if not p or p.startswith(("#", "|", "```", "<!--", "![")):
+            continue
+        p = re.sub(r"^>\s?", "", p, flags=re.M)
+        return " ".join(p.split())[:600]
+    return ""
+
+
+def partes_arista(resto):
+    """(locus, porque) del texto que sigue al enlace: ` · §X · por qué` o ` · por qué`."""
+    partes = [p.strip() for p in resto.split(" · ")]
+    partes = [p for p in partes if p] if partes and partes[0] in ("", "·") else partes
+    if partes and partes[0].startswith("·"):
+        partes[0] = partes[0].lstrip("· ").strip()
+    if len(partes) >= 2 and (partes[0].startswith(("§", "[")) or len(partes[0]) <= 30):
+        return partes[0], " · ".join(partes[1:])
+    return "", " · ".join(partes)
+
+
+def conexiones_edges(text, detalle=False):
+    """(tipo, ruta) de cada arista DENTRO del bloque `## Conexiones`.
+
+    Con `detalle`, (tipo, título, ruta, locus, porque).
+    """
     edges, in_sec, in_fence = [], False, False
     for line in text.splitlines():
         if line.lstrip().startswith("```"):
@@ -183,7 +223,9 @@ def conexiones_edges(text):
             continue
         if in_sec:
             m = EDGE.match(line)
-            if m:
+            if m and detalle:
+                edges.append((m.group(1), m.group(2), m.group(3)) + partes_arista(line[m.end():]))
+            elif m:
                 edges.append((m.group(1), m.group(3)))
     return edges
 
@@ -221,6 +263,59 @@ def strip_referidos(content):
     return before + "\n\n" + after if after else before + "\n"
 
 
+def glosas(cfg):
+    """{tipo: {glosa, fuente}} del núcleo y de los diccionarios locales."""
+    out = {}
+    for path in [cfg["nucleo"]] + cfg["locales"]:
+        for tipo, cuerpo in (entradas(path) or {}).items():
+            if tipo in out:
+                continue                 # el núcleo manda: un local no lo redefine
+            m = re.search(r"^Glosa:\s*(.+)$", cuerpo, re.M)
+            out[tipo] = {"glosa": m.group(1).strip() if m else "",
+                         "fuente": os.path.relpath(path, cfg["repo"])}
+    return out
+
+
+def salida_consulta(args, cfg, repo, aristas):
+    """Imprime el grafo (--json) o el vecindario de un documento (vecinos). Nunca escribe."""
+    def nodo(ruta):
+        ap = os.path.join(repo, ruta)
+        return {"ruta": ruta, "titulo": title(ap), "lede": lede(ap)}
+
+    if args.accion == "vecinos":
+        ruta = args.ruta if os.path.exists(args.ruta) else os.path.join(repo, args.ruta)
+        ruta = os.path.relpath(os.path.abspath(ruta), repo)
+        if not os.path.isfile(os.path.join(repo, ruta)):
+            print(f"no existe: {ruta}", file=sys.stderr)
+            return 2
+        salen = [a for a in aristas if a["origen"] == ruta]
+        llegan = [a for a in aristas if a["destino"] == ruta and a["estado"] == "ok"]
+        if args.json:
+            print(json.dumps({"nodo": nodo(ruta), "salientes": salen, "entrantes": llegan},
+                             ensure_ascii=False, indent=2))
+            return 0
+        print(f"{title(os.path.join(repo, ruta))} · {ruta}")
+        for a in salen:
+            locus = f" · {a['locus']}" if a["locus"] else ""
+            print(f"  → `{a['tipo']}` {a['destino']}{locus} · {a['porque']}")
+        for a in llegan:
+            locus = f" · {a['locus']}" if a["locus"] else ""
+            print(f"  ← `{a['tipo']}` {a['origen']}{locus} · {a['porque']}")
+        if not salen and not llegan:
+            print("  sin aristas")
+        return 0
+
+    rutas = sorted({a["origen"] for a in aristas} |
+                   {a["destino"] for a in aristas if a["estado"] == "ok"
+                    and os.path.isfile(os.path.join(repo, a["destino"]))})
+    print(json.dumps({"repo": os.path.basename(repo),
+                      "nucleo": os.path.relpath(cfg["nucleo"], repo),
+                      "locales": [os.path.relpath(p, repo) for p in cfg["locales"]],
+                      "nodos": [nodo(r) for r in rutas], "aristas": aristas,
+                      "vocabulario": glosas(cfg)}, ensure_ascii=False, indent=2))
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description="Regenera `## Referido por` y valida el grafo.")
     ap.add_argument("--check", action="store_true",
@@ -230,20 +325,31 @@ def main():
     ap.add_argument("--local", action="append", help="diccionario local (se puede repetir)")
     ap.add_argument("--raices", nargs="+", help="carpetas que se recorren")
     ap.add_argument("--excluir", nargs="+", help="nombres de carpeta o rutas que no se recorren")
+    ap.add_argument("--json", action="store_true", help="imprime el grafo en JSON; no escribe")
+    ap.add_argument("accion", nargs="?", choices=["vecinos"],
+                    help="vecinos RUTA: lo que sale de un documento y lo que le llega; no escribe")
+    ap.add_argument("ruta", nargs="?", help="el documento, para `vecinos`")
     args = ap.parse_args()
+    if args.accion and not args.ruta:
+        ap.error("vecinos necesita la ruta de un documento")
 
     repo = os.path.abspath(args.repo) if args.repo else raiz_repo()
     cfg = leer_config(repo, args)
 
     rev, dangling, usados = {}, [], {}   # rev: target_abs -> {source_abs -> set(tipos)}
+    aristas = []                         # cada arista con su detalle, para --json y vecinos
     declarados, errores_vocab = vocabulario(cfg)
     for src in md_files(cfg):
         with open(src, encoding="utf-8", errors="replace") as f:
             text = f.read()
-        for tipo, rel in conexiones_edges(text):
+        for tipo, titulo_dest, rel, locus, porque in conexiones_edges(text, detalle=True):
             rel = rel.split("#")[0].strip()
             if not rel or rel.startswith(("http://", "https://", "mailto:")):
                 continue
+            arista = {"origen": os.path.relpath(src, repo), "tipo": tipo, "destino": rel,
+                      "titulo_destino": titulo_dest, "locus": locus, "porque": porque,
+                      "estado": "ok"}
+            aristas.append(arista)
             # El tipo se comprueba aunque el link esté roto: son dos deudas distintas.
             usados.setdefault(tipo, []).append(src)
             # Un link escrito con %20 o %28 es válido en markdown; sin decodificar, toda ruta
@@ -252,16 +358,23 @@ def main():
             # Un link que sale del repositorio resuelve solo en la máquina de quien lo escribió:
             # se reporta aunque el archivo exista.
             if not tgt.startswith(repo + os.sep):
+                arista["estado"] = "externo"
                 dangling.append((src, tipo, rel + "  (sale del repositorio)"))
                 continue
+            arista["destino"] = os.path.relpath(tgt, repo)
             if os.path.isdir(tgt):
                 if not os.path.isfile(os.path.join(tgt, "README.md")):
                     continue             # carpeta sin README: el link vale, no hay dónde espejarlo
                 tgt = os.path.join(tgt, "README.md")
+                arista["destino"] = os.path.relpath(tgt, repo)
             if not os.path.isfile(tgt):
+                arista["estado"] = "roto"
                 dangling.append((src, tipo, rel))
                 continue
             rev.setdefault(tgt, {}).setdefault(src, set()).add(tipo)
+
+    if args.json or args.accion:
+        sys.exit(salida_consulta(args, cfg, repo, aristas))
 
     changed = []
     for tgt, sources in rev.items():
