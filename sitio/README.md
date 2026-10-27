@@ -12,7 +12,7 @@
 | `lib/mcp.ts` | Las seis herramientas, todas de solo lectura: `search`, `fetch`, `list_sessions`, `list_index`, `find_figures` y `get_connections`. |
 | `lib/buscar.ts` | La búsqueda por palabras (BM25) sobre fragmentos: una sección de una ficha o unos turnos de una transcripción. |
 | `lib/markdown.ts` | El markdown a HTML: los enlaces entre `.md` pasan a las URLs del sitio y el código, a GitHub. |
-| `paginas/` | Las páginas propias del sitio, en markdown: conectar, privacidad y soporte. |
+| `paginas/` | Las páginas propias del sitio, en markdown: conectar, privacidad, términos y soporte. |
 | `lib/registro.ts` | Guarda cada consulta: en los registros de Vercel y, si hay una base Redis de Upstash, en una lista por mes. |
 | `scripts/probar-mcp.mjs` | Llama a cada herramienta y revisa la respuesta. Corre en cada pull request. |
 | `scripts/metricas.mjs` | El resumen de un mes de consultas. |
