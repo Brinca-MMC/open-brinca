@@ -122,7 +122,7 @@ Nombres de personas, organizaciones, siglas y términos de Impacta IA Chile 2026
 | Anthropic | Antropic, Pantropic, Tropic | P |  |
 | Google Cloud | — |  |  |
 | Microsoft | — |  |  |
-| KPMG | PMG |  | Consultora |
+| PMG Chile | KPMG |  | Consultora que hizo el ITD-IA Nacional 2026 con CORFO y la Cámara de Comercio de Santiago. No es KPMG |
 | UC Christus | Usecristo |  | Red de salud UC |
 | HAI Lab | — |  | Citado en dia1-06 |
 | Tapestry | — |  | Proyecto de X (Alphabet) con el Coordinador Eléctrico Nacional |
