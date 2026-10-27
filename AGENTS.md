@@ -26,6 +26,7 @@ metodo/                     cómo se hace (transcripción y grafo)
 evals/                      la prueba de preguntas con que se mide si un asistente responde bien
 sitio/                      el sitio open.brinca.com y su servidor MCP (/mcp), armados desde este markdown
 plugin/                     el plugin para Claude: el conector MCP y la skill open-brinca
+directorios/                lo que se envía a los directorios de Claude, OpenAI y el registro de MCP
 llms.txt                    el mapa del repositorio, una línea por documento
 catalogo.json               lo mismo en JSON, con los metadatos y las cifras
 ```

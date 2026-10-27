@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.brinca/open-brinca",
+  "title": "Open Brinca",
+  "description": "Sesiones sobre adopción de IA en empresas, transcritas y con cifras verificadas, de Brinca.",
+  "version": "2026.10.0",
+  "websiteUrl": "https://open.brinca.com",
+  "repository": { "url": "https://github.com/Brinca-MMC/open-brinca", "source": "github", "subfolder": "sitio" },
+  "remotes": [
+    { "type": "streamable-http", "url": "https://open.brinca.com/mcp" }
+  ]
+}
