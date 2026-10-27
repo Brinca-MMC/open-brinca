@@ -1,8 +1,18 @@
 ---
 id: dia2-05-panel-datacenters-ia-oportunidad-chile
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Datacenters e IA: ¿una oportunidad para Chile?"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [ignacio-briones, rodrigo-duran, cristian-lopez]
+modera: [pablo-correa]
+idiomas: [es]
+duracion_min: 59
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=21415s
+temas: [soberania-e-infraestructura, regulacion, productividad-y-crecimiento, adopcion-y-escala]
 tags: [impacta-ia, panel, data-centers, energia, politica-publica, infraestructura]
+actualizado: 2026-10-27
 ---
 
 # Panel «Datacenters e IA: ¿una oportunidad para Chile?» · Impacta IA Chile 2026

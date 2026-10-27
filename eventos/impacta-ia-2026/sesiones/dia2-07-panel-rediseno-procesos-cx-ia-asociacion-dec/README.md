@@ -1,8 +1,18 @@
 ---
 id: dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Rediseño de procesos en CX con IA (Asociación DEC)
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [macarena-catalan, paz-obrecht, cristian-ludwig]
+modera: [marisa-cozak]
+idiomas: [es]
+duracion_min: 46
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=28335s
+temas: [experiencia-de-cliente, agentes, roi-y-medicion, regulacion]
 tags: [impacta-ia, panel, experiencia-cliente, agentes, proteccion-de-datos]
+actualizado: 2026-10-27
 ---
 
 # Panel «Rediseño de procesos en CX con IA (Asociación DEC)» · Impacta IA Chile 2026

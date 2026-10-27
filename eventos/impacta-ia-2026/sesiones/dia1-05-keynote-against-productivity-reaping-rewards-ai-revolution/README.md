@@ -1,8 +1,18 @@
 ---
 id: dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Against Productivity: Reaping the rewards of the AI revolution"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: keynote
+speakers: [stefano-puntoni]
+modera: [juan-pablo-silva]
+idiomas: [en, es]
+duracion_min: 45
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=14538s
+temas: [productividad-y-crecimiento, gestion-del-cambio, roi-y-medicion, futuro-del-trabajo]
 tags: [impacta-ia, keynote, ia-para-crecimiento, gemelos-digitales, gestion-del-cambio]
+actualizado: 2026-10-27
 ---
 
 # Keynote «Against Productivity: Reaping the rewards of the AI revolution» · Impacta IA Chile 2026

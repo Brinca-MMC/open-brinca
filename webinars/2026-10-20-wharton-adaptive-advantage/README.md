@@ -1,8 +1,16 @@
 ---
 id: 2026-10-20-wharton-adaptive-advantage
 tipo: sesion
-actualizado: 2026-10-22
+titulo: "The Adaptive Advantage: Who's Winning With AI and How"
+serie: Wharton AI Horizons
+fecha: 2026-10-20
+formato: webinar
+speakers: [stefano-puntoni, prasanna-tambe, jeremy-korst]
+idiomas: [en]
+duracion_min: 58
+temas: [adopcion-y-escala, roi-y-medicion, productividad-y-crecimiento, gestion-del-cambio]
 tags: [webinars, wharton, adopcion-ia, roi-ia, alineamiento-organizacional, agentes]
+actualizado: 2026-10-27
 ---
 
 # Webinar «The Adaptive Advantage: Who's Winning With AI and How» · Wharton AI Horizons

@@ -1,8 +1,19 @@
 ---
 id: dia2-06-charla-mente-humana-era-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: La mente humana en la era de la IA
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: charla
+speakers: [alvaro-fischer]
+modera: [jose-manuel-morales]
+intervienen: [francisco-martinez]
+idiomas: [es]
+duracion_min: 44
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=25675s
+temas: [ia-y-sociedad, agentes, futuro-del-trabajo]
 tags: [impacta-ia, charla, psicologia-evolutiva, agencia-ia, democracia, educacion]
+actualizado: 2026-10-27
 ---
 
 # Charla «La mente humana en la era de la IA» · Impacta IA Chile 2026

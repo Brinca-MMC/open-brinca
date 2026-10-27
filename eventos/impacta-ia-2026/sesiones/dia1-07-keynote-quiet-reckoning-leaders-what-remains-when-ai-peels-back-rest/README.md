@@ -1,8 +1,18 @@
 ---
 id: dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: keynote
+speakers: [daniel-strode]
+intervienen: [juan-pablo-silva]
+idiomas: [en, es]
+duracion_min: 42
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=25400s
+temas: [liderazgo, futuro-del-trabajo, gestion-del-cambio, gobierno-de-la-ia]
 tags: [impacta-ia, keynote, liderazgo, diseno-del-trabajo, cultura-organizacional, confianza-ia]
+actualizado: 2026-10-27
 ---
 
 # Keynote «The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest» · Impacta IA Chile 2026

@@ -1,8 +1,18 @@
 ---
 id: dia1-01-apertura-impacta-ia-chile-2026
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Apertura Impacta IA Chile 2026
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: apertura
+speakers: [francisco-martinez, julio-pertuze, camila-monckeberg]
+intervienen: [juan-pablo-silva]
+idiomas: [es]
+duracion_min: 20
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=2219s
+temas: [adopcion-y-escala, productividad-y-crecimiento, liderazgo, financiamiento-de-la-innovacion]
 tags: [impacta-ia, apertura, adopcion-ia, productividad, crecimiento]
+actualizado: 2026-10-27
 ---
 
 # Apertura «Apertura Impacta IA Chile 2026» · Impacta IA Chile 2026

@@ -1,8 +1,19 @@
 ---
 id: dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Encuentro público-privado para una adopción sin brechas
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [fernando-hentzschel, catherine-munoz, george-lever]
+modera: [carolina-garlick]
+intervienen: [juan-pablo-silva]
+idiomas: [es]
+duracion_min: 57
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=3400s
+temas: [adopcion-y-escala, regulacion, soberania-e-infraestructura, futuro-del-trabajo]
 tags: [impacta-ia, panel, soberania-digital, regulacion-ia, adopcion-ia, pymes]
+actualizado: 2026-10-27
 ---
 
 # Panel «Encuentro público-privado para una adopción sin brechas» · Impacta IA Chile 2026

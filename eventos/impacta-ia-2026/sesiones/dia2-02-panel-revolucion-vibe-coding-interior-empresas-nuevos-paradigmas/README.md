@@ -1,8 +1,18 @@
 ---
 id: dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "La revolución del vibe coding al interior de las empresas: nuevos paradigmas"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [angel-izurieta, carlos-araya, nicolas-rivas]
+modera: [marcos-thomas]
+idiomas: [es]
+duracion_min: 54
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=3973s
+temas: [desarrollo-con-ia, gobierno-de-la-ia, futuro-del-trabajo, liderazgo]
 tags: [impacta-ia, panel, vibe-coding, gobierno-ia, liderazgo, adopcion-ia]
+actualizado: 2026-10-27
 ---
 
 # Panel «La revolución del vibe coding al interior de las empresas: nuevos paradigmas» · Impacta IA Chile 2026

@@ -1,8 +1,18 @@
 ---
 id: dia2-01-keynote-ia-como-motor-productividad-innovacion-chile
 tipo: sesion
-actualizado: 2026-10-20
+titulo: IA como Motor de Productividad e Innovación para Chile
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: keynote
+speakers: [julio-pertuze]
+intervienen: [elisabeth-serra]
+idiomas: [es]
+duracion_min: 33
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=1959s
+temas: [productividad-y-crecimiento, adopcion-y-escala, soberania-e-infraestructura, gestion-del-cambio]
 tags: [impacta-ia, keynote, productividad, soberania-ia, adopcion-ia, datos]
+actualizado: 2026-10-27
 ---
 
 # Keynote «IA como Motor de Productividad e Innovación para Chile» · Impacta IA Chile 2026

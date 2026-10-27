@@ -1,8 +1,18 @@
 ---
 id: dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "El Futuro del Trabajo con IA: impacto en personas y gestión del cambio"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [francisco-martinez, paula-aguirre, denisse-goldfarb]
+modera: [patricio-millar]
+idiomas: [es]
+duracion_min: 44
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=22796s
+temas: [futuro-del-trabajo, gestion-del-cambio, productividad-y-crecimiento, ia-y-sociedad]
 tags: [impacta-ia, panel, futuro-del-trabajo, gestion-del-cambio, talento, estructura-organizacional]
+actualizado: 2026-10-27
 ---
 
 # Panel «El Futuro del Trabajo con IA: impacto en personas y gestión del cambio» · Impacta IA Chile 2026

@@ -1,8 +1,18 @@
 ---
 id: dia2-08-panel-ley-i-d-oportunidades-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Ley I+D, oportunidades para la IA"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [richard-weber, juviska-meza, manuel-neira]
+modera: [ignacio-merino]
+idiomas: [es]
+duracion_min: 37
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=31075s
+temas: [financiamiento-de-la-innovacion, ia-industrial]
 tags: [impacta-ia, panel, ley-i-d, financiamiento-innovacion, corfo, vinculacion-universidad-empresa]
+actualizado: 2026-10-27
 ---
 
 # Panel «Ley I+D, oportunidades para la IA» · Impacta IA Chile 2026

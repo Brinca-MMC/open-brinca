@@ -1,8 +1,18 @@
 ---
 id: dia1-03-panel-gobernanza-corporativa-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Gobernanza Corporativa de la IA
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [claudia-ramos, macarena-mackay, felipe-morales, nicolas-rivas]
+modera: [jose-manuel-morales]
+idiomas: [es]
+duracion_min: 53
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=7750s
+temas: [gobierno-de-la-ia, liderazgo, gestion-del-cambio, agentes]
 tags: [impacta-ia, panel, gobernanza-ia, ia-responsable, liderazgo]
+actualizado: 2026-10-27
 ---
 
 # Panel «Gobernanza Corporativa de la IA» · Impacta IA Chile 2026

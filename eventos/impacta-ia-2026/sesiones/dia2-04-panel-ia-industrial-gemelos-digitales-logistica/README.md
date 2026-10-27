@@ -1,8 +1,18 @@
 ---
 id: dia2-04-panel-ia-industrial-gemelos-digitales-logistica
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "IA Industrial, gemelos digitales y logística"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [marcos-orchard, nicolas-tagle, matias-jory]
+modera: [julio-riutort]
+idiomas: [es]
+duracion_min: 52
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=14385s
+temas: [ia-industrial, adopcion-y-escala, gestion-del-cambio, productividad-y-crecimiento]
 tags: [impacta-ia, panel, ia-industrial, gemelos-digitales, mineria, inteligencia-operacional]
+actualizado: 2026-10-27
 ---
 
 # Panel «IA Industrial, gemelos digitales y logística» · Impacta IA Chile 2026

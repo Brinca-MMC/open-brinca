@@ -1,8 +1,18 @@
 ---
 id: dia1-08-panel-sociedad-futuro-escasez-abundancia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Sociedad del futuro: de la escasez a la abundancia"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [alberto-mayol, raphael-bergoeing, alfredo-persico]
+modera: [eduardo-gomien]
+idiomas: [es]
+duracion_min: 76
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=29095s
+temas: [ia-y-sociedad, futuro-del-trabajo, productividad-y-crecimiento, gobierno-de-la-ia]
 tags: [impacta-ia, panel, abundancia, futuro-del-trabajo, gobernanza-ia, educacion]
+actualizado: 2026-10-27
 ---
 
 # Panel «Sociedad del futuro: de la escasez a la abundancia» · Impacta IA Chile 2026

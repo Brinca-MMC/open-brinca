@@ -1,8 +1,17 @@
 ---
 id: dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "El ROI real de la IA: impacto en la rentabilidad del negocio"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: charla
+speakers: [edmundo-casas]
+idiomas: [es]
+duracion_min: 34
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=10940s
+temas: [roi-y-medicion, ia-industrial, soberania-e-infraestructura, futuro-del-trabajo]
 tags: [impacta-ia, charla, roi-ia, ia-industrial, inspeccion-de-activos]
+actualizado: 2026-10-27
 ---
 
 # Charla «El ROI real de la IA: impacto en la rentabilidad del negocio» · Impacta IA Chile 2026

@@ -1,8 +1,18 @@
 ---
 id: dia2-03-panel-desafios-tensiones-regulacion-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Desafíos y tensiones de la regulación en IA
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [pedro-huichalaf, jose-rafael-correa, kenneth-pugh]
+modera: [ricardo-lillo]
+idiomas: [es]
+duracion_min: 66
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=9560s
+temas: [regulacion, soberania-e-infraestructura, gobierno-de-la-ia, futuro-del-trabajo]
 tags: [impacta-ia, panel, regulacion-ia, soberania-digital, proteccion-de-datos, gobernanza-ia]
+actualizado: 2026-10-27
 ---
 
 # Panel «Desafíos y tensiones de la regulación en IA» · Impacta IA Chile 2026
