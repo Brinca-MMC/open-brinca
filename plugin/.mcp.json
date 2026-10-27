@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "open-brinca": {
+      "type": "http",
+      "url": "https://open.brinca.com/mcp"
+    }
+  }
+}
