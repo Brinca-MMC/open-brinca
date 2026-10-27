@@ -43,7 +43,11 @@ function notas(md: string): string {
     defs.push(`<li id="nota-${n}">${texto} <a href="#ref-${n}" class="volver" aria-label="volver">↩</a></li>`);
     return "";
   });
-  md = md.replace(/\[\^([\w-]+)\]/g, (_, n) => `<sup id="ref-${n}" class="ref"><a href="#nota-${n}">${n}</a></sup>`);
+  // Fuera del código: un `[^n]` de ejemplo dentro de backticks se deja tal cual.
+  md = md
+    .split(/(```[\s\S]*?```|`[^`\n]*`)/)
+    .map((trozo, i) => (i % 2 ? trozo : trozo.replace(/\[\^([\w-]+)\]/g, (_, n) => `<sup id="ref-${n}" class="ref"><a href="#nota-${n}">${n}</a></sup>`)))
+    .join("");
   return defs.length ? md + `\n\n<section class="notas"><h2>Notas</h2><ol>\n${defs.join("\n")}\n</ol></section>\n` : md;
 }
 

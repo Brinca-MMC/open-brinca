@@ -20,6 +20,9 @@ How to cite: name the speaker, the session and the [mm:ss] mark, and give the UR
 const SOLO_LECTURA = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 
 const texto = (obj: unknown) => ({ content: [{ type: "text" as const, text: typeof obj === "string" ? obj : JSON.stringify(obj, null, 1) }] });
+// search y fetch siguen el formato que piden ChatGPT (company knowledge, deep research) y otros
+// clientes: el resultado va como structuredContent y, además, como JSON en el texto.
+const estructurado = (obj: Record<string, unknown>) => ({ ...texto(obj), structuredContent: obj });
 
 function describir(d: Doc) {
   const m = d.meta;
@@ -71,7 +74,7 @@ export function registrar(server: McpServer) {
         url: urlAbsoluta(doc),
         text: (fragmento.marca ? `[${fragmento.marca}] ` : "") + (fragmento.seccion ? `${fragmento.seccion}: ` : "") + extracto(fragmento.texto, query),
       }));
-      return texto({ results });
+      return estructurado({ results });
     },
   );
 
@@ -88,7 +91,7 @@ export function registrar(server: McpServer) {
       const limpio = id.replace(/^https?:\/\/[^/]+\//, "").replace(/^\//, "");
       const d = docPorRuta(limpio) ?? docPorRuta(limpio.replace(/\/?$/, "/README.md")) ?? DOCS.find((x) => urlAbsoluta(x) === id);
       if (!d) return { ...texto(`No document with id "${id}". Use search to find ids.`), isError: true };
-      return texto({
+      return estructurado({
         id: d.ruta,
         title: d.titulo,
         text: d.cuerpo.replace(/^## Referido por[\s\S]*$/m, "").trim(),

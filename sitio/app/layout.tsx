@@ -32,7 +32,7 @@ export default function Raiz({ children }: { children: ReactNode }) {
           <p>
             Open Brinca lo cura y lo mantiene <a href="https://www.brinca.com">Brinca</a>. Lo que escribe Brinca, bajo CC BY 4.0; las
             transcripciones, bajo CC BY-NC-ND 4.0; las láminas, de sus autores. <a href="/LICENSE">Licencias</a> ·{" "}
-            <a href="/conectar">Conectar a tu asistente</a> · <a href="/privacidad">Privacidad</a> · <a href="/soporte">Soporte</a> ·{" "}
+            <a href="/conectar">Conectar a tu asistente</a> · <a href="/privacidad">Privacidad</a> · <a href="/terminos">Términos</a> · <a href="/soporte">Soporte</a> ·{" "}
             <a href="https://github.com/Brinca-MMC/open-brinca">GitHub</a> · <a href="/llms.txt">llms.txt</a>
           </p>
         </footer>

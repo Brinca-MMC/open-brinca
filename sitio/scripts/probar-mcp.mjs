@@ -21,7 +21,7 @@ async function rpc(method, params = {}) {
 
 const herramienta = async (name, args) => {
   const r = await rpc("tools/call", { name, arguments: args });
-  return { error: r.isError, datos: (() => { try { return JSON.parse(r.content[0].text); } catch { return r.content[0].text; } })() };
+  return { error: r.isError, estructurado: r.structuredContent, datos: (() => { try { return JSON.parse(r.content[0].text); } catch { return r.content[0].text; } })() };
 };
 
 let fallas = 0;
@@ -40,7 +40,10 @@ revisar("todas de solo lectura", tools.every((t) => t.annotations?.readOnlyHint 
 const s = await herramienta("search", { query: "gobernanza de la IA en la empresa" });
 revisar("search", s.datos.results?.length > 0 && s.datos.results.every((r) => r.id && r.title && r.url), s.datos.results?.slice(0, 3).map((r) => r.id.split("/").slice(-2).join("/")).join(" | "));
 
+revisar("search trae structuredContent", Array.isArray(s.estructurado?.results) && s.estructurado.results.length === s.datos.results.length);
+
 const f = await herramienta("fetch", { id: s.datos.results[0].id });
+revisar("fetch trae structuredContent", typeof f.estructurado?.text === "string" && f.estructurado.url === f.datos.url);
 revisar("fetch", f.datos.text?.length > 500 && f.datos.url?.startsWith("https://"), `${f.datos.title} · ${f.datos.text?.length} caracteres`);
 
 const f2 = await herramienta("fetch", { id: "no/existe.md" });
