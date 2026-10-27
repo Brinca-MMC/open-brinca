@@ -137,3 +137,17 @@ Cinco láminas de contenido, las cinco capturadas completas del stream. Quedan f
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `tensiona` [Keynote «IA como Motor de Productividad e Innovación para Chile»](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md) · [23:08] · Julio Pertuzé (Fundación Chile) explica la «pilotitis» por la trampa del statu quo: las rutinas dan resiliencia, pero son la primera razón de que los pilotos no escalen, y por eso pide rediseñar procesos en vez de agregar herramientas. Matías Jory (CMPC) llega desde una planta de celulosa al diagnóstico inverso, «los pilotos que viven fuera de la rutina mueren», y lo que le funcionó fue meter un agente dentro del formulario de síntoma, causa y acción que los operadores ya llenaban, sin pantalla ni rutina nueva.
+- `tensiona` [Keynote «The Quiet Reckoning for Leaders»](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md) · [13:01] · Daniel Strode (Duke) pide rediseñar el trabajo desde cero, porque si se agrega IA al proceso actual el resultado son «cien correos y diez PowerPoints». En CMPC, Matías Jory hizo lo que Strode desaconseja y le funcionó: puso un agente en un paso del proceso que ya existía (el análisis de síntoma, causa y acción, que los operadores llenaban con 95 % de adherencia), sin pantalla ni rutina nueva, apoyado en estándares operacionales y en un sistema de gestión [38:53].
+- `analogo-a` [Keynote «Against Productivity»](../dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · [37:20] · Stefano Puntoni (Wharton) usa gemelos digitales de clientes: los calibra con datos de la empresa hasta que reproducen campañas pasadas, los usa para descartar cientos de ideas y deja la última palabra a una prueba en terreno, porque el riesgo es el sobreajuste. Marcos Orchard (U. de Chile) llega a la misma cautela con gemelos digitales de operaciones industriales: las verdaderas entradas del sistema están en la sala de control y, en una contingencia real, con poca data, la respuesta la da el criterio de las personas.
+- `complementa` [Apertura Impacta IA Chile 2026](../dia1-01-apertura-impacta-ia-chile-2026/README.md) · [06:47] · Francisco Martínez (Brinca) da el marco: como fuera de quienes construyen modelos de punta nadie tiene la receta, las empresas chilenas pueden intentar ser las mejores del mundo en adoptar IA. El panel de IA industrial pone el caso: Marcos Orchard (U. de Chile) ve la oportunidad en tecnologías inmaduras como la electrificación minera, donde «ni siquiera los OEM tienen esas respuestas», y Nicolás Tagle (Antofagasta Minerals) propone que Chile, referente en minería y celulosa, exporte IA industrial [45:58].
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `analogo-a` ← [Rediseño de procesos en CX con IA (Asociación DEC)](../dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md)
+- `complementa` ← [Ley I+D, oportunidades para la IA](../dia2-08-panel-ley-i-d-oportunidades-ia/README.md)

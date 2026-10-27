@@ -92,7 +92,7 @@ Las empresas usan la IA casi solo para bajar costos: en la nueva ola del estudio
 
 ## Ideas que se llevan
 1. El costo solo baja hasta cero; el crecimiento no tiene techo. En el modelo de Puntoni, dos puntos más de crecimiento orgánico valen cinco veces más que recortar un 10 % la mitad de los costos.
-2. Las empresas que miden la IA con métricas de crecimiento reportan ROI fuertemente positivo casi el doble de veces que las que miden solo eficiencia.
+2. Las empresas que miden la IA con métricas de crecimiento reportan ROI fuertemente positivo casi el doble de veces que las que miden solo eficiencia, según los datos preliminares de septiembre (más de un tercio contra menos del 20 %) [12:11]. El informe publicado en octubre da 35 % contra 13 %, casi tres veces: está en el [webinar de Wharton](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md).
 3. La IA permite dejar el A/B testing incremental y explorar el espacio de ideas completo: científicos virtuales que generan cientos de intervenciones, gemelos digitales calibrados que las filtran y una sola prueba en terreno al final. La mejor idea puede ser una que nadie propuso.
 4. Un discurso de eficiencia se oye como despidos. Los mandos medios, donde la estrategia se implementa, son los más escépticos, y la resistencia no desaparece: se esconde en sabotaje y *shadow AI*.
 5. Cada despliegue de IA necesita una pista de personas en paralelo a la técnica: reconocer el efecto en el bienestar, vigilar el afrontamiento que corroe, alinear la formación, rediseñar para la complementariedad y dar voz a quienes hacen el trabajo (AWARE).
@@ -151,3 +151,16 @@ Puntoni proyectó su presentación y el stream la mostró a pantalla completa. T
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `reencuadra` [Charla «El ROI real de la IA»](../dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md) · [27:39] · Edmundo Casas (Kauel) muestra el ROI de la IA sobre todo como eficiencia (en ENAP, 500 % más de productividad y 48 % menos de costos) y deja como ejemplo de impacto directo el litio, donde, según su cálculo, bajar el error de estimación del 20 % al 1 % subiría la facturación de un productor como Soquimich en torno a un 19 %. Con la aritmética de Stefano Puntoni (Wharton), en que recortar costos sube el valor de la firma un 10 % y dos puntos más de crecimiento lo suben un 50 %, ese ejemplo, que mueve ingresos, vale más que los ahorros de inspección que Casas pone al frente.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma` ← [The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md)
+- `confirma` ← [Sociedad del futuro: de la escasez a la abundancia](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md)
+- `analogo-a` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
+- `sostiene`, `sustituye-a` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

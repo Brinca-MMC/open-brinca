@@ -124,3 +124,7 @@ Sin imágenes notables. Fue una entrevista sin slides: la etapa automática dete
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `tensiona` [Panel «Sociedad del futuro: de la escasez a la abundancia»](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · [24:14] · Alfredo Pérsico (Agents4Future) cita estudios (26 mil estudiantes chinos, el electroencefalograma del MIT) para advertir que tercerizar el pensamiento deja una deuda cognitiva: menos retención y menos transferencia. Álvaro Fischer se declara escéptico de los estudios que dicen que la IA nos vacía de pensamiento, aunque reconoce malos usos como copiar en las pruebas: pedirle algo a la IA, leerlo y pedirle que arregle una parte ya es pensar, y si se demuestra lo contrario, dice, lo reconocerá.

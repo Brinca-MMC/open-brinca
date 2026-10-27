@@ -139,3 +139,14 @@ Sin menciones.
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `tensiona` [Panel «Datacenters e IA: ¿una oportunidad para Chile?»](../dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · [22:42] · Cristián López (Google Cloud) cuenta entre las ventajas de Chile para atraer data centers una menor fricción en la permisología. Edmundo Casas (Kauel) cuenta lo contrario desde su propio proyecto: su data center en Texas ya tiene todo aprobado mientras el del sur de Chile sigue esperando permisos, y lo llama un «warning» para Chile; en el panel de López, Ignacio Briones también pone permisos preaprobados en el paquete que Chile debería ofrecer [11:50].
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `reencuadra` ← [Against Productivity: Reaping the rewards of the AI revolution](../dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md)
+- `tensiona` ← [El Futuro del Trabajo con IA: impacto en personas y gestión del cambio](../dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md)

@@ -124,3 +124,7 @@ Sin imágenes proyectadas. En la pantalla del escenario solo se vio la placa del
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `complementa` [Panel «IA Industrial, gemelos digitales y logística»](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md) · [43:59] · Matías Jory (CMPC) y Nicolás Tagle (Antofagasta Minerals) proponen que la minería y la celulosa financien a proveedores chilenos pequeños para desarrollar IA industrial y exportarla. El panel de la Ley I+D trae el instrumento: la ley certifica proyectos cuya incertidumbre está en el fenómeno industrial y no en la IA (Manuel Neira, de CORFO, pone de ejemplo un molino SAG [14:21]), y un desarrollador puede ofrecerle a la empresa un proyecto de 100 millones que con el crédito le sale 75 (Juviska Meza, Brinca).

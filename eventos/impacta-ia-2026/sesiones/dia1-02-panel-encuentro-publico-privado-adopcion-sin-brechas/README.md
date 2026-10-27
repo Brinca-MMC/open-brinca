@@ -141,3 +141,12 @@ La brecha de adopción de IA en Chile no se cierra con herramientas ni con más 
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `reencuadra` ← [IA como Motor de Productividad e Innovación para Chile](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md)
+- `tensiona` ← [Desafíos y tensiones de la regulación en IA](../dia2-03-panel-desafios-tensiones-regulacion-ia/README.md)
+- `reencuadra` ← [Datacenters e IA: ¿una oportunidad para Chile?](../dia2-05-panel-datacenters-ia-oportunidad-chile/README.md)
+- `tensiona` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

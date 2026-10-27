@@ -105,3 +105,12 @@ Sin imágenes proyectadas. En el escenario solo se vieron la placa del evento co
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `tensiona` ← [Sociedad del futuro: de la escasez a la abundancia](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md)
+- `continua` ← [IA como Motor de Productividad e Innovación para Chile](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md)
+- `complementa` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)
