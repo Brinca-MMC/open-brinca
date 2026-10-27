@@ -54,6 +54,8 @@ python3 scripts/validar.py
 python3 metodo/grafo/grafo.py --check
 ```
 
+Si cambias algo de `sitio/`, prueba también el sitio y el servidor MCP: `cd sitio && npm ci && npm run build`, y después `npx next start` y `npm run probar -- http://localhost:3000/mcp`.
+
 `generar.py` reescribe la lista de sesiones de cada persona, tema y estudio, los índices, `llms.txt` y `catalogo.json`. `validar.py` revisa los metadatos, los enlaces internos y el peso de las imágenes, y `grafo.py`, las relaciones entre documentos. Los tres necesitan Python 3.11 o posterior, sin librerías externas.
 
 ## Conducta

@@ -24,6 +24,8 @@ temas/<tema>.md             la lista cerrada de temas: por dónde entrar y qué 
 estudios/<estudio>.md       los estudios que se citan, con sus cifras: dónde se dijo cada una y si se verificó
 metodo/                     cómo se hace (transcripción y grafo)
 evals/                      la prueba de preguntas con que se mide si un asistente responde bien
+sitio/                      el sitio open.brinca.com y su servidor MCP (/mcp), armados desde este markdown
+plugin/                     el plugin para Claude: el conector MCP y la skill open-brinca
 llms.txt                    el mapa del repositorio, una línea por documento
 catalogo.json               lo mismo en JSON, con los metadatos y las cifras
 ```
@@ -49,6 +51,10 @@ catalogo.json               lo mismo en JSON, con los metadatos y las cifras
 - Lo que va en cursiva en una transcripción es un resumen de lo protocolar, no texto dicho.
 - Menciona la fuente: «Open Brinca, de Brinca», con el enlace al repositorio.
 - Las transcripciones no se pueden usar con fines comerciales ni modificadas; las fichas sí, con atribución. El detalle está en [`LICENSE.md`](LICENSE.md).
+
+## Si tienes el servidor MCP
+
+`https://open.brinca.com/mcp` trae lo mismo que este repositorio, con búsqueda. El id de cada documento es su ruta aquí. Empieza por `search`; para cifras, `find_figures`; para lo que confirma o contradice una sesión, `get_connections`.
 
 ## El grafo
 
