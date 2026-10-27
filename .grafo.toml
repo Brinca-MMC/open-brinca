@@ -1,0 +1,3 @@
+# Configuración de metodo/grafo/grafo.py para este repositorio.
+# El sitio copia cada .md en sitio/public/ al armarse: esas copias no son nodos del grafo.
+excluir = ["sitio/public", "sitio/.generado"]

@@ -22,3 +22,24 @@ jobs:
         run: python3 metodo/grafo/grafo.py --check
       - name: Lo que se genera desde los metadatos (páginas, llms.txt, catalogo.json)
         run: python3 scripts/generar.py --check
+
+  sitio:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sitio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: sitio/package-lock.json
+      - run: npm ci
+      - name: Build del sitio y del servidor MCP
+        run: npm run build
+      - name: Probar las herramientas del servidor MCP
+        run: |
+          npx next start -p 3000 &
+          for i in $(seq 1 30); do curl -sf http://localhost:3000/ > /dev/null && break; sleep 1; done
+          npm run probar -- http://localhost:3000/mcp
