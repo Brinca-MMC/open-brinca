@@ -45,7 +45,7 @@ Las marcas `[mm:ss]` enlazan al segundo exacto del video cuando el video es púb
 
 ## Cómo citar
 
-> *Open Brinca*. Brinca, 2026. https://github.com/Brinca-MMC/open-brinca
+> *Open Brinca*. Brinca, 2026. https://open.brinca.com
 
 Para citar a una persona, nombra a quien habló, la sesión y la marca de tiempo. Más detalle en [`LICENSE.md`](LICENSE.md) y en [`CITATION.cff`](CITATION.cff).
 
