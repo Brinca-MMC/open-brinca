@@ -8,7 +8,8 @@
     "dev": "npm run preparar && next dev",
     "build": "npm run preparar && next build",
     "start": "next start",
-    "probar": "node scripts/probar-mcp.mjs"
+    "probar": "node scripts/probar-mcp.mjs",
+    "metricas": "node scripts/metricas.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "2.3.1",

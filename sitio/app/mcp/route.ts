@@ -5,8 +5,10 @@
 // Registra cada llamada a una herramienta (cuál, con qué argumentos, qué cliente y cuánto tardó),
 // sin la dirección IP ni nada que identifique a la persona: ver /privacidad.
 
+import { after } from "next/server";
 import { createMcpHandler } from "mcp-handler";
 import { registrar, INSTRUCCIONES, VERSION } from "../../lib/mcp";
+import { registrar as guardar } from "../../lib/registro";
 
 const mcp = createMcpHandler(registrar, {
   serverInfo: { name: "open-brinca", version: VERSION },
@@ -36,9 +38,10 @@ async function handler(req: Request): Promise<Response> {
   const registro = await llamadas(req);
   const res = await mcp(req);
   const agente = (req.headers.get("user-agent") || "").slice(0, 120);
-  for (const l of registro) {
-    console.log(JSON.stringify({ evento: "consulta_mcp", ...l, agente, estado: res.status, ms: Date.now() - inicio }));
-  }
+  const fecha = new Date().toISOString();
+  const consultas = registro.map((l) => ({ fecha, ...l, agente, estado: res.status, ms: Date.now() - inicio }));
+  // Se guarda después de responder, para no demorar al asistente.
+  if (consultas.length) after(() => guardar(consultas));
   return res;
 }
 
