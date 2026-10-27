@@ -8,6 +8,9 @@
 |---|---|
 | [**Impacta IA Chile 2026**](eventos/impacta-ia-2026/README.md) | Las 16 sesiones transmitidas del evento (2 y 3 de septiembre de 2026, Fundación Chile): aperturas, keynotes, charlas y paneles, con quién es quién, el programa y un glosario |
 | [**Webinars**](webinars/README.md) | Webinars sobre IA procesados con el mismo método. El primero es [«The Adaptive Advantage: Who's Winning With AI and How»](webinars/2026-10-20-wharton-adaptive-advantage/README.md) (Wharton AI Horizons, 20 de octubre de 2026), en el que Stefano Puntoni, Prasanna Tambe y Jeremy Korst presentan el informe de adopción de IA 2026 de Wharton y GBK Collective |
+| [**Temas**](temas/README.md) | Quince temas, de la adopción y el ROI a la regulación y la IA industrial: por dónde entrar a cada uno y qué sesiones lo tratan |
+| [**Personas**](personas/README.md) | Quién es cada speaker, en qué sesiones habló y qué láminas presentó |
+| [**Estudios**](estudios/README.md) | Los informes y encuestas que se citan en las sesiones, con sus cifras, dónde se dijo cada una y si se verificó contra la publicación original |
 | [**Método**](metodo/README.md) | Cómo se transcribe y se revisa cada sesión, y el método de grafo con que se relacionan los documentos, que cualquier repositorio puede adoptar |
 
 ## Cómo está hecha cada sesión
@@ -35,6 +38,8 @@ Las marcas `[mm:ss]` enlazan al segundo exacto del video cuando el video es púb
   ```
 
   GitMCP es un servicio de terceros que lee este repositorio público. Los conectores propios están disponibles en algunos planes de cada asistente.
+
+- **Un programa propio.** [`llms.txt`](llms.txt) es el mapa del repositorio, una línea por documento, y [`catalogo.json`](catalogo.json) trae lo mismo con los metadatos de cada sesión y todas las cifras.
 
 - **Proyectos de Claude o ChatGPT, Gems de Gemini o Gemini Notebook.** Sube la ficha o la carpeta de la colección que te interesa, o conecta este repositorio de GitHub a un proyecto de Claude.
 
