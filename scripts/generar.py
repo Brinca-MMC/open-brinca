@@ -127,8 +127,12 @@ def cifras(estudio):
     out = []
     for bloque in re.split(r"^### ", m.group(1), flags=re.M)[1:]:
         enunciado, _, resto = bloque.partition("\n")
-        campos = dict((k.lower(), v.strip()) for k, v in
-                      re.findall(r"^- \*\*([^*]+):\*\* (.+)$", resto, re.M))
+        campos = {"dicha en": []}
+        for k, v in re.findall(r"^- \*\*([^*]+):\*\* (.+)$", resto, re.M):
+            if k.lower() == "dicha en":
+                campos["dicha en"].append(v.strip())    # una cifra puede haberse dicho en varias sesiones
+            else:
+                campos[k.lower()] = v.strip()
         out.append({"id": ancla(enunciado), "enunciado": enunciado.strip(),
                     "url": URL_REPO + "/blob/main/" + estudio["ruta"] + "#" + ancla(enunciado),
                     **campos})

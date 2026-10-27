@@ -9,6 +9,7 @@ speakers: [stefano-puntoni, prasanna-tambe, jeremy-korst]
 idiomas: [en]
 duracion_min: 58
 temas: [adopcion-y-escala, roi-y-medicion, productividad-y-crecimiento, gestion-del-cambio]
+estudios: [wharton-gbk-adopcion-ia-2026]
 tags: [webinars, wharton, adopcion-ia, roi-ia, alineamiento-organizacional, agentes]
 actualizado: 2026-10-27
 ---

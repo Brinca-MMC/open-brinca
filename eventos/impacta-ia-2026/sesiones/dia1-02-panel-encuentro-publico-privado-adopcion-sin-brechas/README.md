@@ -12,6 +12,7 @@ idiomas: [es]
 duracion_min: 57
 video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=3400s
 temas: [adopcion-y-escala, regulacion, soberania-e-infraestructura, futuro-del-trabajo]
+estudios: [corfo-ccs-pmg-madurez-ia-2026, ccs-caracterizacion-industria-ia-2025, cenia-cepal-ilia-2025]
 tags: [impacta-ia, panel, soberania-digital, regulacion-ia, adopcion-ia, pymes]
 actualizado: 2026-10-27
 ---

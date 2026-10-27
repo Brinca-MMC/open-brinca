@@ -11,6 +11,7 @@ idiomas: [es]
 duracion_min: 54
 video: https://www.youtube.com/watch?v=NJu13g38nDc&t=3973s
 temas: [desarrollo-con-ia, gobierno-de-la-ia, futuro-del-trabajo, liderazgo]
+estudios: [metr-duracion-tareas-ia-2025]
 tags: [impacta-ia, panel, vibe-coding, gobierno-ia, liderazgo, adopcion-ia]
 actualizado: 2026-10-27
 ---

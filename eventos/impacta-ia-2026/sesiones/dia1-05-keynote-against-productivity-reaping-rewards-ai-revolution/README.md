@@ -11,6 +11,7 @@ idiomas: [en, es]
 duracion_min: 45
 video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=14538s
 temas: [productividad-y-crecimiento, gestion-del-cambio, roi-y-medicion, futuro-del-trabajo]
+estudios: [wharton-gbk-adopcion-ia-2026, pwc-ai-performance-study-2026, hbr-gen-ai-amenaza-trabajadores-2026, wharton-gbk-adopcion-ia-2025]
 tags: [impacta-ia, keynote, ia-para-crecimiento, gemelos-digitales, gestion-del-cambio]
 actualizado: 2026-10-27
 ---

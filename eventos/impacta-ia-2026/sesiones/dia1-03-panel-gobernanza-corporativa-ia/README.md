@@ -11,6 +11,7 @@ idiomas: [es]
 duracion_min: 53
 video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=7750s
 temas: [gobierno-de-la-ia, liderazgo, gestion-del-cambio, agentes]
+estudios: [cenia-cepal-ilia-2025]
 tags: [impacta-ia, panel, gobernanza-ia, ia-responsable, liderazgo]
 actualizado: 2026-10-27
 ---

@@ -11,6 +11,7 @@ idiomas: [es]
 duracion_min: 59
 video: https://www.youtube.com/watch?v=NJu13g38nDc&t=21415s
 temas: [soberania-e-infraestructura, regulacion, productividad-y-crecimiento, adopcion-y-escala]
+estudios: [mckinsey-costo-computo-data-centers-2025, cenia-cepal-ilia-2025, stanford-hai-ai-index-2026]
 tags: [impacta-ia, panel, data-centers, energia, politica-publica, infraestructura]
 actualizado: 2026-10-27
 ---

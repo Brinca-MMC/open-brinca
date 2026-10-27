@@ -11,6 +11,7 @@ idiomas: [es]
 duracion_min: 76
 video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=29095s
 temas: [ia-y-sociedad, futuro-del-trabajo, productividad-y-crecimiento, gobierno-de-la-ia]
+estudios: [cepr-penalizacion-aprendizaje-ia-china-2026, mit-media-lab-your-brain-on-chatgpt-2025]
 tags: [impacta-ia, panel, abundancia, futuro-del-trabajo, gobernanza-ia, educacion]
 actualizado: 2026-10-27
 ---

@@ -11,6 +11,7 @@ idiomas: [es]
 duracion_min: 44
 video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=22796s
 temas: [futuro-del-trabajo, gestion-del-cambio, productividad-y-crecimiento, ia-y-sociedad]
+estudios: [openai-ai-jobs-transition-framework-2026, mckinsey-mgi-agentes-robots-2025]
 tags: [impacta-ia, panel, futuro-del-trabajo, gestion-del-cambio, talento, estructura-organizacional]
 actualizado: 2026-10-27
 ---
