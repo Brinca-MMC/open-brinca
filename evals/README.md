@@ -40,4 +40,4 @@ Qué dicen:
 
 Límites: cada condición se corrió una vez; las preguntas las escribió un agente que leyó el repositorio, y respondieron y corrigieron agentes del mismo modelo. Sirve para comparar versiones del repositorio, no como cifra absoluta.
 
-Lo que la prueba deja pendiente: cuatro pasajes que faltan en las páginas de temas (Puntoni en [22:21] en liderazgo y en [28:42] en IA y sociedad, Lever y el 35 % contra 13 % de Wharton en productividad, Araya en [50:25] en adopción), y que una página de tema diga de qué archivo sale un dato de `estudios/` que resume.
+Después de la prueba se agregaron los cuatro pasajes que faltaban en las páginas de temas (Puntoni en liderazgo y en IA y sociedad, Lever y el 35 % contra 13 % de Wharton en productividad, Araya en adopción). Queda pendiente que una página de tema diga siempre de qué archivo sale un dato de `estudios/` que resume.
