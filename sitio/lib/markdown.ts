@@ -7,6 +7,7 @@
 import path from "node:path";
 import { Marked } from "marked";
 import { GITHUB, urlAbsoluta, docPorRuta } from "./contenido";
+import { icono } from "./iconos";
 
 const IMAGEN = /\.(jpe?g|png|webp|gif|svg)$/i;
 const PUBLICO = /\.(txt|json|yml|yaml|cff)$/i;
@@ -51,6 +52,45 @@ function notas(md: string): string {
   return defs.length ? md + `\n\n<section class="notas"><h2>Notas</h2><ol>\n${defs.join("\n")}\n</ol></section>\n` : md;
 }
 
+// Las evidencias de una síntesis: cada punto bajo una hipótesis empieza con su relación (A favor,
+// En contra, Matiz, Límite, Se desprende) y, si la tiene, su clase (dato, opinión, caso, modelo).
+const RELACIONES: Record<string, { clase: string; icono: string }> = {
+  "a favor": { clase: "favor", icono: "circle-check" },
+  "en contra": { clase: "contra", icono: "circle-x" },
+  matiz: { clase: "matiz", icono: "scale" },
+  "límite": { clase: "limite", icono: "triangle-alert" },
+  "se desprende": { clase: "desprende", icono: "lightbulb" },
+};
+const CLASES: [RegExp, string][] = [
+  [/sin publicar/, "flask-conical"],
+  [/caso/, "building-2"],
+  [/modelo/, "calculator"],
+  [/opini/, "message-square-quote"],
+  [/dato/, "chart-column"],
+];
+
+function evidencias(html: string): string {
+  const conEvidencias = html.replace(/<ul>\n((?:<li><strong>[^<]+<\/strong>[\s\S]*?<\/li>\n)+)<\/ul>/g, (bloque, items: string) => {
+    const tarjetas = items.replace(/<li><strong>([^<]+?)\.<\/strong>\s*([\s\S]*?)<\/li>/g, (todo, etiqueta: string, texto: string) => {
+      const [rel, ...resto] = etiqueta.split(",").map((x) => x.trim());
+      const r = RELACIONES[rel.toLowerCase()];
+      if (!r) return todo;
+      const clase = resto.join(", ");
+      const iconoClase = clase ? (CLASES.find(([re]) => re.test(clase.toLowerCase()))?.[1] ?? "file-text") : null;
+      const chip = clase ? `<span class="ev-clase">${icono(iconoClase!)}${clase[0].toUpperCase()}${clase.slice(1)}</span>` : "";
+      return `<li class="ev ev-${r.clase}"><div class="ev-cabeza"><span class="ev-rel">${icono(r.icono)}${rel}</span>${chip}</div><div class="ev-texto">${texto}</div></li>`;
+    });
+    return tarjetas === items ? bloque : `<ul class="evidencias">\n${tarjetas}</ul>`;
+  });
+  // «## 3. Medir…» lleva su número como distintivo.
+  return conEvidencias.replace(/<h2 id="([^"]+)"><a class="ancla"([^>]*)>#<\/a>(\d+)\. /g, '<h2 id="$1" class="hipotesis"><a class="ancla"$2>#</a><span class="num">$3</span>');
+}
+
+/** En una transcripción, cada turno lleva un ancla con su marca: `#t-13-39`. */
+function anclasDeTurno(md: string): string {
+  return md.replace(/^\*\*\[(\d+:\d\d(?::\d\d)?)\]/gm, (todo, marca: string) => `<a id="t-${marca.replace(/:/g, "-")}"></a>${todo}`);
+}
+
 export function render(md: string, desde: string): string {
   const vistos = new Map<string, number>();
   const marked = new Marked({ gfm: true });
@@ -76,13 +116,14 @@ export function render(md: string, desde: string): string {
       },
     },
   });
-  const limpio = md.replace(/<!--[\s\S]*?-->/g, "");
-  const html = marked.parse(notas(limpio), { async: false }) as string;
-  return html
+  let limpio = md.replace(/<!--[\s\S]*?-->/g, "");
+  if (desde.endsWith("transcripcion.md")) limpio = anclasDeTurno(limpio);
+  const html = (marked.parse(notas(limpio), { async: false }) as string)
     .replace(/<table>/g, '<div class="tabla"><table>')
     .replace(/<\/table>/g, "</table></div>")
     // «28 %» no se corta en dos líneas (solo en el texto, no dentro de las etiquetas).
     .replace(/>([^<]*)</g, (_, t) => ">" + t.replace(/(\d) %/g, "$1&nbsp;%") + "<");
+  return desde.startsWith("sintesis/") ? evidencias(html) : html;
 }
 
 export { urlAbsoluta };

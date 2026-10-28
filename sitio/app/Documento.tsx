@@ -31,6 +31,13 @@ function jsonLd(d: Doc) {
   return { ...comun, "@type": "WebPage", dateModified: m.actualizado };
 }
 
+// Un enlace a #t-13-39 lleva al turno que contiene ese minuto: si no hay un turno que empiece
+// justo ahí, al último que empezó antes.
+const SALTO_A_MARCA = `(function(){var h=decodeURIComponent(location.hash);if(!/^#t-\\d/.test(h)||document.getElementById(h.slice(1)))return;
+var s=function(id){var p=id.slice(2).split("-").map(Number);return p.length===3?p[0]*3600+p[1]*60+p[2]:p[0]*60+p[1]};
+var t=s(h.slice(1)),best=null;document.querySelectorAll('a[id^="t-"]').forEach(function(a){var v=s(a.id);if(v<=t&&(!best||v>s(best.id)))best=a});
+if(best){best.parentElement.classList.add("marcado");best.scrollIntoView()}})();`;
+
 export default function Documento({ doc }: { doc: Doc }) {
   const html = render(doc.cuerpo, doc.ruta);
   const m = doc.meta;
@@ -59,6 +66,7 @@ export default function Documento({ doc }: { doc: Doc }) {
         </p>
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(doc)) }} />
+      {doc.tipo === "transcripcion" && <script dangerouslySetInnerHTML={{ __html: SALTO_A_MARCA }} />}
     </article>
   );
 }
