@@ -185,7 +185,11 @@ function main() {
     }
   }
 
-  const indice = docs.filter((d) => !d.propia).flatMap(fragmentos);
+  // La búsqueda cubre el contenido. Lo que es del proyecto (la prueba con su clave, lo que se envía
+  // a los directorios, el historial, la guía para aportar, el código del grafo) se puede traer por
+  // su id, pero no aparece al buscar.
+  const NO_INDICE = /^(evals\/|directorios\/|metodo\/grafo\/|CHANGELOG\.md|CONTRIBUTING\.md|CODE_OF_CONDUCT\.md)/;
+  const indice = docs.filter((d) => !d.propia && !NO_INDICE.test(d.ruta)).flatMap(fragmentos);
   const grafo = docs.flatMap(aristas);
 
   fs.writeFileSync(path.join(GENERADO, "contenido.json"), JSON.stringify({ base: BASE, github: GITHUB, docs }));

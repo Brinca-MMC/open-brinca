@@ -525,7 +525,7 @@
   idioma: es
   dificultad: media
   pregunta: "Voy a poner en un informe para el directorio una frase de Puntoni y un dato del webinar de Wharton. ¿Cómo lo cito bien?"
-  respuesta_esperada: "Nombrar a quien habló, la sesión y la marca [mm:ss], y enlazar la ficha o el segundo exacto del video: las marcas de Impacta ya son enlaces a YouTube; el webinar de Wharton no tiene video público, así que sus marcas no llevan enlace. Para una cita textual, usar transcripcion.md (la keynote de Puntoni está en inglés). Si la cifra tiene una nota [^n], citar el dato corregido y no el dicho. Mencionar la fuente como «Open Brinca, de Brinca» con el enlace; la cita formal es: Open Brinca. Brinca, 2026. https://github.com/Brinca-MMC/open-brinca, y CITATION.cff la trae en formato de máquina."
+  respuesta_esperada: "Nombrar a quien habló, la sesión y la marca [mm:ss], y enlazar la página de la sesión en open.brinca.com o el segundo exacto del video: las marcas de Impacta ya son enlaces a YouTube; el webinar de Wharton no tiene video público, así que sus marcas no llevan enlace. Para una cita textual, usar transcripcion.md (la keynote de Puntoni está en inglés). Si la cifra tiene una nota [^n], citar el dato corregido y no el dicho. Mencionar la fuente como «Open Brinca, de Brinca» con el enlace; la cita formal es: Open Brinca. Brinca, 2026. https://open.brinca.com, y CITATION.cff la trae en formato de máquina."
   fuentes:
     - ruta: AGENTS.md
       marca: "sección «Cómo citar»"
@@ -533,8 +533,8 @@
       marca: "sección «Cómo citar»"
     - ruta: webinars/2026-10-20-wharton-adaptive-advantage/transcripcion.md
       marca: "encabezado (sin video público)"
-  aprueba_si: "incluye quién habló, la sesión y la marca de tiempo; usar la transcripción para citas textuales; la regla de citar el dato corregido de las notas; y la referencia a Open Brinca con el enlace al repositorio."
-  falla_si: "propone un formato sin marca de tiempo, omite la regla de las notas, o da un enlace distinto al del repositorio."
+  aprueba_si: "incluye quién habló, la sesión y la marca de tiempo; usar la transcripción para citas textuales; la regla de citar el dato corregido de las notas; y la referencia a Open Brinca con su enlace (open.brinca.com; también vale el repositorio en GitHub)."
+  falla_si: "propone un formato sin marca de tiempo, omite la regla de las notas, o da un enlace que no es de Open Brinca."
 
 - id: P33
   tipo: uso
