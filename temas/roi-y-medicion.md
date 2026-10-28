@@ -42,4 +42,4 @@ Cuánto retorno está dando la IA, cómo se mide y qué métricas acompañan a l
 
 <!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
 
-- `deriva-de` ← [El retorno de la IA: lo que dicen las sesiones y cómo lo leemos en Brinca](../sintesis/roi-y-medicion.md)
+- `deriva-de` ← [El retorno de la IA en las empresas](../sintesis/roi-y-medicion.md)
