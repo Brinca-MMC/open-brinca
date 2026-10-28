@@ -7,7 +7,7 @@ import "./estilo.css";
 
 export const metadata = {
   metadataBase: new URL(BASE),
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.svg", apple: "/apple-touch-icon.png" },
 };
 
 const NAV = [

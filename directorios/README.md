@@ -8,12 +8,13 @@ Todo esto se envía después de que `https://open.brinca.com/mcp` esté funciona
 
 | Qué | Para qué directorio | Quién |
 |---|---|---|
-| El logo de Brinca cuadrado en PNG, de 512 a 2048 px. En el directorio de Claude se fija la primera vez y no se puede cambiar después | Claude, OpenAI y el plugin | Brinca (marketing) |
 | Una cuenta de Claude de pago que envíe en nombre de Brinca | Claude | Brinca |
 | Una organización de Brinca verificada en OpenAI Platform, con alguien con permiso *Apps Management Write* | OpenAI | Brinca |
 | Un video corto que recorra los casos de prueba con el servidor conectado | OpenAI | quien envíe |
 | Un registro TXT en el dominio raíz `brinca.com` con la clave pública del registro de MCP (abajo) | Registro de MCP | TI o Pablo Ferreiro (Cloudflare) |
 | El token de verificación de OpenAI, servido en `https://open.brinca.com/.well-known/openai-apps-challenge` | OpenAI | se agrega al sitio cuando el portal lo entregue |
+
+El ícono es el isotipo de Brinca en PNG de 1024 px: [`plugin/.claude-plugin/icon.png`](../plugin/.claude-plugin/icon.png), sacado del SVG oficial. En el directorio de Claude el ícono se fija la primera vez y no se puede cambiar.
 
 ## La ficha
 

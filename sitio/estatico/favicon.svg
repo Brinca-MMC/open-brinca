@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#1f3a5f"/><text x="16" y="22" font-family="Georgia, serif" font-size="18" fill="#ffffff" text-anchor="middle">OB</text></svg>
+<svg width="2522" height="2522" viewBox="0 0 2522 2522" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2521.01" height="2521.01" rx="1260.51" fill="#111111"/>
+<path d="M1805.45 1744.42V1421.73H1481.98C1482.83 1599.59 1627.16 1744.42 1805.45 1744.42Z" fill="white"/>
+<path d="M1038.79 777.184H715.318V1744.4H1038.79V777.184Z" fill="white"/>
+<path d="M1078.72 1099.87C1257.01 1099.87 1402.19 955.89 1402.19 777.184H1078.72V1099.87Z" fill="white"/>
+<path d="M1078.72 1099.7V1744.23C1257.01 1744.23 1402.19 1600.25 1402.19 1421.54C1402.19 1242.83 1257.01 1099.7 1078.72 1099.7Z" fill="white"/>
+</svg>
