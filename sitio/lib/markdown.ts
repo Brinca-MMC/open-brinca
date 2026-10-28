@@ -78,7 +78,11 @@ export function render(md: string, desde: string): string {
   });
   const limpio = md.replace(/<!--[\s\S]*?-->/g, "");
   const html = marked.parse(notas(limpio), { async: false }) as string;
-  return html.replace(/<table>/g, '<div class="tabla"><table>').replace(/<\/table>/g, "</table></div>");
+  return html
+    .replace(/<table>/g, '<div class="tabla"><table>')
+    .replace(/<\/table>/g, "</table></div>")
+    // «28 %» no se corta en dos líneas (solo en el texto, no dentro de las etiquetas).
+    .replace(/>([^<]*)</g, (_, t) => ">" + t.replace(/(\d) %/g, "$1&nbsp;%") + "<");
 }
 
 export { urlAbsoluta };
