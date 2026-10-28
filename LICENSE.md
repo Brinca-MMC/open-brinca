@@ -15,7 +15,7 @@ Las frases citables que aparecen en las fichas son palabras de sus autores, repr
 
 > *Open Brinca*. Brinca, 2026. https://open.brinca.com
 
-Para citar a una persona, nombra a quien habló, la sesión y la marca de tiempo, y enlaza la ficha o el segundo exacto del video. El archivo [`CITATION.cff`](CITATION.cff) trae la cita en formato de máquina.
+Para citar a una persona, nombra a quien habló, la sesión y la marca de tiempo, y enlaza la página de la sesión en open.brinca.com o el segundo exacto del video. Para citar textual, usa la transcripción. El archivo [`CITATION.cff`](CITATION.cff) trae la cita en formato de máquina.
 
 ## Si hablaste en una sesión
 

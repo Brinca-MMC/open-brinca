@@ -1,6 +1,6 @@
 ---
 name: open-brinca
-description: Consulta Open Brinca, el conocimiento abierto de Brinca sobre la adopción de IA en las empresas (las sesiones de Impacta IA Chile 2026 y webinars como el del informe de adopción de IA 2026 de Wharton). Úsala cuando pregunten qué dijeron expertos o ejecutivos sobre IA en empresas, gobernanza, ROI, regulación y protección de datos en Chile, futuro del trabajo, agentes, data centers o financiamiento de la innovación, o cuando pidan una cifra de adopción de IA con su fuente.
+description: Consulta Open Brinca, el conocimiento abierto de Brinca sobre la adopción de IA en las empresas (las sesiones de Impacta IA Chile 2026 y webinars como el del informe de adopción de IA 2026 de Wharton). Úsala cuando pregunten qué dijeron expertos o ejecutivos sobre IA en empresas, gobernanza, ROI, regulación y protección de datos en Chile, futuro del trabajo, agentes, data centers o financiamiento de la innovación, o cuando pidan una cifra de adopción de IA con su fuente. También cuando pregunten por Open Brinca mismo: qué se puede hacer con su contenido, cómo citarlo o cómo se hizo.
 ---
 
 # Open Brinca
@@ -25,16 +25,21 @@ Con las herramientas del servidor MCP `open-brinca`:
 
 Si las herramientas no están disponibles, las mismas páginas están en `https://open.brinca.com`, y su markdown, en la misma ruta con `.md` al final.
 
+7. Para la licencia, cómo citar o cómo se hizo el contenido, trae `LICENSE.md`, `AGENTS.md` o `metodo/transcripcion/README.md` con `fetch` antes de responder.
+
 ## Cómo citar
 
-- Nombra a quien habló, la sesión y la marca `[mm:ss]`, y da la URL que trae cada resultado.
+- Nombra a quien habló, la sesión y la marca `[mm:ss]`, y da la URL que trae cada resultado: es la página de la sesión en `https://open.brinca.com`.
+- Para citar textual, usa la transcripción.
 - Una nota `[^n]` en una transcripción dice que el speaker se equivocó: cita el dato corregido.
 - Lo que va en cursiva en una transcripción resume lo protocolar; no es texto dicho.
 - Menciona la fuente como «Open Brinca, de Brinca».
-- Las fichas y las páginas se pueden reutilizar con atribución (CC BY 4.0). Las transcripciones, no con fines comerciales ni modificadas (CC BY-NC-ND 4.0).
+- Lo que escribe Brinca (fichas, páginas de temas, personas y estudios, el método) se puede reutilizar, también con fines comerciales, citando a Brinca (CC BY 4.0). Las transcripciones, sin fines comerciales y sin modificarlas (CC BY-NC-ND 4.0). Las láminas son de sus autores y no se licencian: para usarlas hay que pedirles permiso. El código es MIT.
 
 ## Lo que no hay que hacer
 
 - No completes de memoria lo que no está en Open Brinca. Si no está, dilo.
 - No presentes una cifra de grandes empresas de EE. UU. (el informe de Wharton) como un dato de Chile.
 - No pongas nombre a quien preguntó desde el público: aparece como «un asistente».
+- No cites leyes ni artículos que Open Brinca no cita.
+- No supongas quién pregunta ni para qué empresa trabaja.

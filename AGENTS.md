@@ -44,13 +44,14 @@ catalogo.json               lo mismo en JSON, con los metadatos y las cifras
 
 ## Cómo citar
 
-- Nombra a quien habló, la sesión y la marca `[mm:ss]`, y enlaza la ficha o el segundo del video (las marcas de las sesiones de Impacta ya son enlaces a YouTube).
+- Nombra a quien habló, la sesión y la marca `[mm:ss]`, y enlaza la página de la sesión en `https://open.brinca.com` (la misma ruta que aquí, sin `.md`) o el segundo del video (las marcas de las sesiones de Impacta ya son enlaces a YouTube).
 - Para citar textual, usa `transcripcion.md`.
 - Un documento sin marcas de tiempo (una página de estudio, de tema o de persona, `LICENSE.md`, `programa.md`) se cita por su ruta y su sección: el encabezado `###` de una cifra, o «cambio 22» en el programa.
 - Una cifra de `estudios/` se cita con su estudio y su etiqueta de verificación: `Verificada`, `Corregida`, `Difiere`, `Preliminar`, `Solo en la sesión` o `Sin verificar`.
 - Una nota `[^n]` dice que el speaker se equivocó y cuál es el dato correcto: cita el dato corregido, no el dicho.
 - Lo que va en cursiva en una transcripción es un resumen de lo protocolar, no texto dicho.
-- Menciona la fuente: «Open Brinca, de Brinca», con el enlace al repositorio.
+- Menciona la fuente: «Open Brinca, de Brinca», con el enlace a `https://open.brinca.com`.
+- Para la licencia, cómo citar o cómo se hizo, lee [`LICENSE.md`](LICENSE.md), esta sección o [`metodo/transcripcion/`](metodo/transcripcion/README.md) antes de responder. Las láminas (`imagenes/`) son de sus autores y no se licencian; el código es MIT.
 - Las transcripciones no se pueden usar con fines comerciales ni modificadas; las fichas sí, con atribución. El detalle está en [`LICENSE.md`](LICENSE.md).
 
 ## Si tienes el servidor MCP
