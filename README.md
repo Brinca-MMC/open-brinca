@@ -25,23 +25,31 @@ Las marcas `[mm:ss]` enlazan al segundo exacto del video cuando el video es púb
 
 ## Úsalo con tu asistente de IA
 
-- **Claude Code, Codex, Cursor u otro agente que trabaje con archivos.** Clona el repositorio: el archivo [`AGENTS.md`](AGENTS.md) le explica al agente cómo recorrerlo y cómo citar.
+- **Claude, ChatGPT, Codex, Cursor, VS Code u otro asistente que acepte un conector MCP.** Agrega esta dirección como conector. Es pública, no pide login y solo lee:
+
+  ```
+  https://open.brinca.com/mcp
+  ```
+
+  Con ella el asistente busca en las sesiones, trae fichas y transcripciones, encuentra cifras con su verificación y te dice quién lo dijo y en qué minuto. Cómo agregarla en cada asistente: [open.brinca.com/conectar](https://open.brinca.com/conectar).
+
+- **Claude Code o Claude, con el plugin**, que trae el conector y una skill con cuándo consultar Open Brinca y cómo citarlo:
+
+  ```
+  /plugin install open-brinca --marketplace Brinca-MMC/open-brinca
+  ```
+
+  En Claude (web o escritorio): *Personalizar → Plugins → Agregar marketplace* y escribe `Brinca-MMC/open-brinca`.
+
+- **Un agente que trabaja con archivos** (Claude Code, Codex, Cursor). Clona el repositorio: el archivo [`AGENTS.md`](AGENTS.md) le explica cómo recorrerlo y cómo citar.
 
   ```
   git clone https://github.com/Brinca-MMC/open-brinca
   ```
 
-- **Claude, ChatGPT u otro asistente que acepte un conector MCP propio.** Agrega esta dirección como conector:
-
-  ```
-  https://gitmcp.io/Brinca-MMC/open-brinca
-  ```
-
-  GitMCP es un servicio de terceros que lee este repositorio público. Los conectores propios están disponibles en algunos planes de cada asistente.
+- **Proyectos de Claude o ChatGPT, Gems de Gemini o Gemini Notebook.** Sube el archivo de una colección, con las fichas de todas sus sesiones: [Impacta IA Chile 2026](https://open.brinca.com/descargas/impacta-ia-2026.md) o [webinars](https://open.brinca.com/descargas/webinars.md).
 
 - **Un programa propio.** [`llms.txt`](llms.txt) es el mapa del repositorio, una línea por documento, y [`catalogo.json`](catalogo.json) trae lo mismo con los metadatos de cada sesión y todas las cifras.
-
-- **Proyectos de Claude o ChatGPT, Gems de Gemini o Gemini Notebook.** Sube la ficha o la carpeta de la colección que te interesa, o conecta este repositorio de GitHub a un proyecto de Claude.
 
 ## Cómo citar
 

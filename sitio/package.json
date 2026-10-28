@@ -1,0 +1,29 @@
+{
+  "name": "open-brinca-sitio",
+  "private": true,
+  "license": "MIT",
+  "description": "El sitio y el servidor MCP de Open Brinca: se arman desde el markdown del repositorio.",
+  "scripts": {
+    "preparar": "node scripts/preparar.mjs",
+    "dev": "npm run preparar && next dev",
+    "build": "npm run preparar && next build",
+    "start": "next start",
+    "probar": "node scripts/probar-mcp.mjs",
+    "metricas": "node scripts/metricas.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
+    "gray-matter": "4.0.3",
+    "marked": "18.1.1",
+    "mcp-handler": "2.3.0",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

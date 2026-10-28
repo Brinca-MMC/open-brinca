@@ -28,7 +28,7 @@ POR_TIPO = {"persona": ("nombre", "cargo"), "tema": ("nombre",), "estudio": ("au
 FECHA = re.compile(r"\d{4}-\d\d-\d\d")
 OBLIGATORIOS = ("id", "tipo", "actualizado")
 MAX_IMAGEN = 300 * 1024
-SALTAR = {".git", "node_modules", "__pycache__"}
+SALTAR = {".git", "node_modules", "__pycache__", ".next", ".generado", "public"}  # public y .generado: los arma el sitio
 ENLACE = re.compile(r"\]\(((?:[^()\s]|\([^()]*\))+)\)")
 CONFLICTO = re.compile(r"^(<{7}|>{7}) ", re.M)
 
@@ -121,8 +121,8 @@ def main():
                         errores.append(f"{rel}: el id tiene que ser el nombre del archivo")
         for destino in ENLACE.findall(sin_codigo(texto)):
             destino = destino.split("#")[0].strip()
-            if not destino or re.match(r"^[a-z][a-z0-9+.-]*:", destino, re.I):
-                continue                 # anclas, https:, mailto:
+            if not destino or destino.startswith("/") or re.match(r"^[a-z][a-z0-9+.-]*:", destino, re.I):
+                continue                 # anclas, https:, mailto: y rutas del sitio (/conectar)
             ruta = os.path.normpath(os.path.join(os.path.dirname(path), unquote(destino)))
             if not os.path.exists(ruta):
                 errores.append(f"{rel}: enlace roto a {destino}")

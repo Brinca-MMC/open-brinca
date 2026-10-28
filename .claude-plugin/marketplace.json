@@ -1,0 +1,13 @@
+{
+  "name": "open-brinca",
+  "description": "Open Brinca: conocimiento abierto sobre la adopción de IA en las empresas, curado por Brinca.",
+  "owner": { "name": "Brinca", "url": "https://www.brinca.com" },
+  "plugins": [
+    {
+      "name": "open-brinca",
+      "source": "./plugin",
+      "description": "Conecta tu asistente a Open Brinca (sesiones de Impacta IA Chile 2026 y webinars, con cifras verificadas) y le enseña cuándo consultarlo y cómo citarlo.",
+      "version": "2026.10.0"
+    }
+  ]
+}

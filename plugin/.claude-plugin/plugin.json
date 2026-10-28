@@ -1,0 +1,22 @@
+{
+  "name": "open-brinca",
+  "displayName": "Open Brinca",
+  "version": "2026.10.0",
+  "description": "Conecta tu asistente a Open Brinca, el conocimiento abierto de Brinca sobre la adopción de IA en las empresas: sesiones de eventos y webinars transcritas y revisadas, temas, personas y estudios con cifras verificadas. Trae el servidor MCP y una skill con cuándo consultarlo y cómo citarlo.",
+  "author": {
+    "name": "Brinca",
+    "url": "https://www.brinca.com"
+  },
+  "homepage": "https://open.brinca.com",
+  "repository": "https://github.com/Brinca-MMC/open-brinca",
+  "license": "MIT",
+  "keywords": [
+    "ia",
+    "adopcion-de-ia",
+    "brinca",
+    "chile",
+    "transcripciones",
+    "conocimiento"
+  ],
+  "privacyPolicyUrl": "https://open.brinca.com/privacidad"
+}
