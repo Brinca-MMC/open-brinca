@@ -1,6 +1,6 @@
 # Cómo aportar a Open Brinca
 
-Open Brinca lo cura y lo mantiene Brinca, y recibe tres clases de aporte: correcciones, pedidos de quien habló en una sesión y sugerencias de contenido. Cada una tiene su formulario en [Issues](https://github.com/Brinca-MMC/open-brinca/issues/new/choose).
+Open Brinca lo cura y lo mantiene Brinca, con Nicolás Rivas como editor responsable, y recibe tres clases de aporte: correcciones, pedidos de quien habló en una sesión y sugerencias de contenido. Cada una tiene su formulario en [Issues](https://github.com/Brinca-MMC/open-brinca/issues/new/choose).
 
 ## Corregir un error
 
