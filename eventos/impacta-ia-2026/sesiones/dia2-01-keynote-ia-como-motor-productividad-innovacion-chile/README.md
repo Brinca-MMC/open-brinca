@@ -151,3 +151,4 @@ Para Pertuzé, la productividad no viene de adoptar la tecnología por adoptarla
 
 - `tensiona` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
 - `complementa` ← [Datacenters e IA: ¿una oportunidad para Chile?](../dia2-05-panel-datacenters-ia-oportunidad-chile/README.md)
+- `reencuadra` ← [El retorno de la IA: lo que dicen las sesiones y cómo lo leemos en Brinca](../../../../sintesis/roi-y-medicion.md)

@@ -164,4 +164,5 @@ El vibe coding cambia quién puede crear dentro de una empresa [03:52], pero no 
 
 <!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
 
+- `reencuadra` ← [El retorno de la IA: lo que dicen las sesiones y cómo lo leemos en Brinca](../../../../sintesis/roi-y-medicion.md)
 - `confirma`, `tensiona` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)
