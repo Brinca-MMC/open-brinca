@@ -1,8 +1,18 @@
 ---
 id: dia2-01-keynote-ia-como-motor-productividad-innovacion-chile
 tipo: sesion
-actualizado: 2026-10-20
+titulo: IA como Motor de Productividad e Innovación para Chile
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: keynote
+speakers: [julio-pertuze]
+intervienen: [elisabeth-serra]
+idiomas: [es]
+duracion_min: 33
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=1959s
+temas: [productividad-y-crecimiento, adopcion-y-escala, soberania-e-infraestructura, gestion-del-cambio]
 tags: [impacta-ia, keynote, productividad, soberania-ia, adopcion-ia, datos]
+actualizado: 2026-10-27
 ---
 
 # Keynote «IA como Motor de Productividad e Innovación para Chile» · Impacta IA Chile 2026
@@ -128,3 +138,16 @@ Para Pertuzé, la productividad no viene de adoptar la tecnología por adoptarla
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `continua` [Apertura Impacta IA Chile 2026](../dia1-01-apertura-impacta-ia-chile-2026/README.md) · [15:41] · En la apertura del día 1, Julio Pertuzé (Fundación Chile) adelantó la pregunta de su charla del jueves: «¿podemos aumentar nuestra productividad sin construir soberanía en inteligencia artificial?». La keynote del día 2 parte de esa pregunta y la desarrolla en tres niveles (personas, organizaciones y país) hasta definir la soberanía como «tener la capacidad de decidir».
+- `reencuadra` [Panel «Encuentro público-privado para una adopción sin brechas»](../dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · [06:01] · Fernando Hentzschel (CORFO) plantea la soberanía digital como contar con infraestructura de cómputo, talento y capacidad de adopción propios, para que Chile no se limite a comprar tecnología hecha afuera ni dependa de precios que no pone. Julio Pertuzé (Fundación Chile) mueve el eje sin negarlo: soberanía no es poseer la tecnología sino conservar la capacidad de decidir dónde están los datos, quién los usa, qué alternativas hay y cómo seguir funcionando si la herramienta falla.
+- `profundiza` [Panel «El Futuro del Trabajo con IA»](../dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md) · [16:07] · Paula Aguirre (UC) menciona de pasada una idea que trae del HAI Lab de Stanford: todos debemos ser una especie de product manager de un proceso que conocemos en detalle. Julio Pertuzé (Fundación Chile) la desarrolla en su keynote (problema, valor, tecnología, experimentar como MVP e integrar, y las mismas capacidades para la organización); los dos vuelven de una misión chilena a Silicon Valley y la atribuyen a Stanford, así que no son testigos independientes y la coincidencia no cuenta como confirmación.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `tensiona` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
+- `complementa` ← [Datacenters e IA: ¿una oportunidad para Chile?](../dia2-05-panel-datacenters-ia-oportunidad-chile/README.md)

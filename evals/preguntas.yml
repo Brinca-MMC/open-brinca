@@ -1,0 +1,595 @@
+# Prueba de Open Brinca: 36 preguntas que un gerente o consultor le haría a su asistente
+# teniendo solo este repositorio, con la clave para corregirlas. Cómo se usa: evals/README.md.
+# Campos: id, tipo, idioma (es | en), dificultad (baja | media | alta), pregunta,
+# respuesta_esperada, fuentes (rutas relativas a la raíz y marca), aprueba_si y falla_si.
+# Reparto: cifra 8 · quien 7 · sintesis 9 · tension 6 · uso 3 · trampa 3 (dos en inglés).
+
+# ───────────── CIFRAS ─────────────
+
+- id: P01
+  tipo: cifra
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Qué porcentaje de las empresas le está sacando provecho de verdad a la IA? Me dijeron que es muy bajo."
+  respuesta_esperada: "Según el informe de adopción de IA 2026 de Wharton y GBK Collective, presentado en el webinar del 20 de octubre de 2026, solo el 7 % de los managers+ cumple a la vez los tres marcadores de éxito: ROI fuertemente positivo (28 %), flujos de trabajo transformados (20 % de los departamentos) y organización alineada (39 %). El uso ya es casi universal: el 62 % la usa a diario. Es una encuesta autorreportada a unas 1.400 personas de grandes empresas de EE. UU."
+  fuentes:
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[10:16]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[04:46]"
+  aprueba_si: "da 7 %, lo atribuye al informe Wharton-GBK 2026 (o al webinar de Wharton), explica que es cumplir los tres marcadores a la vez y no lo presenta como un dato de Chile."
+  falla_si: "da el 28 % (solo ROI) o el 62 % (uso diario) como respuesta; lo presenta como cifra chilena o mundial sin decir que la muestra es de grandes empresas de EE. UU.; o inventa una cifra de otra fuente."
+
+- id: P02
+  tipo: cifra
+  idioma: es
+  dificultad: alta
+  pregunta: "Leí que casi el 60 % de las empresas con buen retorno de IA tiene un Chief AI Officer. ¿Es así? Lo quiero usar para justificar el cargo."
+  respuesta_esperada: "No: Jeremy Korst lo dijo al revés en el webinar de Wharton, y la transcripción lo corrige en una nota. El dato del informe es que el 58 % de los managers+ de organizaciones con un CAIO recién designado reporta ROI fuertemente positivo, contra el 24 % donde el rol se sumó a un cargo existente y el 8 % sin CAIO. Es correlación y autorreporte, y Korst agrega que el CAIO no debe ser el único líder de IA."
+  fuentes:
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[16:12]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/transcripcion.md
+      marca: "[15:22] y nota [^1]"
+  aprueba_si: "corrige la dirección del dato (el 58 % de quienes tienen un CAIO nuevo reporta ROI fuerte, no el 58 % de los de ROI fuerte tiene CAIO), menciona que Korst lo dijo al revés o la nota de la transcripción y lo atribuye al informe Wharton-GBK 2026."
+  falla_si: "confirma que casi el 60 % de las empresas con buen ROI tiene un CAIO, tal como lo dijo Korst («nearly 60% reported to have a CAIO»); o presenta la relación como causal."
+
+- id: P03
+  tipo: cifra
+  idioma: es
+  dificultad: alta
+  pregunta: "En el panel de la Ley I+D dijeron que un proyecto de 100 millones te sale en 75 con la ley. ¿Ese es el ahorro real?"
+  respuesta_esperada: "Lo dijo Juviska Meza (Brinca) para mostrar cómo usar la ley como argumento de venta, pero la nota 3 de la transcripción aclara que es un ejemplo ilustrativo y no un cálculo. Con la ley vigente, 100 millones invertidos dan un crédito del 35 % contra el impuesto de primera categoría (tope anual de 15.000 UTM), así que el costo neto queda en 65 millones; como el 65 % restante se rebaja además como gasto, con un impuesto de 27 % queda en unos 47 millones. Los 75 millones no salen de ese cálculo."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/README.md
+      marca: "[27:05]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/transcripcion.md
+      marca: "[27:01] y nota [^3]"
+  aprueba_si: "dice que los 75 millones son un ejemplo ilustrativo de Meza y da el cálculo de la nota: crédito del 35 % (costo neto de 65 millones) y unos 47 millones al sumar la rebaja como gasto. Puede sugerir confirmarlo con un asesor tributario."
+  falla_si: "confirma los 75 millones (un 25 % de ahorro) como el beneficio de la ley, que es lo que dice la ficha sin la nota; o inventa otro porcentaje."
+
+- id: P04
+  tipo: cifra
+  idioma: es
+  dificultad: baja
+  pregunta: "En el panel del futuro del trabajo hablaron de cuántas tecnologías de frontera lidera China. ¿Cuántas eran?"
+  respuesta_esperada: "Denisse Goldfarb (The People Future) dijo 69, pero la cifra correcta, según el Critical Technology Tracker del ASPI (actualización de 2025), es 66 de 74; Estados Unidos lidera las otras 8, entre ellas la computación cuántica. Lo usó para hablar de los robots humanoides que China impulsa por su problema demográfico."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[26:57]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/transcripcion.md
+      marca: "[26:57] y nota [^2]"
+  aprueba_si: "da 66 de 74, con el ASPI como fuente o mencionando la corrección, y nombra a Goldfarb."
+  falla_si: "da 69 sin corrección, o una cifra distinta de 66."
+
+- id: P05
+  tipo: cifra
+  idioma: es
+  dificultad: media
+  pregunta: "Necesito un número para convencer al directorio de que la IA no es solo para recortar costos. ¿Qué cálculo mostró Puntoni?"
+  respuesta_esperada: "En su keynote de Impacta, Stefano Puntoni (Wharton) usa un modelo simple de valoración. Si la IA baja un 10 % la mitad de los costos, un supuesto que él llama generoso, el valor de la firma sube un 10 % en tres años. Si en cambio sube el crecimiento orgánico de 3 % a 5 %, el valor sube un 50 %. Si combina ambas cosas y el crecimiento llega a 7 %, el valor se más que duplica (la lámina dice +122 %). Su frase: «You can drive cost only down to zero»."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[07:54]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[09:38]"
+  aprueba_si: "da los escenarios (+10 % de valor por recortar costos, +50 % por dos puntos más de crecimiento, más del doble con 7 %), los atribuye a Puntoni en Impacta y aclara que son supuestos de un modelo ilustrativo."
+  falla_si: "inventa cifras, confunde el 10 % de recorte de costos con el 10 % de aumento de valor, o presenta el modelo como evidencia empírica."
+
+- id: P06
+  tipo: cifra
+  idioma: es
+  dificultad: media
+  pregunta: "¿Cuánta plata podría traer a Chile convertirse en un hub de data centers? Me acuerdo de que dieron un número grande."
+  respuesta_esperada: "Ignacio Briones, en el panel de data centers, cita a McKinsey: entre 2026 y 2030 la inversión mundial sería de 7,9 trillones de dólares (en escala estadounidense), algo más de 5 de ellos en infraestructura de megadata centers. Si Chile capturara apenas el 1 %, serían unos 10 mil millones de dólares de inversión al año, «más que toda la minería». Él mismo advierte que el empleo directo será poco y los impuestos difíciles de cobrar; lo valioso es reservar capacidad de cómputo para el país."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md
+      marca: "[12:27]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/transcripcion.md
+      marca: "[11:50] y nota [^1]"
+  aprueba_si: "da unos 10 mil millones de dólares al año como el 1 % de la inversión mundial y lo atribuye a Briones, con la estimación de McKinsey."
+  falla_si: "da los 7 o 7,9 trillones como lo que llegaría a Chile; cambia el orden de magnitud al traducir trillones (por ejemplo, «5 mil millones de millones», que la nota corrige); o lo atribuye a otro panelista."
+
+- id: P07
+  tipo: cifra
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Qué porcentaje de las empresas chilenas está logrando escalar la IA, más allá de probarla?"
+  respuesta_esperada: "El 9 %, según el Índice de IA 2026 (ITD-IA) de CORFO, la Cámara de Comercio de Santiago y la consultora PMG Chile, que citó la moderadora Carolina Garlick (Diario Financiero) al abrir el panel público-privado. El mismo índice pone a Chile a la cabeza de Latinoamérica, pero en el sector industrial el país cae del primer lugar al duodécimo."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[02:31]"
+  aprueba_si: "da 9 %, lo atribuye al índice de CORFO y la CCS que citó Garlick (la consultora es PMG Chile; no se penaliza que diga KPMG si así lo trae el repositorio que leyó) y no lo mezcla con cifras de EE. UU."
+  falla_si: "da cifras del estudio de Wharton (7 %, 28 %, 62 %) como si fueran de Chile, o inventa otra."
+
+- id: P08
+  tipo: cifra
+  idioma: es
+  dificultad: alta
+  pregunta: "El de Kauel dio un ejemplo de ROI con el litio de SQM. ¿De cuánto era y es confiable?"
+  respuesta_esperada: "Edmundo Casas (Kauel) calculó que si el error al estimar el litio bajo el agua de los salares baja del 20 % al 1 %, un productor como Soquimich podría aumentar su facturación en torno a un 19 % (multiplicó 1.500 millones de dólares por 1,19). Es su propia cuenta, no un caso medido, y la base está mal: la nota 4 de la transcripción aclara que SQM informó ingresos 2025 por 4.576 millones de dólares en total y 2.288 millones en litio, no 1.500."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md
+      marca: "[28:15]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/transcripcion.md
+      marca: "[27:29] y nota [^4]"
+  aprueba_si: "da el ~19 % como estimación de Casas y advierte que la base de 1.500 millones no calza con lo que informó SQM (nota 4) o que es una cuenta ilustrativa no verificada."
+  falla_si: "presenta el 19 % o los 1.500 millones como datos verificados de SQM, o calcula un monto en dólares a partir de los 1.500 millones sin advertencia."
+
+# ───────────── QUIÉN DIJO QUÉ ─────────────
+
+- id: P09
+  tipo: quien
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Quién habló de «lo dijo el algoritmo» en el panel de gobernanza, y qué proponía?"
+  respuesta_esperada: "Macarena MacKay (Alumni UC y Asociación de Ética Empresarial y Organizacional), en el panel de Gobernanza Corporativa de la IA. La frase se volvió el punto final de una discusión que no se da y diluye la responsabilidad: ya no hay responsables con nombre y apellido. Propone responder no solo por lo que se decide sino por cómo se llegó a la decisión, y una cultura que dé condiciones para detener un proceso («supervisión humana no es lo mismo que presencia humana»). Felipe Morales (Walmart Chile) lo retoma: «me lo dijo el algoritmo» es inaceptable."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[25:24]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[26:41]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[48:43]"
+  aprueba_si: "nombra a Macarena MacKay y su idea central (responsables con nombre y apellido, o responder por cómo se decide). Mencionar a Felipe Morales suma."
+  falla_si: "lo atribuye a otro panelista (Claudia Ramos, Nicolás Rivas o el moderador) o inventa la propuesta."
+
+- id: P10
+  tipo: quien
+  idioma: es
+  dificultad: media
+  pregunta: "¿Puntoni cree que la IA va a dejar a mucha gente sin trabajo?"
+  respuesta_esperada: "No al ritmo que se anuncia. En las preguntas de su keynote en Impacta dice que no ve el «apocalipsis del empleo» a la escala y velocidad que dice Silicon Valley, que tiene un conflicto de interés porque cuenta esas historias para subir su valorización. Sí espera fricción y reasignación del trabajo («I don't think that everybody can thrive in the world of AI») y pone la clave en la complementariedad entre personas e IA. Su preocupación es otra: que un discurso de solo eficiencia se oiga como despidos («Leaders say efficiency, workers hear layoffs»)."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[40:52]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[39:22]"
+  aprueba_si: "dice que Puntoni es escéptico del apocalipsis del empleo, menciona el conflicto de interés de Silicon Valley y que sí espera fricción o reasignación."
+  falla_si: "dice que Puntoni predice desempleo masivo, o le atribuye las predicciones de Yampolskiy o Amodei que citó Goldfarb en otro panel."
+
+- id: P11
+  tipo: quien
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Qué es eso de la «deuda de desarrollo» que mencionó el profesor de Duke?"
+  respuesta_esperada: "Es de Daniel Strode (Duke Corporate Education, ex Banco Santander), en su keynote: la brecha entre lo que la IA te ahorra en el corto plazo y lo que va agotando en silencio en el largo plazo. Su ejemplo es Klarna, que reemplazó a 700 personas de servicio al cliente por un chatbot y después admitió que la calidad bajó (la ficha advierte que las cifras del relato no se pudieron verificar). El riesgo es formar gente frágil; los remedios son zonas de formación sin IA, protocolos de «muestra tu razonamiento», tareas desafiantes antes de estar listo y reflexión después de cada decisión tomada con IA."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md
+      marca: "[23:18]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md
+      marca: "[24:33]"
+  aprueba_si: "atribuye el concepto a Daniel Strode, da la definición (ahorro de corto plazo contra lo que se agota en el largo) y al menos dos de los cuatro remedios."
+  falla_si: "lo atribuye a otro speaker, lo confunde con la deuda técnica del software, o inventa los remedios."
+
+- id: P12
+  tipo: quien
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Qué dijo el exsenador Pugh sobre la responsabilidad de los directorios con la IA?"
+  respuesta_esperada: "Kenneth Pugh, en el panel de regulación: «Los directorios pueden tercerizar tecnología todo lo que quieran, pero no pueden tercerizar la responsabilidad». Agrega que quien no use IA va a desaparecer y quien la use mal será sancionado, propone una agravante penal para los delitos cometidos con IA y recuerda que el artículo 8 bis de la Ley de Protección de Datos Personales, el «artículo Condorito: exijo una explicación», ya obliga a explicar en lenguaje humano las decisiones automatizadas."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[46:03]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[50:22]"
+  aprueba_si: "da la idea de que la responsabilidad no se terceriza y la atribuye a Pugh en el panel de regulación. Mencionar el art. 8 bis suma."
+  falla_si: "la atribuye a José Rafael Correa o a Pedro Huichalaf, o inventa obligaciones legales que no se dijeron."
+
+- id: P13
+  tipo: quien
+  idioma: es
+  dificultad: media
+  pregunta: "¿Qué hizo CMPC con IA en sus plantas? Me lo contaron como un ejemplo de algo que sí funcionó."
+  respuesta_esperada: "Matías Jory (CMPC), en el panel de IA industrial, metió un agente dentro de Carta Farol, la herramienta donde el operador ya llenaba el SCA (síntoma, causa, acción) cuando una variable crítica se sale de rango. El llenado era del 95 %, pero de baja calidad. Ahora el agente revisa el estándar operacional contra los datos del proceso, las bitácoras y los informes de turno, propone la causa más probable y las acciones, el operador valida o registra otra causa y el sistema aprende. «No agregamos una pantalla nueva, no creamos una rutina nueva»: la IA que funciona vive en la rutina del operador, sobre un sistema de gestión."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md
+      marca: "[15:41]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md
+      marca: "[17:49]"
+  aprueba_si: "nombra a Matías Jory, describe el agente dentro del SCA o de Carta Farol y la idea de no crear pantallas ni rutinas nuevas."
+  falla_si: "lo confunde con los casos de Antofagasta Minerals (ADA, el desgaste de los molinos) o inventa cifras de ahorro."
+
+- id: P14
+  tipo: quien
+  idioma: es
+  dificultad: media
+  pregunta: "¿Qué decía Bergoeing sobre la desigualdad que trae la IA? ¿Se abre la brecha entre personas?"
+  respuesta_esperada: "Raphael Bergoeing (UAI), en el panel Sociedad del futuro, dice que los datos no muestran que crezca la brecha entre personas sino entre organizaciones: se separan las que se gobiernan bien y cambian sus procesos, y las personas se separan según en qué organización estén. «Se juega mucho más en cambiar la organización que en cambiar a una persona». Cree que la IA puede subir a los de abajo, con su ejemplo de los ayudantes de investigación que hoy tiene gratis, salvo que se la lleven unos pocos y la política no resuelva la capacitación: al final es una decisión de política."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[16:24]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[19:21]"
+  aprueba_si: "da la idea de que la brecha crece entre organizaciones y no entre personas, atribuida a Bergoeing."
+  falla_si: "dice que Bergoeing predice más desigualdad entre personas, o atribuye la idea a Mayol o a Pérsico."
+
+- id: P15
+  tipo: quien
+  idioma: en
+  dificultad: media
+  pregunta: "Who said that 'local speed doesn't turn into enterprise speed' about vibe coding, and what was the example?"
+  respuesta_esperada: "Carlos Araya, head of finance and technology at ANASAC, in the Impacta panel on vibe coding inside companies. ANASAC tried a free Anthropic agent to reconcile about 150 bank accounts: what took an analyst hours took three minutes, but the result ended up in an Excel file that still had to be integrated into the company's workflow. His point is that the bottleneck moved from building to integrating, verifying, securing and operating."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[17:10]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[17:53]"
+  aprueba_si: "answers in English, names Carlos Araya (ANASAC), gives the bank-reconciliation example (about 150 accounts, three minutes, ends in Excel) and points to the Spanish-language session or its ficha."
+  falla_si: "attributes it to Nicolás Rivas or Ángel Izurieta, invents a different example, or says the repository has nothing on it because the sources are in Spanish."
+
+# ───────────── SÍNTESIS ─────────────
+
+- id: P16
+  tipo: sintesis
+  idioma: es
+  dificultad: alta
+  pregunta: "Tengo que armar la gobernanza de IA de mi empresa. ¿Qué se dijo que me sirva?"
+  respuesta_esperada: "La idea común es que la IA no se puede gobernar como la informática tradicional, con permiso previo y comité. En el panel de gobernanza (dia1-03): registrar y gobernar a posteriori, poner la atención en lo irreversible, usar la propia IA para revisar el cumplimiento y hacer responsable a quien construye (Rivas); gobernar por etapas, del registro a la prueba de concepto, al humano en el loop y a la autonomía supervisada ex post, con cuatro preguntas antes de escalar: valor, riesgo, impacto en personas y responsable (Felipe Morales); una mesa diversa que sesiona cada dos semanas y un índice que puntúa cada caso (Ramos, Bci); responsables con nombre y apellido (MacKay). En el de regulación (dia2-03): cinco preguntas al C-level, entre ellas con qué datos, con qué contratos y cuánto se tarda en apagar el sistema (Correa), y la responsabilidad no se terceriza (Pugh). En vibe coding (dia2-02): libertad para crear y control del «por dónde» (Araya); centralizar accesos, gobierno y FinOps (Izurieta)."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[18:25]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[34:36]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[49:46]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[44:33]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[29:12]"
+  aprueba_si: "cruza al menos dos sesiones (por ejemplo dia1-03 y dia2-03) y da al menos tres prácticas concretas, cada una con su speaker."
+  falla_si: "da recomendaciones genéricas (comité de ética, políticas, marcos tipo NIST o ISO) sin anclarlas a lo que se dijo, o se queda en una sola sesión."
+
+- id: P17
+  tipo: sintesis
+  idioma: es
+  dificultad: media
+  pregunta: "Tenemos como veinte pilotos de IA y ninguno pasa a producción. ¿Qué recomiendan?"
+  respuesta_esperada: "Pertuzé (dia2-01) lo llama «pilotitis»: el peor error es tener «procesos del siglo XX con tecnologías del siglo XXI», y la barrera es el statu quo de las rutinas; hay que rediseñar procesos. Jory (CMPC, dia2-04): los pilotos que viven fuera de la rutina mueren; la IA tiene que entrar en la herramienta y la rutina que ya existen, sobre un sistema de gestión. Tagle (Antofagasta Minerals): impacto en el negocio, un dueño del problema y capacidad técnica; sin dueño, el proyecto se cae. Araya (dia2-02): el CEO tiene que preguntar cuándo estará en producción, cuánto impacta y quién es el responsable. Wharton: «terminar el rediseño» y llevar la mayoría de los pilotos a producción; los departamentos que transformaron sus flujos reportan 67 % de ROI fuerte contra 19 % del resto."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md
+      marca: "[22:26]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md
+      marca: "[27:43]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[50:25]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[36:29]"
+  aprueba_si: "cruza al menos dos sesiones y da al menos tres recomendaciones con su speaker (por ejemplo rediseñar procesos, meter la IA en la rutina existente, tener un dueño del problema)."
+  falla_si: "da consejos genéricos (MLOps, roadmap, oficina de IA) sin anclarlos a lo que dijeron los speakers."
+
+- id: P18
+  tipo: sintesis
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Cómo debería medir el retorno de la IA? ¿Qué dicen los que saben?"
+  respuesta_esperada: "El informe Wharton-GBK 2026: medir al menos un indicador de crecimiento (ingresos, conversión, satisfacción del cliente) va con ROI fuerte en el 35 % de los departamentos, contra el 13 % de los que miden solo eficiencia, casi tres veces, aunque es correlación y el ROI es autorreportado; saber cuánto se gasta en IA va con 56 % de ROI fuerte contra 10 %. Araya (dia2-02): a la productividad personal, como una licencia, no se le pide ROI; a los procesos sistémicos sí, con tres criterios: estado de resultados, datos disponibles y habilidad central. Obrecht (Entel, dia2-07): hipótesis de valor sobre un KPI y grupo de control; Catalán (Bupa): si no sube el NPS ni trae eficiencia, se descarta. Pertuzé (dia2-01): definir la métrica de éxito antes de escoger la tecnología."
+  fuentes:
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[13:39]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[19:33]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[36:16]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md
+      marca: "[17:15]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md
+      marca: "[12:05]"
+  aprueba_si: "da el 35 % contra 13 % del informe de Wharton y al menos otra práctica de medición de otra sesión (grupo de control, NPS, métrica de éxito, separar productividad personal de procesos)."
+  falla_si: "da fórmulas genéricas de ROI sin speakers; o presenta como resultado final el «casi el doble» de la ficha de Puntoni en Impacta, que era un dato preliminar de septiembre, en lugar del 35 % contra 13 % del informe."
+
+- id: P19
+  tipo: sintesis
+  idioma: es
+  dificultad: media
+  pregunta: "Me preocupan los juniors. ¿Qué se dijo sobre lo que pasa con los cargos de entrada?"
+  respuesta_esperada: "Goldfarb (dia1-06): la pirámide se vuelve diamante porque se reduce la base; cita a Amodei (la mitad de los cargos de entrada), aunque no cree que llegue al 50 %, y pregunta quién formará a los futuros mandos medios si desaparece el «analista pelao». Garlick (dia1-02): la evidencia apunta a los primeros empleos, y emplear ya es más caro que automatizar. Bergoeing (dia1-08): desaparece el aprendiz que se formaba haciendo «la pega fea», como en las auditoras. José Manuel Morales (dia2-06): la IA reemplaza las tareas con que aprendían los practicantes; Fischer responde que hay que adaptarse. Strode (dia1-07): la deuda de desarrollo y la gente frágil. Wharton: más de la mitad de los trabajadores de entrada y nivel medio pasó de crear a revisar lo que produce la IA."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[34:56]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[39:40]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[71:47]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-06-charla-mente-humana-era-ia/README.md
+      marca: "[26:08]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[32:47]"
+  aprueba_si: "cruza al menos dos sesiones, con la reducción de la base de la pirámide (Goldfarb) y al menos otro ángulo (aprendices y «pega fea», practicantes, deuda de desarrollo, de crear a revisar)."
+  falla_si: "trae cifras de desempleo juvenil o estudios que no están en el repositorio, o presenta la predicción de Amodei como un dato."
+
+- id: P20
+  tipo: sintesis
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Qué entienden por «soberanía en IA» para Chile? Lo escuché varias veces en el evento."
+  respuesta_esperada: "Hay dos acentos. Infraestructura propia: Hentzschel (CORFO, dia1-02) habla de soberanía digital con cómputo, talento, capacidad de adopción y gobernanza de datos en paralelo, para no limitarse a comprar tecnología ajena; Pugh (dia2-03) pide cómputo, algoritmos y sistemas cognitivos soberanos y federar supercómputo a nivel iberoamericano; Correa, invertir en cómputo y ciencia; Huichalaf, ser «el comensal y no el plato principal». Capacidad de decidir: para Pertuzé (dia2-01) soberanía no es poseer la tecnología sino «tener la capacidad de decidir» sobre datos, alternativas e infraestructura y seguir funcionando si la herramienta falla; Aguirre (dia1-06), apropiarse de los modelos con datos locales, modelos abiertos y conocimiento del entorno para que no «nos corten la llave». En data centers (dia2-05) se propone pedir una cuota de cómputo a cambio de condiciones."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[06:01]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md
+      marca: "[30:50]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[17:04]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[48:59]"
+  aprueba_si: "cruza al menos tres speakers de dos o más sesiones y distingue la definición de Pertuzé (capacidad de decidir) de la de infraestructura propia (Hentzschel, Pugh)."
+  falla_si: "define soberanía de forma genérica sin speakers, o atribuye la definición de Pertuzé a otro."
+
+- id: P21
+  tipo: sintesis
+  idioma: es
+  dificultad: media
+  pregunta: "La gente está usando ChatGPT por su cuenta en la empresa. ¿Qué se dijo sobre eso? ¿Lo prohíbo?"
+  respuesta_esperada: "Nadie propone prohibir. Puntoni (dia1-05), con encuestas de terceros que revisó en HBR: 54 % usaría herramientas sin aprobación, 32 % esconde que usa IA y cerca de un tercio admite sabotear la estrategia de IA; es lo que compra un discurso de solo eficiencia. En el webinar de Wharton, cerca de la mitad de quienes usan ChatGPT en el trabajo lo hace con una cuenta personal. José Manuel Morales (dia1-03): «las cuentas gratuitas no existen, esas son las más caras, porque se pagan con información de la empresa»; MacKay: mirar cómo se usa hoy la IA, el shadow AI, en vez de imaginar cómo debería usarse. Izurieta (dia2-02): si la empresa no da herramientas, la gente usa las de su casa con datos confidenciales; hay que dar un lugar seguro. Correa (dia2-03): la gente la usa igual, así que hay que combinar top-down y bottom-up."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[29:35]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[57:42]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[03:15]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[11:16]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[42:10]"
+  aprueba_si: "cruza al menos dos sesiones, recoge que los speakers recomiendan dar herramientas seguras y no prohibir, y trae al menos un dato bien atribuido (54 % o 32 % de encuestas de terceros, o cerca de la mitad con cuenta personal en Wharton)."
+  falla_si: "atribuye el 54 % al estudio de Wharton, o recomienda prohibir sin decir que los speakers sostienen lo contrario."
+
+- id: P22
+  tipo: sintesis
+  idioma: es
+  dificultad: media
+  pregunta: "¿Qué tiene que hacer el gerente general, personalmente, para que la IA se adopte en serio?"
+  respuesta_esperada: "Usarla él mismo. Rivas (dia1-03 y dia2-02): la mejor forma de convencer a un director es que la use para sus propias decisiones, y la alfabetización mínima de un líder es hacer vibe coding. Strode (dia1-07): la gente mira lo que hace el líder, no la política de IA de la intranet, y con el CEO que nunca la usó hay que partir por el uso personal. Pertuzé (dia2-01): los líderes deben experimentar y mostrar sus éxitos y fracasos para legitimar la experimentación. Araya (dia2-02): preguntar cuándo estará en producción, cuánto impacta y quién es el responsable. Puntoni y Wharton: cuidar el mensaje, porque «leaders say efficiency, workers hear layoffs», y saber que los ejecutivos ven la organización mucho más preparada que sus empleados."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[16:30]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[32:35]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md
+      marca: "[26:14]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md
+      marca: "[20:47]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[28:59]"
+  aprueba_si: "cruza al menos dos sesiones, pone como eje que el líder use la IA personalmente y dé el ejemplo, y agrega al menos otra acción con su speaker."
+  falla_si: "da recomendaciones genéricas de gestión del cambio sin speakers."
+
+- id: P23
+  tipo: sintesis
+  idioma: es
+  dificultad: alta
+  pregunta: "Estamos por meter agentes de IA en la operación. ¿Qué advertencias o consejos aparecen?"
+  respuesta_esperada: "Tambe (webinar Wharton): los agentes son transversales y autónomos y obligan a rediseñar el trabajo; a los que tienen agentes sin haber transformado sus flujos les va peor; la autonomía sigue al riesgo (66 % deja actuar sola a la IA en tareas internas de bajo impacto, 32 % en acciones financieras o legales), la mayor barrera es la seguridad y la privacidad, y no está resuelto quién puede desconectar un agente. Korst: decidir la autonomía según el riesgo y la reversibilidad (marco de Netessine y Shunko). Felipe Morales (dia1-03): Walmart ya tiene más de 4.000 agentes; gobernar por etapas, del registro a la autonomía supervisada ex post. Pérsico (dia1-08): deuda de control (agentes sueltos sin plataforma) y de autonomía. Correa (dia2-03): saber cuánto se tarda en apagar el sistema. Ludwig (Bci, dia2-07): Bci decidió ser una organización agéntica y teme la desintermediación cuando los clientes tengan sus propios agentes."
+  fuentes:
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[22:53]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[54:41]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[34:36]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[30:06]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md
+      marca: "[20:21]"
+  aprueba_si: "cruza al menos dos sesiones y da al menos tres advertencias concretas con su speaker (rediseñar antes de meter agentes, autonomía según riesgo, poder apagarlos o saber quién los desconecta, registrar y gobernar por etapas)."
+  falla_si: "da consejos genéricos de seguridad de agentes sin anclarlos, o inventa cifras de adopción de agentes en Chile."
+
+- id: P24
+  tipo: sintesis
+  idioma: en
+  dificultad: media
+  pregunta: "Is Chile actually a good place for AI data centers? What did the panel say, and what should the country ask for in return?"
+  respuesta_esperada: "Yes, according to the Impacta panel on data centers. Chile has renewable potential of 50 to 80 times its installed capacity, with energy currently curtailed for lack of transmission; the desert; desalinated water; subsea cables; and the strongest data protection in the region, while the US and Europe push back on energy- and water-hungry projects. Ignacio Briones: capturing just 1% of global investment would mean about US$10 billion a year, more than all of mining, but it takes a packaged state policy (land, permits, fiber, water, energy), like Lagos's concessions. Cristián López (Google Cloud): the bottleneck is transmission, not energy. In return, Rodrigo Durán (CENIA) proposes a pact that trades tax and permit benefits for a share of compute for public use, like the 10% of telescope time agreed with ESO; Briones says taxes and jobs are second-order and wants capacity for Chilean industries to train their own algorithms. Durán adds that it must be led by the Finance or Economy ministry, not Science."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md
+      marca: "[10:02]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md
+      marca: "[12:27]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md
+      marca: "[07:14]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md
+      marca: "[15:14]"
+  aprueba_si: "answers in English, lists at least three of Chile's advantages, gives the 1% / about US$10 billion a year figure (Briones) and the compute-quota idea (Durán and/or Briones), citing the Spanish-language session."
+  falla_si: "answers from generic knowledge without the panel, says there is nothing in English, or turns US$10 billion into trillions."
+
+# ───────────── TENSIONES ─────────────
+
+- id: P25
+  tipo: tension
+  idioma: es
+  dificultad: media
+  pregunta: "¿Están de acuerdo en si Chile tiene que regular la IA ya o esperar?"
+  respuesta_esperada: "Coinciden en regular el uso o el despliegue y no la tecnología, pero no en el tono ni en el momento. En el panel público-privado (dia1-02), Catherine Muñoz dice que la IA ya está regulada por normas sectoriales, que la sobrerregulación es una brecha en sí misma y que hace falta una ley habilitante con sandbox; George Lever cuenta que el proyecto de ley estuvo a punto de ser «un error garrafal», apuesta por la autorregulación (el código de la CCS) y quiere que Chile lidere la IA, no que la regule. En el panel de regulación (dia2-03), José Rafael Correa cree que «vamos a terminar regulando» y que conviene hacerlo pronto, con una ley marco de principios, para no legislar en la contingencia de una tragedia; Kenneth Pugh pide una agravante penal y sandbox con certificación, y recuerda que el art. 8 bis ya exige explicar las decisiones automatizadas."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[13:44]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[23:28]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[11:41]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md
+      marca: "[13:30]"
+  aprueba_si: "contrasta la postura habilitante o de autorregulación (Muñoz, Lever) con la de regular pronto con una ley marco (Correa), y señala el punto común: regular el uso o el despliegue, no la tecnología."
+  falla_si: "dice que todos coinciden sin matices, o cruza las posturas (la autorregulación de la CCS a Correa, la ley marco a Lever)."
+
+- id: P26
+  tipo: tension
+  idioma: es
+  dificultad: media
+  pregunta: "¿Usar IA nos vuelve flojos para pensar? ¿Están de acuerdo los speakers en eso?"
+  respuesta_esperada: "No. Álvaro Fischer (dia2-06) es escéptico de los estudios que dicen que la IA nos vacía de pensamiento: preguntarle, leer lo que responde y pedirle que corrija algo ya es pensar, y reconocería que se equivoca si se demuestra. En la vereda opuesta: Alfredo Pérsico (dia1-08) habla de deuda cognitiva y cita un estudio con 26 mil estudiantes chinos (mejores entregas, 22 % menos de rendimiento a libro cerrado) y el del MIT con electroencefalograma; Paula Aguirre (dia1-06) dice que su peor escenario es que deleguemos las capacidades cognitivas y dejemos de pensar; Macarena MacKay (dia1-03) teme que empecemos a decidir como la IA, con copy-paste; Puntoni (dia1-05) describe el escapismo de volverse «a copy and paste machine»."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-06-charla-mente-humana-era-ia/README.md
+      marca: "[40:55]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[24:14]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[30:24]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md
+      marca: "[26:51]"
+  aprueba_si: "presenta a Fischer como la voz escéptica frente a al menos dos speakers que advierten el riesgo (Pérsico, Aguirre, MacKay, Puntoni o Strode)."
+  falla_si: "da una postura única del repositorio, o le atribuye a Fischer la preocupación por dejar de pensar."
+
+- id: P27
+  tipo: tension
+  idioma: es
+  dificultad: media
+  pregunta: "En el panel de Mayol, Bergoeing y Pérsico, ¿en qué no estaban de acuerdo?"
+  respuesta_esperada: "En cuánto va a cambiar: Mayol cree que lo más probable es que «no pase nada» y la IA se absorba como una herramienta más, aunque hoy ve crisis por mucha energía y poco significado; Pérsico anticipa humanos más cyborg y la inmortalidad biológica hacia 2033; Bergoeing se queda con «10 añitos» más de vida. En significado o subjetividad: Pérsico corrige a Mayol, lo que une lo desconectado es la subjetividad. En densificar o masificar: Bergoeing acepta la densificación de Mayol pero la saca de la élite y quiere validar el trabajo «desde el promedio». En riesgo o potencial: Bergoeing cierra con que «el riesgo vende». Y en el tiempo libre: Bergoeing quiere tiempo libre con ingreso, Pérsico ocio contemplativo dentro del trabajo y Mayol aburrirse."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[45:21]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[34:11]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[75:04]"
+  aprueba_si: "da al menos tres desacuerdos, cada uno con el speaker correcto."
+  falla_si: "presenta un consenso, cruza las posturas (por ejemplo, le atribuye a Mayol el optimismo de Bergoeing) o inventa desacuerdos."
+
+- id: P28
+  tipo: tension
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Sigue importando escribir buenos prompts o lo que importa son los datos? Creo que en el panel de vibe coding lo discutieron."
+  respuesta_esperada: "Sí, hubo un cruce en el panel de vibe coding (dia2-02). Ángel Izurieta (Huawei Cloud), retomando a Pertuzé, dice que el valor de la IA generativa está en el contexto y no en el prompt, porque los modelos ya entienden bien lo que uno escribe mal. Nicolás Rivas (Brinca) discrepa: como todos usan unos pocos modelos que llevan al promedio, el buen prompt es lo que saca del promedio. Izurieta responde más adelante que coincide en lo del promedio, pero que mejorar el prompt igual te deja en un promedio y lo que diferencia son los datos y el contexto propios, y el conocimiento de quien está «en el barro». Pertuzé (dia2-01) había dicho que se pasa del prompt engineering al context engineering."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[09:09]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md
+      marca: "[21:05]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/transcripcion.md
+      marca: "[42:44]"
+  aprueba_si: "identifica el desacuerdo entre Izurieta (el valor está en el contexto) y Rivas (el buen prompt saca del promedio), y el punto en común: la convergencia al promedio."
+  falla_si: "dice que todos coinciden en que el prompt ya no importa, o invierte las posturas."
+
+- id: P29
+  tipo: tension
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Todos los speakers dicen que la IA es para crecer y no para ahorrar costos? Quiero saber si hay voces distintas."
+  respuesta_esperada: "La mayoría empuja el crecimiento: Francisco Martínez en la apertura («hacer crecer la torta»), Puntoni (Against Productivity: crecer vale mucho más que recortar), Pertuzé («aumentar la productividad no es hacer lo mismo con menos») y el informe de Wharton (medir crecimiento va con más ROI). Pero hay matices: Edmundo Casas (dia1-04) pone el ROI en reemplazar trabajo y bajar costos (el caso ENAP: 500 % más de productividad y 48 % menos de costos, según su lámina; «hoy día uno puede reemplazar a cualquier humano ya en sistemas digitales»); George Lever (dia1-02) dice que no hay nada que no se pueda hacer más eficiente con IA; Bergoeing (dia1-08), con Acemoglu, observa que en la práctica las empresas la usan para automatizar, como las cajas de autoservicio; y Korst (webinar) dice que la productividad ya es «a need to have»: hay que hacer las dos cosas."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-01-apertura-impacta-ia-chile-2026/README.md
+      marca: "[08:45]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[09:38]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md
+      marca: "[25:08]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md
+      marca: "[51:01]"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[52:46]"
+  aprueba_si: "reconoce que no hay unanimidad: nombra al menos dos voces a favor del crecimiento y al menos una con énfasis en eficiencia o automatización, o en hacer ambas (Casas, Lever, Bergoeing con Acemoglu, Korst)."
+  falla_si: "afirma que todos coinciden en el crecimiento, o atribuye «Against Productivity» a otro speaker."
+
+- id: P30
+  tipo: tension
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Va a haber desempleo masivo por la IA? Dame las distintas posturas que hubo en el evento."
+  respuesta_esperada: "No hay una conclusión común. Escépticos del desempleo masivo: Puntoni (no ve el apocalipsis a la escala de Silicon Valley), Paula Aguirre (solo cerca del 18 % de los empleos está en riesgo muy alto de automatización), Denisse Goldfarb (potencial no es realidad; no cree que se pierda el 50 % de los cargos de entrada), Alberto Mayol (lo normal es que «no pase nada») y Francisco Martínez (el apocalipsis que importa es un trabajo más precario por mala adopción). Más alarmados o con otro ángulo: Fernando Hentzschel (la destrucción de empleo puede venir de que las pymes no adopten), George Lever (la IA primero destruye, luego sostiene y después crea empleo), Edmundo Casas (los humanoides «van a reemplazarnos físicamente»), Kenneth Pugh (el empleo se pierde ante quien sabe usar IA), José Rafael Correa (el riesgo está en el grupo de 30 a 50 años) y Álvaro Fischer (hay que adaptarse en vez de pelear contra el desempleo). Goldfarb citó además predicciones de terceros: Yampolskiy, 99 % de desempleo hacia 2030."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md
+      marca: "[40:52]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[14:19]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md
+      marca: "[24:17]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md
+      marca: "[41:36]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md
+      marca: "[10:57]"
+  aprueba_si: "presenta al menos dos posturas contrapuestas con sus speakers (por ejemplo Puntoni o Aguirre frente a Hentzschel o Casas) sin afirmar que el repositorio llega a una conclusión."
+  falla_si: "da una conclusión única; presenta el 99 % de Yampolskiy como predicción de un speaker; o le pone 2027 a esa predicción (Goldfarb dijo 2027 y la nota de la transcripción lo corrige a 2030)."
+
+# ───────────── USO, LICENCIA Y MÉTODO ─────────────
+
+- id: P31
+  tipo: uso
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Puedo usar el contenido de Open Brinca en una propuesta comercial para un cliente? ¿Y copiar pedazos de las transcripciones?"
+  respuesta_esperada: "Depende de qué parte. Lo que escribe Brinca (fichas, índices, glosarios, el método) está bajo CC BY 4.0: se puede usar y adaptar, también con fines comerciales, citando «Open Brinca, de Brinca» con un enlace al repositorio. Las transcripciones están bajo CC BY-NC-ND 4.0: solo sin fines comerciales y sin modificar; aun así, citar fragmentos con su fuente (quién habló, la sesión y la marca de tiempo) entra en el derecho de cita. Las láminas son de sus autores, con todos los derechos reservados: no se licencian. El código está bajo MIT."
+  fuentes:
+    - ruta: LICENSE.md
+      marca: "tabla de licencias"
+    - ruta: README.md
+      marca: "sección «Licencias»"
+  aprueba_si: "distingue las fichas (CC BY 4.0, uso comercial con atribución) de las transcripciones (CC BY-NC-ND 4.0, sin uso comercial ni modificación, salvo el derecho de cita) y dice que las láminas no están licenciadas."
+  falla_si: "dice que todo es CC BY o de libre uso, o que nada se puede usar comercialmente."
+
+- id: P32
+  tipo: uso
+  idioma: es
+  dificultad: media
+  pregunta: "Voy a poner en un informe para el directorio una frase de Puntoni y un dato del webinar de Wharton. ¿Cómo lo cito bien?"
+  respuesta_esperada: "Nombrar a quien habló, la sesión y la marca [mm:ss], y enlazar la ficha o el segundo exacto del video: las marcas de Impacta ya son enlaces a YouTube; el webinar de Wharton no tiene video público, así que sus marcas no llevan enlace. Para una cita textual, usar transcripcion.md (la keynote de Puntoni está en inglés). Si la cifra tiene una nota [^n], citar el dato corregido y no el dicho. Mencionar la fuente como «Open Brinca, de Brinca» con el enlace; la cita formal es: Open Brinca. Brinca, 2026. https://github.com/Brinca-MMC/open-brinca, y CITATION.cff la trae en formato de máquina."
+  fuentes:
+    - ruta: AGENTS.md
+      marca: "sección «Cómo citar»"
+    - ruta: LICENSE.md
+      marca: "sección «Cómo citar»"
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/transcripcion.md
+      marca: "encabezado (sin video público)"
+  aprueba_si: "incluye quién habló, la sesión y la marca de tiempo; usar la transcripción para citas textuales; la regla de citar el dato corregido de las notas; y la referencia a Open Brinca con el enlace al repositorio."
+  falla_si: "propone un formato sin marca de tiempo, omite la regla de las notas, o da un enlace distinto al del repositorio."
+
+- id: P33
+  tipo: uso
+  idioma: es
+  dificultad: baja
+  pregunta: "¿Cómo se hicieron estas transcripciones? ¿Las hizo una IA? ¿Me puedo fiar?"
+  respuesta_esperada: "Con IA y revisión. Cada clip pasó por Whisper large-v3 (en Impacta, con 91 % a 97 % de coincidencia con los subtítulos del stream); las voces se separaron con SpeechBrain ECAPA y se nombraron mirando los fotogramas (en el webinar, el recuadro de Zoom); las láminas se leyeron plano por plano; y un agente de IA revisó cada sesión en tres pasadas: lo que Whisper escuchó mal, lo que quedó en otro idioma y lo que el speaker dijo mal. Un verificador independiente, con otro modelo, revisó las correcciones, las citas y las imágenes, y Brinca revisó las dudas. Pueden tener errores menores: ante una cita importante conviene contrastarla con el video en esa marca; las cifras corregidas en notas ya se contrastaron con su fuente."
+  fuentes:
+    - ruta: metodo/transcripcion/README.md
+      marca: "secciones «Los pasos» y «Cuánto confiar»"
+    - ruta: eventos/impacta-ia-2026/README.md
+      marca: "sección «Cómo se hizo»"
+  aprueba_si: "menciona Whisper, la revisión en tres pasadas por un agente de IA, el verificador independiente y la revisión de Brinca, y la advertencia de contrastar las citas importantes con el video."
+  falla_si: "dice que las transcribió una persona a mano, que son exactas y sin errores, o inventa herramientas o pasos."
+
+# ───────────── TRAMPAS (la respuesta no está) ─────────────
+
+- id: P34
+  tipo: trampa
+  idioma: es
+  dificultad: media
+  pregunta: "¿Cuánto ahorró Bci con el Coaching AI de su call center? Necesito la cifra para un benchmark."
+  respuesta_esperada: "El repositorio no tiene esa cifra. Cristian Ludwig (Bci) describe Coaching AI en el panel de CX (dia2-07): analiza todas las conversaciones del call center para entrenar a los ejecutivos y detectar oportunidades de negocio perdidas y alertas de fuga, y dice que están «ahorrando bastante» con un impacto positivo en la experiencia, pero no da montos ni porcentajes."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md
+      marca: "[11:24]"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/transcripcion.md
+      marca: "[10:46]"
+  aprueba_si: "dice explícitamente que el repositorio no trae la cifra y, de preferencia, describe lo que sí se dijo del caso."
+  falla_si: "inventa un porcentaje o un monto, o toma una cifra de otro caso (por ejemplo, el 500 % y 48 % de ENAP)."
+
+- id: P35
+  tipo: trampa
+  idioma: es
+  dificultad: media
+  pregunta: "¿Con qué conclusiones cerraron Impacta IA 2026 Francisco Martínez y Arturo Labbé?"
+  respuesta_esperada: "No está en el repositorio: el cierre del día 2, con Francisco Martínez y Arturo Labbé, no se transmitió (tampoco el cierre del día 1 ni la presentación del Clubhouse de IA). El último clip es el panel de la Ley I+D, que termina con la despedida de la host. Lo más cercano es la tesis de Martínez en la apertura: no hay receta importada, es la oportunidad de ser los mejores del mundo y se trata de hacer crecer la torta."
+  fuentes:
+    - ruta: eventos/impacta-ia-2026/evento/programa.md
+      marca: "cambios 21 y 22"
+    - ruta: eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/README.md
+      marca: "[36:10]"
+  aprueba_si: "dice que el cierre no se transmitió y no está en el repositorio. Puede ofrecer la apertura como referencia, siempre que la presente como tal."
+  falla_si: "inventa conclusiones del cierre, o presenta el discurso de apertura como si fuera el cierre."
+
+- id: P36
+  tipo: trampa
+  idioma: es
+  dificultad: alta
+  pregunta: "¿Qué porcentaje de las empresas chilenas ya tiene un gerente de IA o CAIO? Me quiero comparar."
+  respuesta_esperada: "Ese dato no está en el repositorio. Las cifras de CAIO que aparecen son del informe Wharton-GBK 2026, sobre grandes empresas de EE. UU.: dos tercios tienen un CAIO o equivalente (el crecimiento de este año es casi todo reasignación de un cargo existente), y el 58 % de los que tienen un CAIO recién designado reporta ROI fuerte. De Chile solo hay ejemplos sueltos, como Cristian Ludwig, gerente de IA de Banco Bci."
+  fuentes:
+    - ruta: webinars/2026-10-20-wharton-adaptive-advantage/README.md
+      marca: "[16:12] y lámina «A Dedicated CAIO and One Platform Go With Higher ROI»"
+    - ruta: eventos/impacta-ia-2026/evento/personas.md
+      marca: "Cristian Ludwig"
+  aprueba_si: "dice que no hay un porcentaje para Chile y, si da el de Wharton, aclara que es de grandes empresas de EE. UU."
+  falla_si: "da los dos tercios o el 58 % como si fueran de Chile, o inventa un porcentaje chileno."

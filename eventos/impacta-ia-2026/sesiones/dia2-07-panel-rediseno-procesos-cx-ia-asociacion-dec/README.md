@@ -1,8 +1,18 @@
 ---
 id: dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Rediseño de procesos en CX con IA (Asociación DEC)
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [macarena-catalan, paz-obrecht, cristian-ludwig]
+modera: [marisa-cozak]
+idiomas: [es]
+duracion_min: 46
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=28335s
+temas: [experiencia-de-cliente, agentes, roi-y-medicion, regulacion]
 tags: [impacta-ia, panel, experiencia-cliente, agentes, proteccion-de-datos]
+actualizado: 2026-10-27
 ---
 
 # Panel «Rediseño de procesos en CX con IA (Asociación DEC)» · Impacta IA Chile 2026
@@ -81,7 +91,7 @@ La IA en la experiencia de cliente dejó de ser una moda, pero no se justifica s
 - **Paz Obrecht (Entel) [40:16]:** además del consentimiento, en Entel los datos se anonimizan y encriptan [40:39]. El foco no es el cliente sino su interacción, los patrones y los *drivers*.
 - **Público [41:04]: suena a retroceso.** Uno puede pedir consentimiento para un WhatsApp o un correo, pero ¿para analizar el gesto o la inflexión de la voz? Duda que la ley lo haya previsto.
 - **Paz Obrecht (Entel) [41:52]:** la ley lo cubre si el consentimiento es explícito y para fines declarados. La oportunidad está en el *inbound* [42:05], cuando el cliente se acerca y consiente, más que en el *outbound*.
-- **Macarena Catalán (Bupa) [42:44]: privacidad desde el inicio.** En Bupa los equipos legales y de privacidad entran a cada proyecto desde el comienzo [43:26], con un PIA (evaluación de impacto en privacidad). Con proveedores nuevos se revisa cómo entrenan sus modelos, qué datos usan y cómo los borran [43:58]. Gestionar el consentimiento (cuándo, quién, en qué canal) es complejo, y por eso le alegra el aplazamiento (al 3 de septiembre era solo un proyecto del Gobierno, ingresado el 1 de septiembre;
+- **Macarena Catalán (Bupa) [42:44]: privacidad desde el inicio.** En Bupa los equipos legales y de privacidad entran a cada proyecto desde el comienzo [43:26], con un PIA (evaluación de impacto en privacidad). Con proveedores nuevos se revisa cómo entrenan sus modelos, qué datos usan y cómo los borran [43:58]. Gestionar el consentimiento (cuándo, quién, en qué canal) es complejo, y por eso le alegra el aplazamiento de la Ley 21.719 un año, al 1 de diciembre de 2027 (al 3 de septiembre era solo un proyecto del Gobierno, ingresado al Senado el 1 de septiembre).
 - **Público [44:50]: explicar el algoritmo.** Advierte que mañana pedirán explicar cómo decidió un algoritmo y con qué datos, cuando hoy «nadie realmente lo entiende, salvo que seas de Anthropic».
 
 ### Cierre [45:26–45:49]
@@ -122,3 +132,9 @@ Sin menciones.
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `analogo-a` [Panel «IA Industrial, gemelos digitales y logística»](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md) · [35:26] · En minería, Nicolás Tagle (Antofagasta Minerals) cuenta que antes de montar un recomendador para una operadora de flotación hubo que llevar el conocimiento a estándares operacionales y gestión documental, y que montar la IA encima fue lo simple. En salud, Macarena Catalán (Bupa) pone como primera competencia para rediseñar procesos con IA documentar lo que vive en la cabeza de alguien, aunque sea en prosa: en industrias distintas y por separado llegan al mismo orden, escribir lo tácito antes de automatizar.
+- `confirma` [Keynote «The Quiet Reckoning for Leaders»](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md) · [20:30] · Daniel Strode (Duke) resume en «tu chatbot es tu empresa» los casos de Air Canada, obligada por un fallo a cumplir lo que su chatbot le ofreció a un pasajero, y de DPD, cuyo chatbot terminó diciendo garabatos. Paz Obrecht (Entel) llega a lo mismo desde la operación de canales: el canal automatizado se vuelve la representación de la empresa y una interacción no deseada puede ser para el cliente un compromiso que la empresa no quería asumir, así que hay que ponerle resguardos.
+- `complementa` [Panel «Gobernanza Corporativa de la IA»](../dia1-03-panel-gobernanza-corporativa-ia/README.md) · [14:13] · Las dos sesiones muestran a Bci desde lados distintos. En el panel de gobernanza, su Chief Data Officer, Claudia Ramos, explica el modelo (10 % estrategia, 20 % tecnología y datos, 70 % organización y cultura) y la mesa que puntúa cada caso de uso; en el de experiencia de cliente, su gerente de IA, Cristian Ludwig, muestra lo que ya está en producción (Coaching AI, Partner e Imagine AI) y la decisión de transformarse en una organización agéntica [18:21].

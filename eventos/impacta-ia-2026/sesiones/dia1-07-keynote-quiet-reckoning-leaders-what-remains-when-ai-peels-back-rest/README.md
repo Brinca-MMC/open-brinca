@@ -1,8 +1,18 @@
 ---
 id: dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: keynote
+speakers: [daniel-strode]
+intervienen: [juan-pablo-silva]
+idiomas: [en, es]
+duracion_min: 42
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=25400s
+temas: [liderazgo, futuro-del-trabajo, gestion-del-cambio, gobierno-de-la-ia]
 tags: [impacta-ia, keynote, liderazgo, diseno-del-trabajo, cultura-organizacional, confianza-ia]
+actualizado: 2026-10-27
 ---
 
 # Keynote «The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest» · Impacta IA Chile 2026
@@ -161,3 +171,18 @@ Sin menciones.
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `confirma` [Keynote «Against Productivity»](../dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · [10:39] · Stefano Puntoni (Wharton) propone usar la capacidad que libera la IA para crecer y no para recortar: en su ejemplo, los vendedores hacen su trabajo en el 80 % del tiempo y, en vez de despedir al 20 %, hacen más llamadas, lo que con un crecimiento de 7 % más que duplica el valor de la firma. Daniel Strode (Duke) trae un caso real que llega a lo mismo: P&G redujo con IA un 60 % de los puntos de contacto humanos de su reposición a supermercados en India y, en vez de recortar, pidió a los vendedores relaciones más profundas con sus clientes, con un crecimiento anual compuesto de 8 % en tres años.
+- `complementa` [Panel «El Futuro del Trabajo con IA»](../dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md) · [34:56] · Denisse Goldfarb (The People Future) deja abierta la pregunta de quién formará a los futuros mandos medios si la IA reduce los cargos de entrada, donde se aprendía cometiendo los primeros errores con un jefe al lado. Daniel Strode (Duke) aporta la otra mitad: al diseñar el trabajo hay que preguntar dónde la automatización erosiona el juicio, porque a veces la tarea existe para que la gente aprenda [14:49], y propone cuatro remedios contra la deuda de desarrollo (zonas de formación sin IA, mostrar el razonamiento, desafíos antes de tiempo y reflexión después de cada decisión tomada con IA).
+- `confirma` [Panel «Desafíos y tensiones de la regulación en IA»](../dia2-03-panel-desafios-tensiones-regulacion-ia/README.md) · [46:03] · Kenneth Pugh (ex senador) afirma que los directorios pueden tercerizar la tecnología pero no la responsabilidad. El caso que cuenta Daniel Strode (Duke) muestra que un fallo ya lo resolvió así: en 2024 Air Canada argumentó que su chatbot era una entidad legal separada para no dar el descuento por fallecimiento que el chatbot le había ofrecido a un pasajero en duelo, y el fallo la obligó a darlo.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma` ← [Sociedad del futuro: de la escasez a la abundancia](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md)
+- `tensiona` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
+- `confirma` ← [Rediseño de procesos en CX con IA (Asociación DEC)](../dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

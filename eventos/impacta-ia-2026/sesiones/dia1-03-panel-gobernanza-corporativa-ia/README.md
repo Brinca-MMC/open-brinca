@@ -1,8 +1,19 @@
 ---
 id: dia1-03-panel-gobernanza-corporativa-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Gobernanza Corporativa de la IA
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [claudia-ramos, macarena-mackay, felipe-morales, nicolas-rivas]
+modera: [jose-manuel-morales]
+idiomas: [es]
+duracion_min: 53
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=7750s
+temas: [gobierno-de-la-ia, liderazgo, gestion-del-cambio, agentes]
+estudios: [cenia-cepal-ilia-2025]
 tags: [impacta-ia, panel, gobernanza-ia, ia-responsable, liderazgo]
+actualizado: 2026-10-27
 ---
 
 # Panel «Gobernanza Corporativa de la IA» · Impacta IA Chile 2026
@@ -127,3 +138,12 @@ Las láminas de Bci y de Nicolás Rivas solo se vieron en la pantalla del escena
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma` ← [La revolución del vibe coding al interior de las empresas: nuevos paradigmas](../dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md)
+- `analogo-a` ← [Desafíos y tensiones de la regulación en IA](../dia2-03-panel-desafios-tensiones-regulacion-ia/README.md)
+- `complementa` ← [Rediseño de procesos en CX con IA (Asociación DEC)](../dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

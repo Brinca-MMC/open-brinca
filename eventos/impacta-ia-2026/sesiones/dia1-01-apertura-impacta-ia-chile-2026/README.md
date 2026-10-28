@@ -1,8 +1,18 @@
 ---
 id: dia1-01-apertura-impacta-ia-chile-2026
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Apertura Impacta IA Chile 2026
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: apertura
+speakers: [francisco-martinez, julio-pertuze, camila-monckeberg]
+intervienen: [juan-pablo-silva]
+idiomas: [es]
+duracion_min: 20
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=2219s
+temas: [adopcion-y-escala, productividad-y-crecimiento, liderazgo, financiamiento-de-la-innovacion]
 tags: [impacta-ia, apertura, adopcion-ia, productividad, crecimiento]
+actualizado: 2026-10-27
 ---
 
 # Apertura «Apertura Impacta IA Chile 2026» · Impacta IA Chile 2026
@@ -95,3 +105,12 @@ Sin imágenes proyectadas. En el escenario solo se vieron la placa del evento co
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `tensiona` ← [Sociedad del futuro: de la escasez a la abundancia](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md)
+- `continua` ← [IA como Motor de Productividad e Innovación para Chile](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md)
+- `complementa` ← [IA Industrial, gemelos digitales y logística](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

@@ -1,8 +1,18 @@
 ---
 id: dia2-08-panel-ley-i-d-oportunidades-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Ley I+D, oportunidades para la IA"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [richard-weber, juviska-meza, manuel-neira]
+modera: [ignacio-merino]
+idiomas: [es]
+duracion_min: 37
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=31075s
+temas: [financiamiento-de-la-innovacion, ia-industrial]
 tags: [impacta-ia, panel, ley-i-d, financiamiento-innovacion, corfo, vinculacion-universidad-empresa]
+actualizado: 2026-10-27
 ---
 
 # Panel «Ley I+D, oportunidades para la IA» · Impacta IA Chile 2026
@@ -68,7 +78,7 @@ La IA ya entró a los instrumentos de fomento: en la cartera de Brinca pasó del
 - **Richard Weber [22:47]: incentivos y capital humano.** A los académicos los miden por publicaciones y la empresa no quiere hacer público su trabajo; hace pocos años una patente pasó a equivaler a una publicación, lo que abre una salida. Lo otro es acercarse al cliente y entender de fondo la problemática: «yo sé de todo» no sirve, y lo aprendieron «a golpes» [23:36]. Cada vez más colegas cambian el *switch*, pero las empresas también tienen que abrirse a la universidad.
 - **Ignacio Merino [24:45]: la problemática primero.** Sin la problemática clara, se obtienen respuestas maravillosas a la pregunta equivocada, como pasa con los *prompts*: la IA solo responde la pregunta que le hacen.
 - **Juviska Meza [25:45]: acelerar y ampliar proyectos.** Subsidios y Ley I+D sirven para rescatar proyectos que quedaron fuera de la cartera por ser intensivos en inversión o para ampliar el alcance de los que se acotaron. Hay que definir desde la estrategia por qué usarlos; en una gran empresa le interesan a finanzas (impuestos) y a innovación, sostenibilidad u operaciones (soluciones aplicadas).
-- **[26:51]: la ley como instrumento de venta.** Aunque hoy está orientada a las grandes empresas, un desarrollador, una universidad o un centro tecnológico pueden ofrecer un proyecto diciendo «esto te sale 100 millones; con la Ley I+D te puede salir 75 millones» [27:05]; Brinca ya lo hace con *partners* tecnológicos. La I+D «se define en el detalle», en el cómo, y la meta es que la empresa instale una «maquinita» recurrente, no una postulación única.
+- **[26:51]: la ley como instrumento de venta.** Aunque hoy está orientada a las grandes empresas, un desarrollador, una universidad o un centro tecnológico pueden ofrecer un proyecto diciendo «esto te sale 100 millones; con la Ley I+D te puede salir 75 millones» [27:05], un ejemplo ilustrativo: con la ley vigente, el crédito del 35 % y la rebaja del resto como gasto dejan el costo neto cerca de 47 millones (nota 3 de la transcripción); Brinca ya lo hace con *partners* tecnológicos. La I+D «se define en el detalle», en el cómo, y la meta es que la empresa instale una «maquinita» recurrente, no una postulación única.
 - **Ignacio Merino [28:22]: financiar el siguiente pasito.** El diseño de un proyecto responde a su trayectoria: qué paso quieres financiar para bajar qué riesgo o validar qué.
 - **Manuel Neira [28:55]: herramientas financieras flexibles.** CORFO tiene instrumentos competitivos (subsidios) y no competitivos (Ley I+D); la empresa define el problema, el camino y con quién lo hace, con capacidad interna o externa. El 60 % de lo certificado es mejora de procesos internos [30:00]. Una empresa sin utilidades no puede aprovechar el crédito, pero sí vender el servicio a otra como subcontrato; de los más de 140 centros registrados, las universidades se vinculan poco por sus incentivos, y ese mercado lo aprovechan startups.
 - **[31:04]: Fantasilandia y Buin Zoo.** Laboratorios farmacéuticos llenos de doctores no se atreven, mientras Fantasilandia certificó un proyecto con IA: con 7.000 visitantes, cada uno subía a 1,4 juegos por hora y la satisfacción era baja (2017). Con visión por computador para medir satisfacción, una red resistente al ruido de un parque electrónico y nuevo *layout*, pasaron a 2,6 juegos por hora, con más satisfacción y menos costo de mantención [32:41]. Buin Zoo usó IA para medir el bienestar animal y ordenar el flujo de visitantes (2018) [33:45].
@@ -114,3 +124,7 @@ Sin imágenes proyectadas. En la pantalla del escenario solo se vio la placa del
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `complementa` [Panel «IA Industrial, gemelos digitales y logística»](../dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md) · [43:59] · Matías Jory (CMPC) y Nicolás Tagle (Antofagasta Minerals) proponen que la minería y la celulosa financien a proveedores chilenos pequeños para desarrollar IA industrial y exportarla. El panel de la Ley I+D trae el instrumento: la ley certifica proyectos cuya incertidumbre está en el fenómeno industrial y no en la IA (Manuel Neira, de CORFO, pone de ejemplo un molino SAG [14:21]), y un desarrollador puede ofrecerle a la empresa un proyecto de 100 millones que con el crédito le sale 75 (Juviska Meza, Brinca).

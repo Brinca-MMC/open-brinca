@@ -1,0 +1,2421 @@
+{
+ "nombre": "Open Brinca",
+ "repositorio": "https://github.com/Brinca-MMC/open-brinca",
+ "licencias": "https://github.com/Brinca-MMC/open-brinca/blob/main/LICENSE.md",
+ "sesiones": [
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-01-apertura-impacta-ia-chile-2026/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-01-apertura-impacta-ia-chile-2026/README.md",
+   "titulo": "Apertura Impacta IA Chile 2026",
+   "lede": "Tres discursos abren el evento con una misma lectura: la IA es una tecnología de propósito general que le llega a Chile al mismo tiempo que al resto del mundo, y el riesgo no es que avance demasiado rápido sino que se adopte superficialmente. Francisco Martínez plantea la tesis del evento: como esta vez no hay receta que copiar, las empresas chilenas tienen la oportunidad y el deber moral de intentar ser las mejores del mundo, buscando crecimiento y no solo eficiencia. Julio Pertuzé (Fundación Chile) y Camila Mönckeberg (CORFO) ordenan el desafío en pasar del piloto a la escala y cierran con la vinculación como condición para lograrlo.",
+   "id": "dia1-01-apertura-impacta-ia-chile-2026",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "apertura",
+   "speakers": [
+    "francisco-martinez",
+    "julio-pertuze",
+    "camila-monckeberg"
+   ],
+   "intervienen": [
+    "juan-pablo-silva"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 20,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=2219s",
+   "temas": [
+    "adopcion-y-escala",
+    "productividad-y-crecimiento",
+    "liderazgo",
+    "financiamiento-de-la-innovacion"
+   ],
+   "tags": [
+    "impacta-ia",
+    "apertura",
+    "adopcion-ia",
+    "productividad",
+    "crecimiento"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-01-apertura-impacta-ia-chile-2026/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md",
+   "titulo": "Encuentro público-privado para una adopción sin brechas",
+   "lede": "Chile lidera la región en IA, pero solo el 9 % de sus empresas logra escalarla, y el panel discute cómo alinear al Estado, las empresas y las personas para cerrar esa brecha. Los tres panelistas coinciden en que la respuesta no es más regulación sino una política que habilite: infraestructura de cómputo propia, talento y gobernanza de datos al mismo tiempo (Hentzschel), reglas sobre el uso y no sobre la herramienta (Muñoz) y autorregulación con una estrategia país que hoy no incluye a la IA (Lever). El riesgo que más se repite es que las pymes se queden atrás: la destrucción de empleo puede venir de la no adopción.",
+   "id": "dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "panel",
+   "speakers": [
+    "fernando-hentzschel",
+    "catherine-munoz",
+    "george-lever"
+   ],
+   "modera": [
+    "carolina-garlick"
+   ],
+   "intervienen": [
+    "juan-pablo-silva"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 57,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=3400s",
+   "temas": [
+    "adopcion-y-escala",
+    "regulacion",
+    "soberania-e-infraestructura",
+    "futuro-del-trabajo"
+   ],
+   "estudios": [
+    "corfo-ccs-pmg-madurez-ia-2026",
+    "ccs-caracterizacion-industria-ia-2025",
+    "cenia-cepal-ilia-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "soberania-digital",
+    "regulacion-ia",
+    "adopcion-ia",
+    "pymes"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/README.md",
+   "titulo": "Gobernanza Corporativa de la IA",
+   "lede": "La IA no se puede gobernar como se gobernó la informática, con permiso previo, comité y control: llega desde abajo, cambia cada pocos meses y nadie tiene todavía la mejor práctica. Los cuatro panelistas, desde un banco, un *retailer*, la ética empresarial y la consultoría, llegan a lo mismo: el gobierno de la IA es un problema de cultura, liderazgo y responsabilidad humana antes que de tecnología, y tiene que ser adaptativo. Las propuestas concretas van de registrar todo y gobernar a posteriori, a usar la propia IA para revisar el cumplimiento, y a puntuar cada caso de uso en una mesa diversa.",
+   "id": "dia1-03-panel-gobernanza-corporativa-ia",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "panel",
+   "speakers": [
+    "claudia-ramos",
+    "macarena-mackay",
+    "felipe-morales",
+    "nicolas-rivas"
+   ],
+   "modera": [
+    "jose-manuel-morales"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 53,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=7750s",
+   "temas": [
+    "gobierno-de-la-ia",
+    "liderazgo",
+    "gestion-del-cambio",
+    "agentes"
+   ],
+   "estudios": [
+    "cenia-cepal-ilia-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "gobernanza-ia",
+    "ia-responsable",
+    "liderazgo"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-03-panel-gobernanza-corporativa-ia/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md",
+   "titulo": "El ROI real de la IA: impacto en la rentabilidad del negocio",
+   "lede": "Edmundo Casas, fundador y CEO de Kauel, responde a la pregunta del ROI con la experiencia de su empresa: modelos de IA que inspeccionan activos industriales (ductos, líneas eléctricas, minería) y que reemplazan meses de inspección manual por vuelos de dron analizados en tiempo real. Más de la mitad de la charla es un repaso de conceptos de IA y la historia de Kauel. Las cifras de impacto llegan en pocos casos: ENAP, Enel y una estimación de litio para Soquimich.",
+   "id": "dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "charla",
+   "speakers": [
+    "edmundo-casas"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 34,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=10940s",
+   "temas": [
+    "roi-y-medicion",
+    "ia-industrial",
+    "soberania-e-infraestructura",
+    "futuro-del-trabajo"
+   ],
+   "tags": [
+    "impacta-ia",
+    "charla",
+    "roi-ia",
+    "ia-industrial",
+    "inspeccion-de-activos"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md",
+   "titulo": "Against Productivity: Reaping the rewards of the AI revolution",
+   "lede": "Stefano Puntoni (Wharton) no está contra la productividad, sino contra que sea lo único que las empresas buscan con la IA. Esa obsesión cuesta por dos lados: hacia afuera deja pasar el crecimiento, que es donde está casi todo el valor, y hacia adentro produce ansiedad, sabotaje y uso escondido de la IA en la fuerza laboral. Su propuesta es una agenda afirmativa de IA para el crecimiento, con un «motor de descubrimiento conductual» que explora cientos de ideas con científicos y audiencias virtuales, y con una pista de personas en paralelo a la técnica en cada despliegue (el marco AWARE).",
+   "id": "dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "keynote",
+   "speakers": [
+    "stefano-puntoni"
+   ],
+   "modera": [
+    "juan-pablo-silva"
+   ],
+   "idiomas": [
+    "en",
+    "es"
+   ],
+   "duracion_min": 45,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=14538s",
+   "temas": [
+    "productividad-y-crecimiento",
+    "gestion-del-cambio",
+    "roi-y-medicion",
+    "futuro-del-trabajo"
+   ],
+   "estudios": [
+    "wharton-gbk-adopcion-ia-2026",
+    "pwc-ai-performance-study-2026",
+    "hbr-gen-ai-amenaza-trabajadores-2026",
+    "wharton-gbk-adopcion-ia-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "keynote",
+    "ia-para-crecimiento",
+    "gemelos-digitales",
+    "gestion-del-cambio"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md",
+   "titulo": "El Futuro del Trabajo con IA: impacto en personas y gestión del cambio",
+   "lede": "Los tres panelistas descartan tanto el fin del trabajo como la idea de que nada cambia: la IA no reemplaza los trabajos de golpe, pero los reorganiza y vacía la base de la pirámide organizacional. Francisco Martínez plantea que esto exige una gestión del cambio distinta a todas las anteriores, sin estado final y que no se resuelve con una sola palanca. Paula Aguirre (UC) separa lo que la IA puede hacer de lo que de verdad se automatiza, y Denisse Goldfarb (The People Future) pregunta quién formará a los mandos medios si desaparecen los cargos de entrada.",
+   "id": "dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "panel",
+   "speakers": [
+    "francisco-martinez",
+    "paula-aguirre",
+    "denisse-goldfarb"
+   ],
+   "modera": [
+    "patricio-millar"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 44,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=22796s",
+   "temas": [
+    "futuro-del-trabajo",
+    "gestion-del-cambio",
+    "productividad-y-crecimiento",
+    "ia-y-sociedad"
+   ],
+   "estudios": [
+    "openai-ai-jobs-transition-framework-2026",
+    "mckinsey-mgi-agentes-robots-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "futuro-del-trabajo",
+    "gestion-del-cambio",
+    "talento",
+    "estructura-organizacional"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md",
+   "titulo": "The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest",
+   "lede": "Daniel Strode sostiene que la IA no cambia lo que es el liderazgo: lo deja a la vista. Como quien pela una mandarina, la IA saca las tareas repetitivas de bajo valor y deja expuesto el centro, lo que solo un líder puede hacer. Ese ajuste de cuentas silencioso se ordena en cinco cambios: diseñar el trabajo en vez de delegarlo, interpretar los datos en vez de procesarlos, construir confianza en vez de solo comunicar, hacerse cargo de la «deuda de desarrollo» y cuidar la cultura en vez de solo adoptar herramientas.",
+   "id": "dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "keynote",
+   "speakers": [
+    "daniel-strode"
+   ],
+   "intervienen": [
+    "juan-pablo-silva"
+   ],
+   "idiomas": [
+    "en",
+    "es"
+   ],
+   "duracion_min": 42,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=25400s",
+   "temas": [
+    "liderazgo",
+    "futuro-del-trabajo",
+    "gestion-del-cambio",
+    "gobierno-de-la-ia"
+   ],
+   "tags": [
+    "impacta-ia",
+    "keynote",
+    "liderazgo",
+    "diseno-del-trabajo",
+    "cultura-organizacional",
+    "confianza-ia"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md",
+   "titulo": "Sociedad del futuro: de la escasez a la abundancia",
+   "lede": "El último panel del día 1 pone a un sociólogo, un economista y un especialista en prospectiva a imaginar 2035, y no llegan a la misma respuesta. Alberto Mayol ve una tecnología con muchísima energía y poco significado, y por eso anticipa una crisis y años inestables. Raphael Bergoeing cree que el resultado depende de decisiones de política y de organizaciones capaces de cambiar, y cierra optimista. Alfredo Pérsico advierte tres deudas (cognitiva, de control y de autonomía) y pone la esperanza en la imaginación humana, la naturaleza y la ética.",
+   "id": "dia1-08-panel-sociedad-futuro-escasez-abundancia",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-02",
+   "formato": "panel",
+   "speakers": [
+    "alberto-mayol",
+    "raphael-bergoeing",
+    "alfredo-persico"
+   ],
+   "modera": [
+    "eduardo-gomien"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 76,
+   "video": "https://www.youtube.com/watch?v=4N6I6PXycMw&t=29095s",
+   "temas": [
+    "ia-y-sociedad",
+    "futuro-del-trabajo",
+    "productividad-y-crecimiento",
+    "gobierno-de-la-ia"
+   ],
+   "estudios": [
+    "cepr-penalizacion-aprendizaje-ia-china-2026",
+    "mit-media-lab-your-brain-on-chatgpt-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "abundancia",
+    "futuro-del-trabajo",
+    "gobernanza-ia",
+    "educacion"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 2 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md",
+   "titulo": "IA como Motor de Productividad e Innovación para Chile",
+   "lede": "Julio Pertuzé abre el día 2 con la pregunta que adelantó en la apertura: ¿puede Chile aumentar su productividad sin construir soberanía en inteligencia artificial? Con lo que vio en una misión a Silicon Valley, responde en tres niveles: las personas necesitan una mentalidad de *product manager* (problema, valor, tecnología, experimentar e integrar), las organizaciones tienen que legitimar la experimentación y rediseñar procesos para salir de la «pilotitis», y el país tiene en sus buenos datos un activo que hoy desaprovecha por trabajar en silos. Cierra definiendo la soberanía como la capacidad de decidir sobre datos, tecnologías e infraestructura sin quedar cautivo de una herramienta.",
+   "id": "dia2-01-keynote-ia-como-motor-productividad-innovacion-chile",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "keynote",
+   "speakers": [
+    "julio-pertuze"
+   ],
+   "intervienen": [
+    "elisabeth-serra"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 33,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=1959s",
+   "temas": [
+    "productividad-y-crecimiento",
+    "adopcion-y-escala",
+    "soberania-e-infraestructura",
+    "gestion-del-cambio"
+   ],
+   "tags": [
+    "impacta-ia",
+    "keynote",
+    "productividad",
+    "soberania-ia",
+    "adopcion-ia",
+    "datos"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md",
+   "titulo": "La revolución del vibe coding al interior de las empresas: nuevos paradigmas",
+   "lede": "Con el vibe coding, crear una aplicación dejó de ser lo difícil: la gente del negocio llega con reportes y apps casi listos, sin pedir permiso. El panel muestra dónde quedó el problema. Ponerlo en producción, integrarlo y gobernarlo sigue tomando meses, y lo escaso pasa a ser el criterio humano para elegir qué construir, juzgar la calidad y responder por el resultado.",
+   "id": "dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "angel-izurieta",
+    "carlos-araya",
+    "nicolas-rivas"
+   ],
+   "modera": [
+    "marcos-thomas"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 54,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=3973s",
+   "temas": [
+    "desarrollo-con-ia",
+    "gobierno-de-la-ia",
+    "futuro-del-trabajo",
+    "liderazgo"
+   ],
+   "estudios": [
+    "metr-duracion-tareas-ia-2025"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "vibe-coding",
+    "gobierno-ia",
+    "liderazgo",
+    "adopcion-ia"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/README.md",
+   "titulo": "Desafíos y tensiones de la regulación en IA",
+   "lede": "Un abogado y ex subsecretario, un experto en algoritmos y un ex senador coinciden en que Chile va a regular la IA y en que la pregunta es cuándo y cómo hacerlo: con una ley marco de principios que regule el despliegue y el riesgo, no la tecnología. La tensión de fondo no es solo jurídica sino geopolítica, porque un país que se conforma con consumir IA no decide sobre ella. Mientras llega la ley, las empresas ya tienen obligaciones a la vista: la Ley de Protección de Datos Personales, aprobada y con entrada en vigor prevista para el 1 de diciembre de 2026, exige explicar las decisiones automatizadas y la responsabilidad no se puede tercerizar.",
+   "id": "dia2-03-panel-desafios-tensiones-regulacion-ia",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "pedro-huichalaf",
+    "jose-rafael-correa",
+    "kenneth-pugh"
+   ],
+   "modera": [
+    "ricardo-lillo"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 66,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=9560s",
+   "temas": [
+    "regulacion",
+    "soberania-e-infraestructura",
+    "gobierno-de-la-ia",
+    "futuro-del-trabajo"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "regulacion-ia",
+    "soberania-digital",
+    "proteccion-de-datos",
+    "gobernanza-ia"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-03-panel-desafios-tensiones-regulacion-ia/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/README.md",
+   "titulo": "IA Industrial, gemelos digitales y logística",
+   "lede": "El panel más técnico del evento llega a una conclusión poco técnica: en la industria, la IA genera valor cuando se monta sobre el conocimiento de los operadores, sobre estándares operacionales y sobre la rutina que ya existe, no cuando se parte de los datos disponibles. Marcos Orchard (Universidad de Chile) propone la arquitectura que va del grafo de conocimiento al copiloto operacional; Nicolás Tagle (Antofagasta Minerals) y Matías Jory (CMPC) muestran cómo lo hacen en un centro integrado de operaciones y en una sala de control de celulosa. El cierre apunta a Chile: la minería y la celulosa pueden ser la base de un ecosistema que exporte tecnología.",
+   "id": "dia2-04-panel-ia-industrial-gemelos-digitales-logistica",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "marcos-orchard",
+    "nicolas-tagle",
+    "matias-jory"
+   ],
+   "modera": [
+    "julio-riutort"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 52,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=14385s",
+   "temas": [
+    "ia-industrial",
+    "adopcion-y-escala",
+    "gestion-del-cambio",
+    "productividad-y-crecimiento"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "ia-industrial",
+    "gemelos-digitales",
+    "mineria",
+    "inteligencia-operacional"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-04-panel-ia-industrial-gemelos-digitales-logistica/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md",
+   "titulo": "Datacenters e IA: ¿una oportunidad para Chile?",
+   "lede": "Los tres panelistas coinciden en que Chile tiene lo que piden los data centers de IA: energía renovable que hoy se bota, desierto, agua desalada, cables submarinos y certeza jurídica, en un momento en que Estados Unidos y Europa los resisten. Lo que falta es intención: una política de Estado que arme el paquete y salga a venderlo, como las concesiones de Lagos, liderada desde Hacienda o Economía. Qué pedir a cambio: Ignacio Briones dice que no impuestos ni empleo, sino una cuota de la capacidad de cómputo para que los sectores productivos chilenos entrenen sus propios algoritmos; Rodrigo Durán propone un pacto que dé beneficios a la industria a cambio de esa cuota.",
+   "id": "dia2-05-panel-datacenters-ia-oportunidad-chile",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "ignacio-briones",
+    "rodrigo-duran",
+    "cristian-lopez"
+   ],
+   "modera": [
+    "pablo-correa"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 59,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=21415s",
+   "temas": [
+    "soberania-e-infraestructura",
+    "regulacion",
+    "productividad-y-crecimiento",
+    "adopcion-y-escala"
+   ],
+   "estudios": [
+    "mckinsey-costo-computo-data-centers-2025",
+    "cenia-cepal-ilia-2025",
+    "stanford-hai-ai-index-2026"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "data-centers",
+    "energia",
+    "politica-publica",
+    "infraestructura"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-06-charla-mente-humana-era-ia/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-06-charla-mente-humana-era-ia/README.md",
+   "titulo": "La mente humana en la era de la IA",
+   "lede": "José Manuel Morales (Brinca) entrevista a Álvaro Fischer sobre lo que la IA tiene de igual y de distinto respecto de la inteligencia humana, mirada desde la evolución. La tesis de Fischer: la IA continúa la larga historia de herramientas humanas, pero es la primera tecnología que decide por su cuenta, y eso la vuelve a la vez la mayor oportunidad y la mayor amenaza conocida. Frente a ella propone adaptarse antes que resistir, y se declara escéptico de que usar IA nos quite la capacidad de pensar.",
+   "id": "dia2-06-charla-mente-humana-era-ia",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "charla",
+   "speakers": [
+    "alvaro-fischer"
+   ],
+   "modera": [
+    "jose-manuel-morales"
+   ],
+   "intervienen": [
+    "francisco-martinez"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 44,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=25675s",
+   "temas": [
+    "ia-y-sociedad",
+    "agentes",
+    "futuro-del-trabajo"
+   ],
+   "tags": [
+    "impacta-ia",
+    "charla",
+    "psicologia-evolutiva",
+    "agencia-ia",
+    "democracia",
+    "educacion"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-06-charla-mente-humana-era-ia/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md",
+   "titulo": "Rediseño de procesos en CX con IA (Asociación DEC)",
+   "lede": "Salud, telecomunicaciones y banca cuentan cómo la IA está entrando en la experiencia de cliente: Bupa la filtra por el para qué y el NPS, Entel la mete en células ágiles que miden todo contra grupos de control y Bci ya tiene casos en producción y decidió transformarse en una organización agéntica. El panel coincide en que la IA no es una moda, y el cierre con preguntas del público lo lleva a sus límites: cuánta personalización tolera el cliente y qué permite la nueva ley de protección de datos.",
+   "id": "dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "macarena-catalan",
+    "paz-obrecht",
+    "cristian-ludwig"
+   ],
+   "modera": [
+    "marisa-cozak"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 46,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=28335s",
+   "temas": [
+    "experiencia-de-cliente",
+    "agentes",
+    "roi-y-medicion",
+    "regulacion"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "experiencia-cliente",
+    "agentes",
+    "proteccion-de-datos"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/README.md",
+   "titulo": "Ley I+D, oportunidades para la IA",
+   "lede": "El último panel del evento baja la IA a cómo se financia. La Ley I+D, un incentivo tributario no competitivo que certifica CORFO, ya recibe muchos proyectos con IA, pero pocas empresas la usan. Las barreras son tres: no distinguir I+D de innovación, no conocer el instrumento y no darse cuenta de que ya hacen desarrollo. La receta que comparten los cuatro es partir por un problema claro, que es lo que hace financiable a un proyecto, y diseñarlo por etapas.",
+   "id": "dia2-08-panel-ley-i-d-oportunidades-ia",
+   "tipo": "sesion",
+   "evento": "impacta-ia-2026",
+   "fecha": "2026-09-03",
+   "formato": "panel",
+   "speakers": [
+    "richard-weber",
+    "juviska-meza",
+    "manuel-neira"
+   ],
+   "modera": [
+    "ignacio-merino"
+   ],
+   "idiomas": [
+    "es"
+   ],
+   "duracion_min": 37,
+   "video": "https://www.youtube.com/watch?v=NJu13g38nDc&t=31075s",
+   "temas": [
+    "financiamiento-de-la-innovacion",
+    "ia-industrial"
+   ],
+   "tags": [
+    "impacta-ia",
+    "panel",
+    "ley-i-d",
+    "financiamiento-innovacion",
+    "corfo",
+    "vinculacion-universidad-empresa"
+   ],
+   "transcripcion": "eventos/impacta-ia-2026/sesiones/dia2-08-panel-ley-i-d-oportunidades-ia/transcripcion.md",
+   "donde": "Impacta IA Chile 2026, 3 sep 2026"
+  },
+  {
+   "ruta": "webinars/2026-10-20-wharton-adaptive-advantage/README.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/webinars/2026-10-20-wharton-adaptive-advantage/README.md",
+   "titulo": "The Adaptive Advantage: Who's Winning With AI and How",
+   "lede": "Los tres autores del cuarto informe de adopción de IA de Wharton y GBK Collective presentan sus resultados: el uso de la IA ya es casi universal en las grandes empresas de EE. UU., pero solo un 7% de los managers+ cumple a la vez los tres marcadores de éxito del estudio (ROI fuertemente positivo, flujos de trabajo transformados y organización alineada). Lo que acompaña a los mejores retornos no es la tecnología: es medir crecimiento y no solo eficiencia, tener un dueño dedicado, terminar el rediseño del trabajo y no perder a la gente por el camino, porque mientras más alto el cargo, más avanzada parece la IA.",
+   "id": "2026-10-20-wharton-adaptive-advantage",
+   "tipo": "sesion",
+   "serie": "Wharton AI Horizons",
+   "fecha": "2026-10-20",
+   "formato": "webinar",
+   "speakers": [
+    "stefano-puntoni",
+    "prasanna-tambe",
+    "jeremy-korst"
+   ],
+   "idiomas": [
+    "en"
+   ],
+   "duracion_min": 58,
+   "temas": [
+    "adopcion-y-escala",
+    "roi-y-medicion",
+    "productividad-y-crecimiento",
+    "gestion-del-cambio"
+   ],
+   "estudios": [
+    "wharton-gbk-adopcion-ia-2026"
+   ],
+   "tags": [
+    "webinars",
+    "wharton",
+    "adopcion-ia",
+    "roi-ia",
+    "alineamiento-organizacional",
+    "agentes"
+   ],
+   "transcripcion": "webinars/2026-10-20-wharton-adaptive-advantage/transcripcion.md",
+   "donde": "Wharton AI Horizons, 20 oct 2026"
+  }
+ ],
+ "personas": [
+  {
+   "ruta": "personas/alberto-mayol.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/alberto-mayol.md",
+   "titulo": "Alberto Mayol",
+   "lede": "Sociólogo, escritor y académico; la placa dice «Analista Político-Social».",
+   "id": "alberto-mayol",
+   "tipo": "persona",
+   "nombre": "Alberto Mayol",
+   "cargo": "Sociólogo, escritor y académico; la placa dice «Analista Político-Social»",
+   "organizacion": "USACH"
+  },
+  {
+   "ruta": "personas/alfredo-persico.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/alfredo-persico.md",
+   "titulo": "Alfredo Pérsico",
+   "lede": "CEO y fundador de Agents4Future, especialista en prospectiva tecnológica.",
+   "id": "alfredo-persico",
+   "tipo": "persona",
+   "nombre": "Alfredo Pérsico",
+   "cargo": "CEO y fundador de Agents4Future, especialista en prospectiva tecnológica",
+   "organizacion": "Agents4Future"
+  },
+  {
+   "ruta": "personas/alvaro-fischer.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/alvaro-fischer.md",
+   "titulo": "Álvaro Fischer",
+   "lede": "Ingeniero matemático, cofundador de Resiter y expresidente de Fundación Chile.",
+   "id": "alvaro-fischer",
+   "tipo": "persona",
+   "nombre": "Álvaro Fischer",
+   "cargo": "Ingeniero matemático, cofundador de Resiter y expresidente de Fundación Chile",
+   "organizacion": "Resiter"
+  },
+  {
+   "ruta": "personas/angel-izurieta.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/angel-izurieta.md",
+   "titulo": "Ángel Izurieta",
+   "lede": "Vicepresidente para Latinoamérica de Huawei Cloud.",
+   "id": "angel-izurieta",
+   "tipo": "persona",
+   "nombre": "Ángel Izurieta",
+   "cargo": "Vicepresidente para Latinoamérica de Huawei Cloud",
+   "organizacion": "Huawei Cloud"
+  },
+  {
+   "ruta": "personas/camila-monckeberg.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/camila-monckeberg.md",
+   "titulo": "Camila Mönckeberg",
+   "lede": "Directora regional de CORFO Metropolitano.",
+   "id": "camila-monckeberg",
+   "tipo": "persona",
+   "nombre": "Camila Mönckeberg",
+   "cargo": "Directora regional de CORFO Metropolitano",
+   "organizacion": "CORFO"
+  },
+  {
+   "ruta": "personas/carlos-araya.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/carlos-araya.md",
+   "titulo": "Carlos Araya",
+   "lede": "Gerente de Finanzas y Tecnología de ANASAC.",
+   "id": "carlos-araya",
+   "tipo": "persona",
+   "nombre": "Carlos Araya",
+   "cargo": "Gerente de Finanzas y Tecnología de ANASAC",
+   "organizacion": "ANASAC"
+  },
+  {
+   "ruta": "personas/carolina-garlick.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/carolina-garlick.md",
+   "titulo": "Carolina Garlick",
+   "lede": "Gerente de Marketing e Innovación del Grupo DF.",
+   "id": "carolina-garlick",
+   "tipo": "persona",
+   "nombre": "Carolina Garlick",
+   "cargo": "Gerente de Marketing e Innovación del Grupo DF",
+   "organizacion": "Diario Financiero"
+  },
+  {
+   "ruta": "personas/catherine-munoz.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/catherine-munoz.md",
+   "titulo": "Catherine Muñoz",
+   "lede": "Abogada, CEO de Idónea Consultores, especialista en gobernanza de IA y protección de datos.",
+   "id": "catherine-munoz",
+   "tipo": "persona",
+   "nombre": "Catherine Muñoz",
+   "cargo": "Abogada, CEO de Idónea Consultores, especialista en gobernanza de IA y protección de datos",
+   "organizacion": "Idónea"
+  },
+  {
+   "ruta": "personas/claudia-ramos.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/claudia-ramos.md",
+   "titulo": "Claudia Ramos",
+   "lede": "Chief Data Officer de Banco Bci.",
+   "id": "claudia-ramos",
+   "tipo": "persona",
+   "nombre": "Claudia Ramos",
+   "cargo": "Chief Data Officer de Banco Bci",
+   "organizacion": "Bci"
+  },
+  {
+   "ruta": "personas/cristian-lopez.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/cristian-lopez.md",
+   "titulo": "Cristián López",
+   "lede": "Country Manager, director de Google Cloud.",
+   "id": "cristian-lopez",
+   "tipo": "persona",
+   "nombre": "Cristián López",
+   "cargo": "Country Manager, director de Google Cloud",
+   "organizacion": "Google Cloud"
+  },
+  {
+   "ruta": "personas/cristian-ludwig.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/cristian-ludwig.md",
+   "titulo": "Cristian Ludwig",
+   "lede": "Gerente de Inteligencia Artificial de Banco Bci.",
+   "id": "cristian-ludwig",
+   "tipo": "persona",
+   "nombre": "Cristian Ludwig",
+   "cargo": "Gerente de Inteligencia Artificial de Banco Bci",
+   "organizacion": "Bci"
+  },
+  {
+   "ruta": "personas/daniel-strode.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/daniel-strode.md",
+   "titulo": "Daniel Strode",
+   "lede": "Profesor de Duke Corporate Education (Duke University) y autor de The Quiet Reckoning.",
+   "id": "daniel-strode",
+   "tipo": "persona",
+   "nombre": "Daniel Strode",
+   "cargo": "Profesor de Duke Corporate Education (Duke University) y autor de The Quiet Reckoning",
+   "organizacion": "Duke University"
+  },
+  {
+   "ruta": "personas/denisse-goldfarb.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/denisse-goldfarb.md",
+   "titulo": "Denisse Goldfarb",
+   "lede": "CEO de The People Future, ex vicepresidenta de Personas de Walmart y de Microsoft.",
+   "id": "denisse-goldfarb",
+   "tipo": "persona",
+   "nombre": "Denisse Goldfarb",
+   "cargo": "CEO de The People Future, ex vicepresidenta de Personas de Walmart y de Microsoft",
+   "organizacion": "The People Future"
+  },
+  {
+   "ruta": "personas/edmundo-casas.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/edmundo-casas.md",
+   "titulo": "Edmundo Casas",
+   "lede": "Fundador y CEO de Kauel.",
+   "id": "edmundo-casas",
+   "tipo": "persona",
+   "nombre": "Edmundo Casas",
+   "cargo": "Fundador y CEO de Kauel",
+   "organizacion": "Kauel"
+  },
+  {
+   "ruta": "personas/eduardo-gomien.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/eduardo-gomien.md",
+   "titulo": "Eduardo Gomien",
+   "lede": "Principal de Venture Capital y Private Equity en Chile Global Ventures, host del podcast Chile Nación Emprendedora.",
+   "id": "eduardo-gomien",
+   "tipo": "persona",
+   "nombre": "Eduardo Gomien",
+   "cargo": "Principal de Venture Capital y Private Equity en Chile Global Ventures, host del podcast Chile Nación Emprendedora",
+   "organizacion": "Fundación Chile (Chile Global Ventures)"
+  },
+  {
+   "ruta": "personas/elisabeth-serra.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/elisabeth-serra.md",
+   "titulo": "Elisabeth Serra",
+   "lede": "Host del evento, día 2; equipo de Chile Global Ventures, el área de emprendimiento, innovación e inversión de Fundación Chile.",
+   "id": "elisabeth-serra",
+   "tipo": "persona",
+   "nombre": "Elisabeth Serra",
+   "cargo": "Host del evento, día 2; equipo de Chile Global Ventures, el área de emprendimiento, innovación e inversión de Fundación Chile",
+   "organizacion": "Fundación Chile (Chile Global Ventures)"
+  },
+  {
+   "ruta": "personas/felipe-morales.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/felipe-morales.md",
+   "titulo": "Felipe Morales",
+   "lede": "Gerente de Datos y Analítica de Walmart Chile.",
+   "id": "felipe-morales",
+   "tipo": "persona",
+   "nombre": "Felipe Morales",
+   "cargo": "Gerente de Datos y Analítica de Walmart Chile",
+   "organizacion": "Walmart Chile"
+  },
+  {
+   "ruta": "personas/fernando-hentzschel.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/fernando-hentzschel.md",
+   "titulo": "Fernando Hentzschel",
+   "lede": "Gerente de Capacidades Tecnológicas de CORFO.",
+   "id": "fernando-hentzschel",
+   "tipo": "persona",
+   "nombre": "Fernando Hentzschel",
+   "cargo": "Gerente de Capacidades Tecnológicas de CORFO",
+   "organizacion": "CORFO"
+  },
+  {
+   "ruta": "personas/francisco-martinez.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/francisco-martinez.md",
+   "titulo": "Francisco Martínez",
+   "lede": "Socio fundador y gerente de Estrategia, Innovación y Cultura de Brinca.",
+   "id": "francisco-martinez",
+   "tipo": "persona",
+   "nombre": "Francisco Martínez",
+   "cargo": "Socio fundador y gerente de Estrategia, Innovación y Cultura de Brinca",
+   "organizacion": "Brinca"
+  },
+  {
+   "ruta": "personas/george-lever.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/george-lever.md",
+   "titulo": "George Lever",
+   "lede": "Economista, gerente de Estudios e Innovación de la Cámara de Comercio de Santiago.",
+   "id": "george-lever",
+   "tipo": "persona",
+   "nombre": "George Lever",
+   "cargo": "Economista, gerente de Estudios e Innovación de la Cámara de Comercio de Santiago",
+   "organizacion": "Cámara de Comercio de Santiago"
+  },
+  {
+   "ruta": "personas/ignacio-briones.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/ignacio-briones.md",
+   "titulo": "Ignacio Briones",
+   "lede": "Economista, académico, presidente de Horizontal y exministro de Hacienda.",
+   "id": "ignacio-briones",
+   "tipo": "persona",
+   "nombre": "Ignacio Briones",
+   "cargo": "Economista, académico, presidente de Horizontal y exministro de Hacienda",
+   "organizacion": "Horizontal / UAI"
+  },
+  {
+   "ruta": "personas/ignacio-merino.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/ignacio-merino.md",
+   "titulo": "Ignacio Merino",
+   "lede": "Director ejecutivo de Hubtec Chile.",
+   "id": "ignacio-merino",
+   "tipo": "persona",
+   "nombre": "Ignacio Merino",
+   "cargo": "Director ejecutivo de Hubtec Chile",
+   "organizacion": "Hubtec"
+  },
+  {
+   "ruta": "personas/jeremy-korst.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/jeremy-korst.md",
+   "titulo": "Jeremy Korst",
+   "lede": "Fundador y CEO de Mindspan Labs, profesor (lecturer) de The Wharton School y socio de GBK Collective.",
+   "id": "jeremy-korst",
+   "tipo": "persona",
+   "nombre": "Jeremy Korst",
+   "cargo": "Fundador y CEO de Mindspan Labs, profesor (lecturer) de The Wharton School y socio de GBK Collective",
+   "organizacion": "GBK Collective"
+  },
+  {
+   "ruta": "personas/jose-manuel-morales.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/jose-manuel-morales.md",
+   "titulo": "José Manuel Morales",
+   "lede": "CEO y cofundador de Brinca.",
+   "id": "jose-manuel-morales",
+   "tipo": "persona",
+   "nombre": "José Manuel Morales",
+   "cargo": "CEO y cofundador de Brinca",
+   "organizacion": "Brinca"
+  },
+  {
+   "ruta": "personas/jose-rafael-correa.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/jose-rafael-correa.md",
+   "titulo": "José Rafael Correa",
+   "lede": "Vicerrector de Tecnologías de la Información de la Universidad de Chile.",
+   "id": "jose-rafael-correa",
+   "tipo": "persona",
+   "nombre": "José Rafael Correa",
+   "cargo": "Vicerrector de Tecnologías de la Información de la Universidad de Chile",
+   "organizacion": "Universidad de Chile"
+  },
+  {
+   "ruta": "personas/juan-pablo-silva.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/juan-pablo-silva.md",
+   "titulo": "Juan Pablo Silva",
+   "lede": "Host del evento, día 1.",
+   "id": "juan-pablo-silva",
+   "tipo": "persona",
+   "nombre": "Juan Pablo Silva",
+   "cargo": "Host del evento, día 1"
+  },
+  {
+   "ruta": "personas/julio-pertuze.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/julio-pertuze.md",
+   "titulo": "Julio Pertuzé",
+   "lede": "Presidente de Fundación Chile y ex subsecretario de Economía.",
+   "id": "julio-pertuze",
+   "tipo": "persona",
+   "nombre": "Julio Pertuzé",
+   "cargo": "Presidente de Fundación Chile y ex subsecretario de Economía",
+   "organizacion": "Fundación Chile"
+  },
+  {
+   "ruta": "personas/julio-riutort.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/julio-riutort.md",
+   "titulo": "Julio Riutort",
+   "lede": "Director académico del Executive MBA de la UAI y profesor asociado de Finanzas.",
+   "id": "julio-riutort",
+   "tipo": "persona",
+   "nombre": "Julio Riutort",
+   "cargo": "Director académico del Executive MBA de la UAI y profesor asociado de Finanzas",
+   "organizacion": "Universidad Adolfo Ibáñez"
+  },
+  {
+   "ruta": "personas/juviska-meza.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/juviska-meza.md",
+   "titulo": "Juviska Meza",
+   "lede": "Gerente de Gestión Tecnológica de Brinca.",
+   "id": "juviska-meza",
+   "tipo": "persona",
+   "nombre": "Juviska Meza",
+   "cargo": "Gerente de Gestión Tecnológica de Brinca",
+   "organizacion": "Brinca"
+  },
+  {
+   "ruta": "personas/kenneth-pugh.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/kenneth-pugh.md",
+   "titulo": "Kenneth Pugh",
+   "lede": "Ex senador de la República y estratega de poder digital.",
+   "id": "kenneth-pugh",
+   "tipo": "persona",
+   "nombre": "Kenneth Pugh",
+   "cargo": "Ex senador de la República y estratega de poder digital"
+  },
+  {
+   "ruta": "personas/macarena-catalan.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/macarena-catalan.md",
+   "titulo": "Macarena Catalán",
+   "lede": "Jefa de Salud Digital y UX de Bupa Chile.",
+   "id": "macarena-catalan",
+   "tipo": "persona",
+   "nombre": "Macarena Catalán",
+   "cargo": "Jefa de Salud Digital y UX de Bupa Chile",
+   "organizacion": "Bupa"
+  },
+  {
+   "ruta": "personas/macarena-mackay.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/macarena-mackay.md",
+   "titulo": "Macarena MacKay",
+   "lede": "Directora ejecutiva de Alumni UC y directora de la Asociación de Ética Empresarial y Organizacional.",
+   "id": "macarena-mackay",
+   "tipo": "persona",
+   "nombre": "Macarena MacKay",
+   "cargo": "Directora ejecutiva de Alumni UC y directora de la Asociación de Ética Empresarial y Organizacional",
+   "organizacion": "Alumni UC"
+  },
+  {
+   "ruta": "personas/manuel-neira.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/manuel-neira.md",
+   "titulo": "Manuel Neira",
+   "lede": "Coordinador y líder de la Ley I+D en InnovaChile de CORFO.",
+   "id": "manuel-neira",
+   "tipo": "persona",
+   "nombre": "Manuel Neira",
+   "cargo": "Coordinador y líder de la Ley I+D en InnovaChile de CORFO",
+   "organizacion": "CORFO"
+  },
+  {
+   "ruta": "personas/marcos-orchard.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/marcos-orchard.md",
+   "titulo": "Marcos Orchard",
+   "lede": "Profesor titular del Departamento de Ingeniería Eléctrica de la Universidad de Chile, director del Centro de Aceleración Sostenible de Electromovilidad e investigador del AC3E.",
+   "id": "marcos-orchard",
+   "tipo": "persona",
+   "nombre": "Marcos Orchard",
+   "cargo": "Profesor titular del Departamento de Ingeniería Eléctrica de la Universidad de Chile, director del Centro de Aceleración Sostenible de Electromovilidad e investigador del AC3E",
+   "organizacion": "Universidad de Chile"
+  },
+  {
+   "ruta": "personas/marcos-thomas.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/marcos-thomas.md",
+   "titulo": "Marcos Thomas",
+   "lede": "CEO y fundador de Tesserix Capital, director de Innovación de Brinca, ex SVP de Innovación de Banco Santander.",
+   "id": "marcos-thomas",
+   "tipo": "persona",
+   "nombre": "Marcos Thomas",
+   "cargo": "CEO y fundador de Tesserix Capital, director de Innovación de Brinca, ex SVP de Innovación de Banco Santander",
+   "organizacion": "Tesserix Capital"
+  },
+  {
+   "ruta": "personas/marisa-cozak.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/marisa-cozak.md",
+   "titulo": "Marisa Cozak",
+   "lede": "Directora ejecutiva de la Asociación DEC.",
+   "id": "marisa-cozak",
+   "tipo": "persona",
+   "nombre": "Marisa Cozak",
+   "cargo": "Directora ejecutiva de la Asociación DEC",
+   "organizacion": "Asociación DEC"
+  },
+  {
+   "ruta": "personas/matias-jory.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/matias-jory.md",
+   "titulo": "Matías Jory",
+   "lede": "Director of Industrial Competitiveness de CMPC.",
+   "id": "matias-jory",
+   "tipo": "persona",
+   "nombre": "Matías Jory",
+   "cargo": "Director of Industrial Competitiveness de CMPC",
+   "organizacion": "CMPC"
+  },
+  {
+   "ruta": "personas/nicolas-rivas.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/nicolas-rivas.md",
+   "titulo": "Nicolás Rivas",
+   "lede": "Gerente de Soluciones de IA de Brinca, cofundador de Salesia y doctor en física.",
+   "id": "nicolas-rivas",
+   "tipo": "persona",
+   "nombre": "Nicolás Rivas",
+   "cargo": "Gerente de Soluciones de IA de Brinca, cofundador de Salesia y doctor en física",
+   "organizacion": "Brinca"
+  },
+  {
+   "ruta": "personas/nicolas-tagle.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/nicolas-tagle.md",
+   "titulo": "Nicolás Tagle",
+   "lede": "Superintendente de Analítica Avanzada de Minera Los Pelambres (Antofagasta Minerals).",
+   "id": "nicolas-tagle",
+   "tipo": "persona",
+   "nombre": "Nicolás Tagle",
+   "cargo": "Superintendente de Analítica Avanzada de Minera Los Pelambres (Antofagasta Minerals)",
+   "organizacion": "Minera Los Pelambres (Antofagasta Minerals)"
+  },
+  {
+   "ruta": "personas/pablo-correa.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/pablo-correa.md",
+   "titulo": "Pablo Correa",
+   "lede": "Socio fundador y gerente comercial y de desarrollo de Brinca.",
+   "id": "pablo-correa",
+   "tipo": "persona",
+   "nombre": "Pablo Correa",
+   "cargo": "Socio fundador y gerente comercial y de desarrollo de Brinca",
+   "organizacion": "Brinca"
+  },
+  {
+   "ruta": "personas/patricio-millar.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/patricio-millar.md",
+   "titulo": "Patricio Millar",
+   "lede": "Mentor, más de 40 años en recursos humanos y cultura organizacional; director de empresas.",
+   "id": "patricio-millar",
+   "tipo": "persona",
+   "nombre": "Patricio Millar",
+   "cargo": "Mentor, más de 40 años en recursos humanos y cultura organizacional; director de empresas"
+  },
+  {
+   "ruta": "personas/paula-aguirre.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/paula-aguirre.md",
+   "titulo": "Paula Aguirre",
+   "lede": "Vicerrectora de Inteligencia Digital de la Pontificia Universidad Católica de Chile, doctora en astrofísica.",
+   "id": "paula-aguirre",
+   "tipo": "persona",
+   "nombre": "Paula Aguirre",
+   "cargo": "Vicerrectora de Inteligencia Digital de la Pontificia Universidad Católica de Chile, doctora en astrofísica",
+   "organizacion": "Pontificia Universidad Católica de Chile"
+  },
+  {
+   "ruta": "personas/paz-obrecht.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/paz-obrecht.md",
+   "titulo": "Paz Obrecht",
+   "lede": "Subgerente de Advanced Analytics y Big Data de Entel.",
+   "id": "paz-obrecht",
+   "tipo": "persona",
+   "nombre": "Paz Obrecht",
+   "cargo": "Subgerente de Advanced Analytics y Big Data de Entel",
+   "organizacion": "Entel"
+  },
+  {
+   "ruta": "personas/pedro-huichalaf.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/pedro-huichalaf.md",
+   "titulo": "Pedro Huichalaf",
+   "lede": "Abogado consultor en tecnología, telecomunicaciones y ciberseguridad; ex subsecretario de Telecomunicaciones.",
+   "id": "pedro-huichalaf",
+   "tipo": "persona",
+   "nombre": "Pedro Huichalaf",
+   "cargo": "Abogado consultor en tecnología, telecomunicaciones y ciberseguridad; ex subsecretario de Telecomunicaciones"
+  },
+  {
+   "ruta": "personas/prasanna-tambe.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/prasanna-tambe.md",
+   "titulo": "Prasanna Tambe",
+   "lede": "Profesor de Operaciones, Información y Decisiones (Operations, Information and Decisions) de The Wharton School y codirector académico de Wharton Human-AI Research.",
+   "id": "prasanna-tambe",
+   "tipo": "persona",
+   "nombre": "Prasanna Tambe",
+   "cargo": "Profesor de Operaciones, Información y Decisiones (Operations, Information and Decisions) de The Wharton School y codirector académico de Wharton Human-AI Research",
+   "organizacion": "The Wharton School"
+  },
+  {
+   "ruta": "personas/raphael-bergoeing.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/raphael-bergoeing.md",
+   "titulo": "Raphael Bergoeing",
+   "lede": "Economista, académico de la Universidad Adolfo Ibáñez y expresidente de la Comisión Nacional de Evaluación y Productividad.",
+   "id": "raphael-bergoeing",
+   "tipo": "persona",
+   "nombre": "Raphael Bergoeing",
+   "cargo": "Economista, académico de la Universidad Adolfo Ibáñez y expresidente de la Comisión Nacional de Evaluación y Productividad",
+   "organizacion": "Universidad Adolfo Ibáñez"
+  },
+  {
+   "ruta": "personas/ricardo-lillo.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/ricardo-lillo.md",
+   "titulo": "Ricardo Lillo",
+   "lede": "Académico y profesor de Derecho de la Universidad Adolfo Ibáñez.",
+   "id": "ricardo-lillo",
+   "tipo": "persona",
+   "nombre": "Ricardo Lillo",
+   "cargo": "Académico y profesor de Derecho de la Universidad Adolfo Ibáñez",
+   "organizacion": "Universidad Adolfo Ibáñez"
+  },
+  {
+   "ruta": "personas/richard-weber.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/richard-weber.md",
+   "titulo": "Richard Weber",
+   "lede": "Profesor del Departamento de Ingeniería Industrial de la Universidad de Chile.",
+   "id": "richard-weber",
+   "tipo": "persona",
+   "nombre": "Richard Weber",
+   "cargo": "Profesor del Departamento de Ingeniería Industrial de la Universidad de Chile",
+   "organizacion": "Universidad de Chile"
+  },
+  {
+   "ruta": "personas/rodrigo-duran.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/rodrigo-duran.md",
+   "titulo": "Rodrigo Durán",
+   "lede": "Gerente del Centro Nacional de Inteligencia Artificial (CENIA) y director ejecutivo del Índice Latinoamericano de IA (ILIA).",
+   "id": "rodrigo-duran",
+   "tipo": "persona",
+   "nombre": "Rodrigo Durán",
+   "cargo": "Gerente del Centro Nacional de Inteligencia Artificial (CENIA) y director ejecutivo del Índice Latinoamericano de IA (ILIA)",
+   "organizacion": "CENIA"
+  },
+  {
+   "ruta": "personas/stefano-puntoni.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/personas/stefano-puntoni.md",
+   "titulo": "Stefano Puntoni",
+   "lede": "Profesor de Marketing (Sebastian S. Kresge Professor) de The Wharton School y codirector académico de Wharton Human-AI Research.",
+   "id": "stefano-puntoni",
+   "tipo": "persona",
+   "nombre": "Stefano Puntoni",
+   "cargo": "Profesor de Marketing (Sebastian S. Kresge Professor) de The Wharton School y codirector académico de Wharton Human-AI Research",
+   "organizacion": "The Wharton School"
+  }
+ ],
+ "temas": [
+  {
+   "ruta": "temas/adopcion-y-escala.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/adopcion-y-escala.md",
+   "titulo": "Adopción y escala",
+   "lede": "Quién usa la IA y cuánto, por qué las pymes se quedan atrás y qué hace falta para pasar del piloto a la operación.",
+   "id": "adopcion-y-escala",
+   "tipo": "tema",
+   "nombre": "Adopción y escala"
+  },
+  {
+   "ruta": "temas/agentes.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/agentes.md",
+   "titulo": "Agentes de IA",
+   "lede": "Sistemas que deciden y actúan solos: organizaciones agénticas, qué cambia cuando la IA toma decisiones y cómo se controla.",
+   "id": "agentes",
+   "tipo": "tema",
+   "nombre": "Agentes de IA"
+  },
+  {
+   "ruta": "temas/desarrollo-con-ia.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/desarrollo-con-ia.md",
+   "titulo": "Desarrollo con IA",
+   "lede": "Vibe coding y gente de negocio que construye software: qué se volvió fácil, qué sigue siendo difícil y cómo se lleva a producción.",
+   "id": "desarrollo-con-ia",
+   "tipo": "tema",
+   "nombre": "Desarrollo con IA"
+  },
+  {
+   "ruta": "temas/experiencia-de-cliente.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/experiencia-de-cliente.md",
+   "titulo": "Experiencia de cliente",
+   "lede": "IA en la atención y la relación con clientes: casos en salud, telecomunicaciones y banca, la personalización y sus límites.",
+   "id": "experiencia-de-cliente",
+   "tipo": "tema",
+   "nombre": "Experiencia de cliente"
+  },
+  {
+   "ruta": "temas/financiamiento-de-la-innovacion.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/financiamiento-de-la-innovacion.md",
+   "titulo": "Financiamiento de la innovación",
+   "lede": "Cómo se financian los proyectos de IA en Chile: la Ley I+D, los instrumentos de CORFO y el trabajo con universidades.",
+   "id": "financiamiento-de-la-innovacion",
+   "tipo": "tema",
+   "nombre": "Financiamiento de la innovación"
+  },
+  {
+   "ruta": "temas/futuro-del-trabajo.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/futuro-del-trabajo.md",
+   "titulo": "Futuro del trabajo",
+   "lede": "Qué tareas y cargos cambia la IA, qué pasa con los cargos de entrada y la pirámide organizacional, y qué talento se necesita.",
+   "id": "futuro-del-trabajo",
+   "tipo": "tema",
+   "nombre": "Futuro del trabajo"
+  },
+  {
+   "ruta": "temas/gestion-del-cambio.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/gestion-del-cambio.md",
+   "titulo": "Gestión del cambio y cultura",
+   "lede": "Cómo se lleva a la gente a usar la IA: ansiedad, confianza, cultura, alineamiento y por qué este cambio no tiene estado final.",
+   "id": "gestion-del-cambio",
+   "tipo": "tema",
+   "nombre": "Gestión del cambio y cultura"
+  },
+  {
+   "ruta": "temas/gobierno-de-la-ia.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/gobierno-de-la-ia.md",
+   "titulo": "Gobierno de la IA",
+   "lede": "Cómo gobierna una empresa una tecnología que llega desde abajo y cambia cada pocos meses: riesgos, responsabilidad, uso no autorizado e IA responsable.",
+   "id": "gobierno-de-la-ia",
+   "tipo": "tema",
+   "nombre": "Gobierno de la IA"
+  },
+  {
+   "ruta": "temas/ia-industrial.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/ia-industrial.md",
+   "titulo": "IA industrial",
+   "lede": "IA en minería, celulosa, energía y logística: gemelos digitales, inspección de activos, centros integrados de operación y el conocimiento de los operadores.",
+   "id": "ia-industrial",
+   "tipo": "tema",
+   "nombre": "IA industrial"
+  },
+  {
+   "ruta": "temas/ia-y-sociedad.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/ia-y-sociedad.md",
+   "titulo": "IA y sociedad",
+   "lede": "Lo que la IA le hace a la sociedad más allá de las empresas: abundancia o crisis, democracia, educación y la mente humana.",
+   "id": "ia-y-sociedad",
+   "tipo": "tema",
+   "nombre": "IA y sociedad"
+  },
+  {
+   "ruta": "temas/liderazgo.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/liderazgo.md",
+   "titulo": "Liderazgo",
+   "lede": "Qué le queda al líder cuando la IA hace parte de su trabajo, y qué se les pide a gerentes y directorios.",
+   "id": "liderazgo",
+   "tipo": "tema",
+   "nombre": "Liderazgo"
+  },
+  {
+   "ruta": "temas/productividad-y-crecimiento.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/productividad-y-crecimiento.md",
+   "titulo": "Productividad y crecimiento",
+   "lede": "Usar la IA para ahorrar o para crecer: el sesgo hacia la eficiencia, dónde está el valor y la productividad de las empresas y del país.",
+   "id": "productividad-y-crecimiento",
+   "tipo": "tema",
+   "nombre": "Productividad y crecimiento"
+  },
+  {
+   "ruta": "temas/regulacion.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/regulacion.md",
+   "titulo": "Regulación y política pública",
+   "lede": "Cómo y cuándo regular la IA, qué exige la Ley de Protección de Datos Personales y qué estrategia país hace falta.",
+   "id": "regulacion",
+   "tipo": "tema",
+   "nombre": "Regulación y política pública"
+  },
+  {
+   "ruta": "temas/roi-y-medicion.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/roi-y-medicion.md",
+   "titulo": "ROI y medición",
+   "lede": "Cuánto retorno está dando la IA, cómo se mide y qué métricas acompañan a los mejores resultados.",
+   "id": "roi-y-medicion",
+   "tipo": "tema",
+   "nombre": "ROI y medición"
+  },
+  {
+   "ruta": "temas/soberania-e-infraestructura.md",
+   "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/temas/soberania-e-infraestructura.md",
+   "titulo": "Soberanía e infraestructura",
+   "lede": "La capacidad de un país de decidir sobre sus datos, su cómputo y su energía: data centers, datos públicos como activo y dependencia tecnológica.",
+   "id": "soberania-e-infraestructura",
+   "tipo": "tema",
+   "nombre": "Soberanía e infraestructura"
+  }
+ ],
+ "estudios": [
+  {
+   "ruta": "estudios/ccs-caracterizacion-industria-ia-2025.md",
+   "url": "https://www.ccs.cl/wp-content/uploads/2025/07/Caracterizacion-IA-2025-CCS.pdf",
+   "titulo": "Caracterización sector IA chileno (CCS, 2025)",
+   "lede": "Es el catastro de las empresas chilenas que desarrollan o implementan inteligencia artificial, hecho por la Mesa de Inteligencia Artificial de la Cámara de Comercio de Santiago y publicado en julio de 2025. Identifica cerca de 400 empresas (con un promedio de 25 trabajadores, 21 % de mujeres y 16 % de las ventas exportadas) y ventas de US$ 755 millones en 2024, con una proyección de unos US$ 1.000 millones para 2025.",
+   "id": "ccs-caracterizacion-industria-ia-2025",
+   "tipo": "estudio",
+   "autores": "Cámara de Comercio de Santiago (CCS), Mesa de Inteligencia Artificial",
+   "anio": 2025,
+   "publicado": "2025-07",
+   "cifras": [
+    {
+     "id": "la-ccs-catastró-cerca-de-400-empresas-chilenas-de-ia",
+     "enunciado": "La CCS catastró cerca de 400 empresas chilenas de IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/ccs-caracterizacion-industria-ia-2025.md#la-ccs-catastró-cerca-de-400-empresas-chilenas-de-ia",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · George Lever · [34:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=5475s)"
+     ],
+     "cifra": "La Cámara de Comercio de Santiago identificó cerca de 400 empresas chilenas que desarrollan o implementan inteligencia artificial, en su caracterización del sector publicada en julio de 2025.",
+     "en la fuente": "comunicado del 18 de julio de 2025 («cerca de 400 empresas»); PDF, gráfico «Empresas IA por millón de habitantes, 2025» («Chile (400)»)",
+     "verificación": "Verificada contra el PDF y el comunicado de la CCS, el 27 de octubre de 2026."
+    },
+    {
+     "id": "más-de-500-empresas-chilenas-de-ia-según-una-estimación-de-la-ccs",
+     "enunciado": "Más de 500 empresas chilenas de IA, según una estimación de la CCS",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/ccs-caracterizacion-industria-ia-2025.md#más-de-500-empresas-chilenas-de-ia-según-una-estimación-de-la-ccs",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · George Lever · [34:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=5475s)"
+     ],
+     "cifra": "George Lever, gerente de Estudios e Innovación de la CCS, dijo el 2 de septiembre de 2026 que la Cámara estima que hay más de 500 empresas chilenas de inteligencia artificial, además de las 400 que tiene catastradas.",
+     "verificación": "Solo en la sesión. No está en el estudio publicado ni en otra publicación de la CCS que se encontrara."
+    },
+    {
+     "id": "más-de-8500-empleos-en-las-empresas-chilenas-de-ia",
+     "enunciado": "Más de 8.500 empleos en las empresas chilenas de IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/ccs-caracterizacion-industria-ia-2025.md#más-de-8500-empleos-en-las-empresas-chilenas-de-ia",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · George Lever · [34:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=5475s)"
+     ],
+     "cifra": "George Lever, gerente de Estudios e Innovación de la CCS, dijo el 2 de septiembre de 2026 que las empresas chilenas de inteligencia artificial dan más de 8.500 empleos, y probablemente más.",
+     "verificación": "Solo en la sesión. No está en el estudio publicado, cuyas cifras de empleo no cuadran entre sí (poco más de 14.500 personas en la entrada del comunicado y unos 5.600 trabajadores en su cuerpo); el 8.500 coincide con lo que Lever dijo a la prensa el [24 de agosto de 2026](https://chile.ladevi.info/actualidad/ccs-lanza-codigo-buenas-practicas-uso-ia-los-alcances-las-empresas-n104907), sin un estudio publicado detrás."
+    },
+    {
+     "id": "más-de-us-1500-millones-en-ventas-de-las-empresas-chilenas-de-ia",
+     "enunciado": "Más de US$ 1.500 millones en ventas de las empresas chilenas de IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/ccs-caracterizacion-industria-ia-2025.md#más-de-us-1500-millones-en-ventas-de-las-empresas-chilenas-de-ia",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · George Lever · [34:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=5475s)"
+     ],
+     "cifra": "George Lever, gerente de Estudios e Innovación de la CCS, dijo el 2 de septiembre de 2026 que las empresas chilenas de inteligencia artificial generan más de US$ 1.500 millones en ventas, y probablemente más.",
+     "verificación": "Solo en la sesión. No está en el estudio publicado, que da US$ 755 millones en 2024 y unos US$ 1.007 millones proyectados para 2025; el [24 de agosto de 2026](https://chile.ladevi.info/actualidad/ccs-lanza-codigo-buenas-practicas-uso-ia-los-alcances-las-empresas-n104907) Lever había dicho a la prensa «ventas superiores a los US$1.600 millones», una estimación sin estudio publicado detrás."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/cenia-cepal-ilia-2025.md",
+   "url": "https://indicelatam.cl/wp-content/uploads/2025/10/Documento_ILIA_2025.pdf",
+   "titulo": "Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025 (CENIA y CEPAL, 2025)",
+   "lede": "Es la edición 2025 del índice con que el Centro Nacional de Inteligencia Artificial (CENIA) y la CEPAL miden la madurez de los ecosistemas de inteligencia artificial de América Latina y el Caribe (documento LC/TS.2025/68, 194 páginas), y era la edición vigente en las sesiones de Impacta IA Chile del 2 y 3 de septiembre de 2026: pone a Chile primero del ranking general. La edición siguiente, el [ILIA 2026](https://www.cepal.org/es/publicaciones/90413-indice-latinoamericano-inteligencia-artificial-ilia-2026) (LC/TS.2026/97), se presentó el 20 de octubre de 2026 con 20 países y Chile primero por cuarto año consecutivo (71,4 de 100 puntos); Macarena MacKay contó en Impacta que participó en su capítulo de IA responsable.",
+   "id": "cenia-cepal-ilia-2025",
+   "tipo": "estudio",
+   "autores": "Centro Nacional de Inteligencia Artificial (CENIA, Chile) y Comisión Económica para América Latina y el Caribe (CEPAL)",
+   "anio": 2025,
+   "cifras": [
+    {
+     "id": "chile-primero-del-ranking-general-del-ilia-2025",
+     "enunciado": "Chile, primero del ranking general del ILIA 2025",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cenia-cepal-ilia-2025.md#chile-primero-del-ranking-general-del-ilia-2025",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · Carolina Garlick · [02:31](https://www.youtube.com/watch?v=4N6I6PXycMw&t=3551s)"
+     ],
+     "cifra": "En el Índice Latinoamericano de Inteligencia Artificial 2025, de CENIA y la CEPAL, Chile ocupa el primer lugar del ranking general entre los países de América Latina y el Caribe.",
+     "en la fuente": "ranking general",
+     "verificación": "Difiere. Garlick dijo que Chile lidera en Latinoamérica, pero lo atribuyó al índice de madurez de CORFO, la CCS y la consultora PMG Chile ([ITD-IA 2026](corfo-ccs-pmg-madurez-ia-2026.md)), que mide solo a Chile y no compara países; el dato calza con este índice."
+    },
+    {
+     "id": "chile-duodécimo-de-19-países-en-el-indicador-industria-del-ilia-2025",
+     "enunciado": "Chile, duodécimo de 19 países en el indicador «Industria» del ILIA 2025",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cenia-cepal-ilia-2025.md#chile-duodécimo-de-19-países-en-el-indicador-industria-del-ilia-2025",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · Carolina Garlick · [02:31](https://www.youtube.com/watch?v=4N6I6PXycMw&t=3551s)"
+     ],
+     "cifra": "En el ILIA 2025, Chile queda duodécimo de 19 países de América Latina y el Caribe en el indicador «Industria», con 39,3 puntos, aunque es primero del ranking general; lo encabeza México (100 puntos), seguido de Brasil (73,9), Venezuela (73) y Argentina (61).",
+     "en la fuente": "Gráfico 62, «Puntaje indicador: Industria»",
+     "verificación": "Difiere. Garlick dijo que en el sector industrial Chile pasa del primer lugar de la región al doce, y lo atribuyó al ITD-IA 2026 de CORFO, la CCS y la consultora PMG Chile, cuya capa «Sector industrial» compara subsectores chilenos y no países."
+    },
+    {
+     "id": "energía-eléctrica-cerca-del-80--del-gasto-operativo-de-los-data-centers",
+     "enunciado": "Energía eléctrica, cerca del 80 % del gasto operativo de los data centers",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cenia-cepal-ilia-2025.md#energía-eléctrica-cerca-del-80--del-gasto-operativo-de-los-data-centers",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Rodrigo Durán · [04:02](https://www.youtube.com/watch?v=NJu13g38nDc&t=21655s)"
+     ],
+     "cifra": "Rodrigo Durán, de CENIA, dijo el 3 de septiembre de 2026 que en los data centers estudiados en el Índice Latinoamericano de Inteligencia Artificial la energía eléctrica es cerca del 80 % del gasto operativo (opex).",
+     "verificación": "Solo en la sesión. El texto completo del ILIA 2025, la edición vigente ese día, no dice qué parte del gasto operativo de un data center es energía (sí trata los centros de datos, en su Recuadro 12), y ni la página ni la nota de lanzamiento del ILIA 2026 traen el 80 %; el texto completo del ILIA 2026 no se pudo abrir."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/cepr-penalizacion-aprendizaje-ia-china-2026.md",
+   "url": "https://cepr.org/publications/DP21577",
+   "titulo": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education (CEPR, 2026)",
+   "lede": "Es un documento de trabajo del CEPR (DP21577, junio de 2026, sin revisión de pares) de David Strömberg (Universidad de Estocolmo) y Victor Lei y Yanhui Wu (Universidad de Hong Kong). Con 30 meses de datos de panel de 26.811 estudiantes de 7.º a 12.º grado de un condado chino y un diseño de diferencias en diferencias sobre la adopción escalonada de la IA, muestra que la IA sube las notas de las tareas y reduce su tiempo, pero baja las de las pruebas a libro cerrado y las de los exámenes de admisión.",
+   "id": "cepr-penalizacion-aprendizaje-ia-china-2026",
+   "tipo": "estudio",
+   "autores": "David Strömberg, Victor Lei y Yanhui Wu",
+   "anio": 2026,
+   "publicado": "2026-06",
+   "cifras": [
+    {
+     "id": "con-ia-las-notas-de-las-tareas-suben-18-",
+     "enunciado": "Con IA, las notas de las tareas suben 18 %",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cepr-penalizacion-aprendizaje-ia-china-2026.md#con-ia-las-notas-de-las-tareas-suben-18-",
+     "dicha en": [
+      "[Sociedad del futuro: de la escasez a la abundancia](../eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · Alfredo Pérsico · [24:14](https://www.youtube.com/watch?v=4N6I6PXycMw&t=30549s)"
+     ],
+     "cifra": "En un condado de China, la adopción de IA generativa sube un 18 % las notas de las tareas de los estudiantes de 7.º a 12.º grado (26.811 estudiantes, 30 meses de datos; documento del CEPR de junio de 2026).",
+     "en la fuente": "resumen del documento («AI adoption raises homework scores by 18%»)",
+     "verificación": "Difiere. Pérsico dijo 17 %; según cobertura secundaria (36Kr), el 17 % es la caída en las pruebas de inglés."
+    },
+    {
+     "id": "con-ia-el-tiempo-de-las-tareas-baja-30-",
+     "enunciado": "Con IA, el tiempo de las tareas baja 30 %",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cepr-penalizacion-aprendizaje-ia-china-2026.md#con-ia-el-tiempo-de-las-tareas-baja-30-",
+     "dicha en": [
+      "[Sociedad del futuro: de la escasez a la abundancia](../eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · Alfredo Pérsico · [25:42](https://www.youtube.com/watch?v=4N6I6PXycMw&t=30637s)"
+     ],
+     "cifra": "En un condado de China, la adopción de IA generativa reduce un 30 % el tiempo que los estudiantes de 7.º a 12.º grado tardan en hacer sus tareas (26.811 estudiantes, 30 meses de datos; documento del CEPR de junio de 2026); según cobertura secundaria, de 64 a 45 minutos.",
+     "en la fuente": "resumen del documento («reduces completion time by 30%»)",
+     "verificación": "Verificada contra el resumen del documento (RePEc, SSRN y Stanford SCALE), el 27 de octubre de 2026. Pérsico dijo primero «veintitantos por ciento» y se corrigió."
+    },
+    {
+     "id": "con-ia-las-notas-de-las-pruebas-a-libro-cerrado-bajan-20--en-seis-meses",
+     "enunciado": "Con IA, las notas de las pruebas a libro cerrado bajan 20 % en seis meses",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/cepr-penalizacion-aprendizaje-ia-china-2026.md#con-ia-las-notas-de-las-pruebas-a-libro-cerrado-bajan-20--en-seis-meses",
+     "dicha en": [
+      "[Sociedad del futuro: de la escasez a la abundancia](../eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · Alfredo Pérsico · [25:42](https://www.youtube.com/watch?v=4N6I6PXycMw&t=30637s)"
+     ],
+     "cifra": "En un condado de China, la adopción de IA generativa baja un 20 % las notas de las pruebas mensuales a libro cerrado de los estudiantes de 7.º a 12.º grado en seis meses, y entre 18 y 24 % las de los exámenes de admisión, con el efecto completo a los dos años (26.811 estudiantes, 30 meses de datos; documento del CEPR de junio de 2026).",
+     "en la fuente": "resumen del documento («lowers monthly exam scores by 20% within six months»)",
+     "verificación": "Difiere. Pérsico dijo 22 % (los 30 meses de datos sí calzan, como él corrigió); el 22 % solo aparece en cobertura secundaria (36Kr), como la caída en las materias STEM."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/corfo-ccs-pmg-madurez-ia-2026.md",
+   "url": "https://www.ccs.cl/ecommerce/madurez-ia-chile-estudio-itd-ia-2026/",
+   "titulo": "Índice de Transformación Digital en Inteligencia Artificial (ITD-IA) Nacional 2026 (CORFO, CCS y PMG Chile, 2026)",
+   "lede": "Es el primer índice de madurez empresarial en inteligencia artificial de Chile, elaborado por CORFO, la Cámara de Comercio de Santiago y la consultora PMG Chile con el modelo del MIT CISR como referente internacional. Encuestó a 740 empresas de todos los sectores, tamaños y regiones y se presentó el 5 de agosto de 2026: Chile obtiene 34 de 100 puntos y solo el 9 % de las empresas está en las etapas de escalar o liderar.",
+   "id": "corfo-ccs-pmg-madurez-ia-2026",
+   "tipo": "estudio",
+   "autores": "CORFO, Cámara de Comercio de Santiago (CCS) y PMG Chile",
+   "anio": 2026,
+   "publicado": "2026-08-05",
+   "cifras": [
+    {
+     "id": "solo-9--de-las-empresas-chilenas-está-en-las-etapas-de-escalar-o-liderar-en-ia",
+     "enunciado": "Solo 9 % de las empresas chilenas está en las etapas de escalar o liderar en IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/corfo-ccs-pmg-madurez-ia-2026.md#solo-9--de-las-empresas-chilenas-está-en-las-etapas-de-escalar-o-liderar-en-ia",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · Carolina Garlick · [02:31](https://www.youtube.com/watch?v=4N6I6PXycMw&t=3551s)"
+     ],
+     "cifra": "En el ITD-IA 2026 de CORFO, la CCS y PMG Chile, presentado el 5 de agosto de 2026, solo el 9 % de las 740 empresas chilenas encuestadas está en las etapas de escalar (8 %) o liderar (1 %) en inteligencia artificial, y el 91 % sigue en explorar o pilotear; en el referente global de 2025 esa cifra llega a 64 %.",
+     "en la fuente": "presentación del ITD-IA 2026, láminas «Estado de madurez en IA en Chile: ¿Dónde estamos?» y «01 País»; nota de la CCS del [4 de septiembre de 2026](https://www.ccs.cl/2026/09/04/chile-mide-primera-vez-madurez-ia-parte-34-100-puntos-oportunidad-escalamiento/)",
+     "verificación": "Verificada contra la presentación del ITD-IA 2026 y la nota de la CCS, el 27 de octubre de 2026. Lo que Garlick dijo en la misma frase, que Chile lidera en Latinoamérica y cae al lugar 12 en el sector industrial, no sale de este índice, que no compara países: calza con el [ILIA 2025 de CENIA y la CEPAL](cenia-cepal-ilia-2025.md)."
+    },
+    {
+     "id": "hasta-10--más-de-productividad-para-chile-con-ia",
+     "enunciado": "Hasta 10 % más de productividad para Chile con IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/corfo-ccs-pmg-madurez-ia-2026.md#hasta-10--más-de-productividad-para-chile-con-ia",
+     "dicha en": [
+      "[Encuentro público-privado para una adopción sin brechas](../eventos/impacta-ia-2026/sesiones/dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · Fernando Hentzschel · [06:01](https://www.youtube.com/watch?v=4N6I6PXycMw&t=3761s)"
+     ],
+     "cifra": "Fernando Hentzschel, de CORFO, dijo el 2 de septiembre de 2026 que con inteligencia artificial Chile podría aumentar hasta en un 10 % la productividad de sus sectores productivos, y lo atribuyó a esta misma encuesta.",
+     "verificación": "Solo en la sesión. Ni la presentación del ITD-IA 2026 ni las notas de la CCS y del Diario Financiero traen un potencial de productividad, y no se encontró la fuente del dato."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/hbr-gen-ai-amenaza-trabajadores-2026.md",
+   "url": "https://hbr.org/2026/03/why-gen-ai-feels-so-threatening-to-workers",
+   "titulo": "Why Gen AI Feels So Threatening to Workers (Harvard Business Review, 2026)",
+   "lede": "Es un artículo de Harvard Business Review (número de marzo-abril de 2026) de Erik Hermann (European University Viadrina), Stefano Puntoni (Wharton) y Carey K. Morewedge (Boston University) que explica la resistencia a la IA generativa porque amenaza tres necesidades psicológicas del trabajo: competencia, autonomía y pertenencia. Reúne encuestas de terceros (BCG, Ivanti, Kyndryl y Wharton-GBK, entre otras) y propone el marco AWARE para los líderes: reconocer las preocupaciones, vigilar cómo se adaptan las personas, alinear el apoyo, rediseñar los roles y empoderar con transparencia y participación.",
+   "id": "hbr-gen-ai-amenaza-trabajadores-2026",
+   "tipo": "estudio",
+   "autores": "Erik Hermann, Stefano Puntoni y Carey K. Morewedge",
+   "anio": 2026,
+   "publicado": "2026-03",
+   "cifras": [
+    {
+     "id": "31--trabaja-contra-las-iniciativas-de-ia-de-su-empresa-41--en-la-generación-z",
+     "enunciado": "31 % trabaja contra las iniciativas de IA de su empresa; 41 % en la generación Z",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/hbr-gen-ai-amenaza-trabajadores-2026.md#31--trabaja-contra-las-iniciativas-de-ia-de-su-empresa-41--en-la-generación-z",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [29:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=16310s)"
+     ],
+     "cifra": "En una encuesta de 2025 a 1.600 trabajadores del conocimiento de EE. UU. de varios sectores, la mitad de ellos de la alta dirección, el 31 % admitió trabajar activamente en contra de las iniciativas de IA de su empresa, y el 41 % entre los de la generación Z, según el artículo de Hermann, Puntoni y Morewedge.",
+     "en la fuente": "sección «Watch»",
+     "verificación": "Verificada contra el artículo, el 27 de octubre de 2026. Puntoni habló de sabotear la estrategia de IA; el artículo dice trabajar activamente en contra de las iniciativas de IA y lo presenta como antesala del sabotaje."
+    },
+    {
+     "id": "54--usaría-herramientas-de-ia-sin-aprobación-formal-bcg-2025",
+     "enunciado": "54 % usaría herramientas de IA sin aprobación formal (BCG, 2025)",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/hbr-gen-ai-amenaza-trabajadores-2026.md#54--usaría-herramientas-de-ia-sin-aprobación-formal-bcg-2025",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [29:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=16310s)"
+     ],
+     "cifra": "En el estudio de BCG de 2025 que cita el artículo de Hermann, Puntoni y Morewedge, el 54 % de los encuestados dijo que usaría herramientas de IA sin aprobación formal, una tendencia más marcada entre los empleados de la generación Z y millennials.",
+     "en la fuente": "sección «Watch»",
+     "verificación": "Difiere. Puntoni lo presentó como el uso a escondidas de IA no aprobada (shadow AI) entre trabajadores del conocimiento de EE. UU.; la fuente habla de una intención («would use») y de otra encuesta, la de BCG."
+    },
+    {
+     "id": "32--de-quienes-usan-ia-generativa-en-el-trabajo-lo-esconde-de-su-empleador",
+     "enunciado": "32 % de quienes usan IA generativa en el trabajo lo esconde de su empleador",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/hbr-gen-ai-amenaza-trabajadores-2026.md#32--de-quienes-usan-ia-generativa-en-el-trabajo-lo-esconde-de-su-empleador",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [29:35](https://www.youtube.com/watch?v=4N6I6PXycMw&t=16310s)"
+     ],
+     "cifra": "Según el informe global Tech at Work de Ivanti que cita el artículo de Hermann, Puntoni y Morewedge, el 32 % de quienes usan IA generativa en el trabajo lo esconde de su empleador; sus motivos son tener una ventaja secreta (36 %), que no los despidan (30 %) y el síndrome del impostor o evitar que cuestionen sus capacidades (27 %).",
+     "en la fuente": "sección «Watch»",
+     "verificación": "Difiere. Puntoni lo atribuyó a trabajadores del conocimiento de EE. UU. y dio como motivo que les carguen más trabajo, pero el universo es otro (usuarios de IA generativa en un estudio global) y ese motivo no está entre los de la fuente."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/mckinsey-costo-computo-data-centers-2025.md",
+   "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers",
+   "titulo": "The cost of compute: A $7 trillion race to scale data centers (McKinsey, 2025)",
+   "lede": "Es un artículo de McKinsey Quarterly, del 28 de abril de 2025, que estima la inversión de capital mundial en data centers necesaria para la demanda de cómputo al 2030, a partir de los modelos de demanda y capex de McKinsey y entrevistas a expertos. Su escenario central es de US$ 6,7 billones (5,2 para cargas de IA y 1,5 para TI tradicional), y para la IA plantea escenarios de US$ 3,7 billones (demanda restringida) a US$ 7,9 billones (demanda acelerada) entre 2025 y 2030; un billón es un millón de millones, un «trillion» en inglés.",
+   "id": "mckinsey-costo-computo-data-centers-2025",
+   "tipo": "estudio",
+   "autores": "Jesse Noffsinger, Mark Patel y Pankaj Sachdeva, con Arjita Bhan, Haley Chang y Maria Goodpaster (McKinsey & Company)",
+   "anio": 2025,
+   "publicado": "2025-04-28",
+   "cifras": [
+    {
+     "id": "casi-us-7-billones-de-inversión-mundial-en-data-centers-al-2030",
+     "enunciado": "Casi US$ 7 billones de inversión mundial en data centers al 2030",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-costo-computo-data-centers-2025.md#casi-us-7-billones-de-inversión-mundial-en-data-centers-al-2030",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Pablo Correa · [03:03](https://www.youtube.com/watch?v=NJu13g38nDc&t=21597s)"
+     ],
+     "cifra": "Según McKinsey (abril de 2025), los data centers del mundo requerirán unos US$ 6,7 billones (millones de millones) de inversión de capital al 2030 en su escenario central, «nearly $7 trillion».",
+     "en la fuente": "introducción",
+     "verificación": "Verificada contra el artículo, el 27 de octubre de 2026."
+    },
+    {
+     "id": "us-52-billones-para-data-centers-de-ia-escenario-central-20252030",
+     "enunciado": "US$ 5,2 billones para data centers de IA, escenario central 2025–2030",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-costo-computo-data-centers-2025.md#us-52-billones-para-data-centers-de-ia-escenario-central-20252030",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Ignacio Briones · [11:50](https://www.youtube.com/watch?v=NJu13g38nDc&t=22124s)"
+     ],
+     "cifra": "Según McKinsey (abril de 2025), los data centers equipados para cargas de IA requerirán US$ 5,2 billones (millones de millones) de inversión de capital entre 2025 y 2030 en el escenario central, dentro del total de US$ 6,7 billones.",
+     "en la fuente": "introducción y sección «AI demand alone will require $5.2 trillion in investment»",
+     "verificación": "Difiere. Briones dijo que un poco más de 5 billones de los 7,9 iban a megadata centers (lo dijo como «5 mil millones de millones», que la nota 1 de la transcripción corrige), pero el monto es el escenario central de IA, no una parte de los 7,9, y la fuente habla de data centers para cargas de IA, no de megadata centers."
+    },
+    {
+     "id": "us-79-billones-para-data-centers-de-ia-en-el-escenario-de-demanda-acelerada",
+     "enunciado": "US$ 7,9 billones para data centers de IA en el escenario de demanda acelerada",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-costo-computo-data-centers-2025.md#us-79-billones-para-data-centers-de-ia-en-el-escenario-de-demanda-acelerada",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Ignacio Briones · [11:50](https://www.youtube.com/watch?v=NJu13g38nDc&t=22124s)"
+     ],
+     "cifra": "Según McKinsey (abril de 2025), en el escenario de demanda acelerada, con 205 GW adicionales de capacidad para IA entre 2025 y 2030, los data centers de IA requerirían US$ 7,9 billones (millones de millones) de inversión de capital; el escenario central es de US$ 6,7 billones para todos los data centers.",
+     "en la fuente": "Exhibit 2 y texto («This would require an estimated $7.9 trillion in capital expenditures»)",
+     "verificación": "Difiere. Briones lo presentó como la estimación de inversión mundial entre 2026 y 2030 (primero dijo 2025), pero es el escenario alto y solo para data centers de IA, y el periodo es 2025–2030."
+    },
+    {
+     "id": "1--de-la-inversión-en-megadata-centers-serían-unos-us-10-mil-millones-al-año-para-chile",
+     "enunciado": "1 % de la inversión en megadata centers serían unos US$ 10 mil millones al año para Chile",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-costo-computo-data-centers-2025.md#1--de-la-inversión-en-megadata-centers-serían-unos-us-10-mil-millones-al-año-para-chile",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Ignacio Briones · [12:27](https://www.youtube.com/watch?v=NJu13g38nDc&t=22161s)"
+     ],
+     "cifra": "Ignacio Briones calculó el 3 de septiembre de 2026 que, si Chile capturara el 1 % de la inversión mundial en megadata centers estimada por McKinsey, recibiría unos US$ 10 mil millones al año, más que toda la minería.",
+     "verificación": "Solo en la sesión. Es un cálculo de Briones que el artículo no trae; cuadra con el escenario central de IA (el 1 % de US$ 5,2 billones son US$ 52 mil millones en 2025–2030, unos 10 mil millones al año, y sobre los 7,9 billones serían unos 16 mil millones), y la comparación con la minería no se puede verificar con esta fuente."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/mckinsey-mgi-agentes-robots-2025.md",
+   "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+   "titulo": "Agents, robots, and us: Skill partnerships in the age of AI (McKinsey Global Institute, 2025)",
+   "lede": "Es un informe del McKinsey Global Institute, del 25 de noviembre de 2025, que estima cuánto del trabajo pagado de EE. UU. podrían hacer, en teoría, los agentes de IA y los robots con la tecnología ya demostrada, y qué habilidades humanas siguen siendo necesarias. Concluye que alrededor del 57 % de las horas de trabajo es técnicamente automatizable (44 % por agentes y 13 % por robots), lo que mide potencial técnico y no pérdida de empleos.",
+   "id": "mckinsey-mgi-agentes-robots-2025",
+   "tipo": "estudio",
+   "autores": "Lareina Yee, Anu Madgavkar, Sven Smit, Alexis Krivkovich, Michael Chui, María Jesús Ramírez y Diego Castresana (McKinsey Global Institute)",
+   "anio": 2025,
+   "publicado": "2025-11-25",
+   "cifras": [
+    {
+     "id": "horas-no-físicas-44-de-65-puntos-son-técnicamente-automatizables-por-agentes",
+     "enunciado": "Horas no físicas: 44 de 65 puntos son técnicamente automatizables por agentes",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-mgi-agentes-robots-2025.md#horas-no-físicas-44-de-65-puntos-son-técnicamente-automatizables-por-agentes",
+     "dicha en": [
+      "[El Futuro del Trabajo con IA: impacto en personas y gestión del cambio](../eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md) · Denisse Goldfarb · [36:49](https://www.youtube.com/watch?v=4N6I6PXycMw&t=24999s)"
+     ],
+     "cifra": "Del 65 % de las horas de trabajo pagado de EE. UU. (2024) que requiere solo capacidades no físicas, 44 puntos son técnicamente automatizables por agentes de IA con la tecnología ya demostrada y 21 no, según el McKinsey Global Institute (noviembre de 2025).",
+     "en la fuente": "Exhibit 2",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Goldfarb llamó cognitivas a las horas que la fuente describe como «nonphysical capabilities only»; es potencial técnico, no pérdida de empleos."
+    },
+    {
+     "id": "horas-físicas-13-de-35-puntos-son-técnicamente-automatizables-por-robots",
+     "enunciado": "Horas físicas: 13 de 35 puntos son técnicamente automatizables por robots",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mckinsey-mgi-agentes-robots-2025.md#horas-físicas-13-de-35-puntos-son-técnicamente-automatizables-por-robots",
+     "dicha en": [
+      "[El Futuro del Trabajo con IA: impacto en personas y gestión del cambio](../eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md) · Denisse Goldfarb · [36:49](https://www.youtube.com/watch?v=4N6I6PXycMw&t=24999s)"
+     ],
+     "cifra": "Del 35 % de las horas de trabajo pagado de EE. UU. (2024) que requiere capacidades físicas, 13 puntos son técnicamente automatizables por robots con la tecnología ya demostrada y 22 no, según el McKinsey Global Institute (noviembre de 2025).",
+     "en la fuente": "Exhibit 2 y texto («Activities that require physical as well as cognitive capabilities account for about 35 percent of current US work hours»)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/metr-duracion-tareas-ia-2025.md",
+   "url": "https://arxiv.org/abs/2503.14499",
+   "titulo": "Measuring AI Ability to Complete Long Software Tasks (METR, 2025)",
+   "lede": "Es el estudio de METR, del 19 de marzo de 2025, que mide la capacidad de los modelos de IA por la duración de las tareas de software que completan con 50 % de éxito, medida en el tiempo que esas tareas le toman a un profesional. Con modelos desde 2019, encuentra que ese «horizonte temporal» crece de forma exponencial y se duplica cada unos siete meses; METR mantiene la serie al día con modelos nuevos (Time Horizon 1.1 desde enero de 2026).",
+   "id": "metr-duracion-tareas-ia-2025",
+   "tipo": "estudio",
+   "autores": "Thomas Kwa, Ben West, Joel Becker y otros (METR)",
+   "anio": 2025,
+   "publicado": "2025-03-19",
+   "cifras": []
+  },
+  {
+   "ruta": "estudios/mit-media-lab-your-brain-on-chatgpt-2025.md",
+   "url": "https://arxiv.org/abs/2506.08872",
+   "titulo": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task (MIT Media Lab, 2025)",
+   "lede": "Es un preprint del MIT Media Lab, sin revisión de pares (arXiv, 10 de junio de 2025; revisado en diciembre de 2025), que midió con electroencefalograma la actividad cerebral de 54 personas que escribieron ensayos en tres grupos: con ChatGPT, con buscador o sin herramientas. Durante cuatro meses, el grupo que usó el LLM mostró la conectividad cerebral más débil, sintió menos suyo el ensayo y le costó citar lo que había escrito; los autores lo llaman «deuda cognitiva».",
+   "id": "mit-media-lab-your-brain-on-chatgpt-2025",
+   "tipo": "estudio",
+   "autores": "Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein y Pattie Maes (MIT Media Lab)",
+   "anio": 2025,
+   "publicado": "2025-06-10",
+   "cifras": [
+    {
+     "id": "54-participantes-en-tres-grupos-de-18",
+     "enunciado": "54 participantes en tres grupos de 18",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/mit-media-lab-your-brain-on-chatgpt-2025.md#54-participantes-en-tres-grupos-de-18",
+     "dicha en": [
+      "[Sociedad del futuro: de la escasez a la abundancia](../eventos/impacta-ia-2026/sesiones/dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · Alfredo Pérsico · [25:42](https://www.youtube.com/watch?v=4N6I6PXycMw&t=30637s)"
+     ],
+     "cifra": "El estudio Your Brain on ChatGPT del MIT Media Lab (junio de 2025) midió con electroencefalograma a 54 participantes en las sesiones 1 a 3, 18 por grupo (con ChatGPT, con buscador y sin herramientas); 18 completaron la sesión 4.",
+     "en la fuente": "resumen en arXiv («A total of 54 participants took part in Sessions 1-3, with 18 completing session 4»)",
+     "verificación": "Corregida. Pérsico dijo 60 personas en tres grupos de 20; la nota 1 de la transcripción lo corrige."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/openai-ai-jobs-transition-framework-2026.md",
+   "url": "https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf",
+   "titulo": "The AI Jobs Transition Framework: Mapping AI's Near-Term Impact on Jobs (OpenAI, 2026)",
+   "lede": "Es un informe de OpenAI Economic Research, de abril de 2026, que clasifica más de 900 ocupaciones de EE. UU. (152 millones de empleos) combinando la exposición técnica a la IA, la necesidad de intervención humana y la elasticidad de la demanda, y contrasta el resultado con datos de uso de ChatGPT. Concluye que el 18 % de los empleos tiene un riesgo de automatización relativamente mayor en el corto plazo, el 24 % se reorganizará, el 12 % podría crecer con la IA y el 46 % verá menos cambio inmediato.",
+   "id": "openai-ai-jobs-transition-framework-2026",
+   "tipo": "estudio",
+   "autores": "Alex Martin Richmond (OpenAI Economic Research), con nota de Ronnie Chatterji",
+   "anio": 2026,
+   "publicado": "2026-04",
+   "cifras": [
+    {
+     "id": "18--de-los-empleos-de-ee-uu-con-riesgo-de-automatización-mayor-en-el-corto-plazo",
+     "enunciado": "18 % de los empleos de EE. UU., con riesgo de automatización mayor en el corto plazo",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/openai-ai-jobs-transition-framework-2026.md#18--de-los-empleos-de-ee-uu-con-riesgo-de-automatización-mayor-en-el-corto-plazo",
+     "dicha en": [
+      "[El Futuro del Trabajo con IA: impacto en personas y gestión del cambio](../eventos/impacta-ia-2026/sesiones/dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio/README.md) · Paula Aguirre · [14:19](https://www.youtube.com/watch?v=4N6I6PXycMw&t=23649s)"
+     ],
+     "cifra": "Según OpenAI (abril de 2026), el 18 % de los empleos de EE. UU. (unos 27 millones) tiene un riesgo de automatización por la IA relativamente mayor en el corto plazo; el 46 % (71 millones) verá menos cambio inmediato, el 24 % (37 millones) se reorganizará y el 12 % crecerá con la IA.",
+     "en la fuente": "«Key takeaways» (p. 2) y figura de las cuatro categorías",
+     "verificación": "Verificada contra el informe de OpenAI, el 27 de octubre de 2026. Aguirre habló de riesgo «muy alto»; el informe dice «relativamente mayor en el corto plazo» y aclara que las categorías no son pronósticos de pérdida de empleo."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/pwc-ai-performance-study-2026.md",
+   "url": "https://www.pwc.com/gx/en/issues/technology/ai-performance/want-ai-roi-go-for-growth.html",
+   "titulo": "Want ROI from AI? Go for growth (PwC, 2026)",
+   "lede": "Es el estudio global de PwC sobre el desempeño de la IA (PwC's AI performance study), publicado el 13 de abril de 2026, que compara el desempeño financiero atribuible a la IA de 1.217 empresas, medido como ingresos y ahorros ajustados por la mediana de su sector. Se basa en una encuesta a ejecutivos de nivel director o superior, sobre todo de empresas cotizadas y con más de US$ 1.000 millones de ingresos, en 25 sectores y seis regiones, con trabajo de campo en octubre y noviembre de 2025.",
+   "id": "pwc-ai-performance-study-2026",
+   "tipo": "estudio",
+   "autores": "Joe Atkinson, Agnes Koops y Matt Wood (PwC)",
+   "anio": 2026,
+   "publicado": "2026-04-13",
+   "cifras": [
+    {
+     "id": "20--de-las-empresas-captura-el-74--del-valor-que-genera-la-ia",
+     "enunciado": "20 % de las empresas captura el 74 % del valor que genera la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/pwc-ai-performance-study-2026.md#20--de-las-empresas-captura-el-74--del-valor-que-genera-la-ia",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [10:46](https://www.youtube.com/watch?v=4N6I6PXycMw&t=15181s)"
+     ],
+     "cifra": "En el estudio de PwC publicado en abril de 2026, el 20 % de las 1.217 empresas encuestadas captura el 74 % de los retornos impulsados por la IA («nearly three-quarters»); son las que apuntan la IA al crecimiento y a reinventar su modelo de negocio.",
+     "en la fuente": "introducción («20% of the 1,217 companies we surveyed capture 74% of the AI-driven returns»)",
+     "verificación": "Difiere. Puntoni dijo 75 %; la fuente dice 74 %, y lo demás calza (20 % de las empresas, más de mil ejecutivos, líderes que usan la IA para crecer)."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/stanford-hai-ai-index-2026.md",
+   "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+   "titulo": "The AI Index 2026 Annual Report (Stanford HAI, 2026)",
+   "lede": "Es la novena edición del informe anual del Stanford Institute for Human-Centered AI (HAI), de abril de 2026, que reúne datos públicos y propios sobre investigación, capacidades técnicas, economía, políticas, energía y opinión pública en torno a la IA. Para la energía reproduce proyecciones de la Agencia Internacional de Energía (IEA, Energy and AI, 2025), entre ellas el consumo eléctrico de los data centers por región entre 2020 y 2030.",
+   "id": "stanford-hai-ai-index-2026",
+   "tipo": "estudio",
+   "autores": "Sha Sajadieh, Loredana Fattorini, Raymond Perrault, Yolanda Gil y otros (AI Index Steering Committee, Stanford Institute for Human-Centered AI)",
+   "anio": 2026,
+   "publicado": "2026-04",
+   "cifras": [
+    {
+     "id": "consumo-eléctrico-de-los-data-centers-de-415-twh-en-2024-a-cerca-de-945-twh-en-2030",
+     "enunciado": "Consumo eléctrico de los data centers: de 415 TWh en 2024 a cerca de 945 TWh en 2030",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/stanford-hai-ai-index-2026.md#consumo-eléctrico-de-los-data-centers-de-415-twh-en-2024-a-cerca-de-945-twh-en-2030",
+     "dicha en": [
+      "[Datacenters e IA: ¿una oportunidad para Chile?](../eventos/impacta-ia-2026/sesiones/dia2-05-panel-datacenters-ia-oportunidad-chile/README.md) · Ignacio Briones · [12:01](https://www.youtube.com/watch?v=NJu13g38nDc&t=22135s)"
+     ],
+     "cifra": "Según las proyecciones de la IEA que reproduce el AI Index 2026, el consumo eléctrico de los data centers del mundo pasaría de 415 TWh en 2024 a cerca de 945 TWh en 2030, más del doble; Estados Unidos (45 % del consumo de 2024) y China (25 %) concentran la mayor parte.",
+     "en la fuente": "AI Index 2026, figura 1.4.13, «Data center electricity consumption by region, 2020–30» (capítulo 1, sección 1.4, p. 40 impresa); valores del [resumen ejecutivo de la IEA](https://www.iea.org/reports/energy-and-ai/executive-summary)",
+     "verificación": "Verificada contra el AI Index 2026 y el resumen ejecutivo de la IEA, el 27 de octubre de 2026. La lámina de Briones reproduce el gráfico, que no trae rótulos numéricos, así que «de unos 400 a cerca de 900 TWh» es una lectura a ojo; son proyecciones, no consumo observado."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/wharton-gbk-adopcion-ia-2025.md",
+   "url": "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/",
+   "titulo": "Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (Wharton y GBK, 2025)",
+   "lede": "Es la tercera ola del estudio anual de Wharton y GBK Collective sobre la adopción de IA generativa en grandes empresas de EE. UU. (2025 AI Adoption Report, Year Three), publicada el 28 de octubre de 2025. La keynote de Stefano Puntoni en Impacta IA Chile 2026 mostró dos cifras de esta ola sobre ejecutivos y mandos medios, que también publicó Harvard Business Review el 8 de abril de 2026 en un artículo de Korst, Puntoni y Tambe.",
+   "id": "wharton-gbk-adopcion-ia-2025",
+   "tipo": "estudio",
+   "autores": "Wharton y GBK Collective",
+   "anio": 2025,
+   "publicado": "2025-10-28",
+   "cifras": [
+    {
+     "id": "roi-significativamente-positivo-45--de-los-ejecutivos-senior-27--de-los-mandos-medios",
+     "enunciado": "ROI significativamente positivo: 45 % de los ejecutivos senior, 27 % de los mandos medios",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2025.md#roi-significativamente-positivo-45--de-los-ejecutivos-senior-27--de-los-mandos-medios",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [22:30](https://www.youtube.com/watch?v=4N6I6PXycMw&t=15885s)"
+     ],
+     "cifra": "En la ola de 2025 del estudio de Wharton y GBK, el 45 % de los VP, C-suite y dueños de grandes empresas de EE. UU. dice que la inversión en IA muestra un ROI significativamente positivo, contra el 27 % de los gerentes y directores.",
+     "en la fuente": "p. 46 del informe 2025; también en Harvard Business Review, [«Managers and Executives Disagree on AI—and It's Costing Companies»](https://hbr.org/2026/04/managers-and-executives-disagree-on-ai-and-its-costing-companies) (8 de abril de 2026)",
+     "verificación": "Verificada contra el informe 2025, el 27 de octubre de 2026. Puntoni la mostró en su keynote sobre la cuarta ola, pero aclaró que no eran datos de ese año; el informe 2026 no desglosa el ROI por rango (la lámina 15 del webinar de 2026 da 33 % de los VP+ y 24 % de gerentes y directores)."
+    },
+    {
+     "id": "más-positivos-sobre-la-ia-generativa-dos-tercios-de-ejecutivos-39--de-mandos-medios",
+     "enunciado": "Más positivos sobre la IA generativa: dos tercios de ejecutivos, 39 % de mandos medios",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2025.md#más-positivos-sobre-la-ia-generativa-dos-tercios-de-ejecutivos-39--de-mandos-medios",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [23:15](https://www.youtube.com/watch?v=4N6I6PXycMw&t=15930s)"
+     ],
+     "cifra": "En la ola de 2025 del estudio de Wharton y GBK, casi dos tercios de los ejecutivos senior de grandes empresas de EE. UU. se dicen mucho más positivos sobre la IA generativa que un año antes, contra el 39 % de los mandos medios.",
+     "en la fuente": "Harvard Business Review, [«Managers and Executives Disagree on AI—and It's Costing Companies»](https://hbr.org/2026/04/managers-and-executives-disagree-on-ai-and-its-costing-companies) (8 de abril de 2026)",
+     "verificación": "Verificada contra el artículo de Harvard Business Review del 8 de abril de 2026, el 27 de octubre de 2026. El informe 2025 no publica el desglose por rango (da 52 % de los managers+ «mucho más positivos», con el que cuadra), y el de 2026 da 43 % de los managers+ sin desglose."
+    }
+   ]
+  },
+  {
+   "ruta": "estudios/wharton-gbk-adopcion-ia-2026.md",
+   "url": "https://knowledge.wharton.upenn.edu/special-report/2026-ai-adoption-report/",
+   "titulo": "The Adaptive Advantage: Who's Winning With AI and How (Wharton y GBK, 2026)",
+   "lede": "Es la cuarta ola del estudio anual de Wharton Human-AI Research y GBK Collective sobre la adopción de IA en grandes empresas de EE. UU., dirigido por Jeremy Korst, Stefano Puntoni y Prasanna Tambe y publicado el 13 de octubre de 2026. Se basa en una encuesta en línea hecha del 9 al 29 de julio de 2026 a unas 1.400 personas (1.007 managers+ y, por primera vez, 409 trabajadores de nivel de entrada y medio) y mide el éxito con tres marcadores: ROI fuertemente positivo, flujos de trabajo transformados y organización alineada.",
+   "id": "wharton-gbk-adopcion-ia-2026",
+   "tipo": "estudio",
+   "autores": "Jeremy Korst, Stefano Puntoni y Prasanna Tambe (Wharton Human-AI Research) con GBK Collective (Brian Smith, Brandon Isaac y Rachel Wilder Hoffman)",
+   "anio": 2026,
+   "publicado": "2026-10-13",
+   "cifras": [
+    {
+     "id": "el-informe-2026-es-la-cuarta-ola-de-un-estudio-anual-que-empezó-en-2023",
+     "enunciado": "El informe 2026 es la cuarta ola de un estudio anual que empezó en 2023",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#el-informe-2026-es-la-cuarta-ola-de-un-estudio-anual-que-empezó-en-2023",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [00:00]"
+     ],
+     "cifra": "El informe de adopción de IA de Wharton y GBK Collective publicado el 13 de octubre de 2026 es la cuarta ola de un estudio anual sobre grandes empresas de EE. UU. que empezó en 2023.",
+     "en la fuente": "p. 3 (Context) y p. 5 (Methodology) del informe (5 y 7 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. La ola de 2023 la hizo GBK con Puntoni; el estudio conjunto de Wharton y GBK empezó en 2024."
+    },
+    {
+     "id": "unas-1400-personas-de-grandes-empresas-de-ee-uu-respondieron-la-encuesta-de-2026",
+     "enunciado": "Unas 1.400 personas de grandes empresas de EE. UU. respondieron la encuesta de 2026",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#unas-1400-personas-de-grandes-empresas-de-ee-uu-respondieron-la-encuesta-de-2026",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [02:52]"
+     ],
+     "cifra": "Unas 1.400 personas (1.416: 1.007 managers+ y 409 de nivel de entrada y medio) de empresas privadas de EE. UU. con más de 1.000 empleados y más de US$ 50 millones de ingresos respondieron una encuesta en línea de 15 minutos entre el 9 y el 29 de julio de 2026.",
+     "en la fuente": "p. 5 del informe, Study Objectives and Methodology (7 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "409-trabajadores-de-nivel-de-entrada-y-medio-encuestados-por-primera-vez-en-2026",
+     "enunciado": "409 trabajadores de nivel de entrada y medio, encuestados por primera vez en 2026",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#409-trabajadores-de-nivel-de-entrada-y-medio-encuestados-por-primera-vez-en-2026",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [02:52]"
+     ],
+     "cifra": "En 2026 el estudio de Wharton y GBK sumó por primera vez a 409 trabajadores de nivel de entrada y medio de grandes empresas de EE. UU.; los otros 1.007 encuestados son managers+ (gerentes, directores, VP, C-suite, dueños y fundadores).",
+     "en la fuente": "p. 6 del informe, Audiences (8 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni dijo «unos 400»."
+    },
+    {
+     "id": "un-departamento-cuenta-como-alineado-si-cumple-4-de-5-factores-de-personas",
+     "enunciado": "Un departamento cuenta como alineado si cumple 4 de 5 factores de personas",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#un-departamento-cuenta-como-alineado-si-cumple-4-de-5-factores-de-personas",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [04:46]"
+     ],
+     "cifra": "En el estudio de Wharton y GBK de 2026, un departamento cuenta como alineado en torno a la IA si cumple 4 de estos 5 factores de personas: formación adecuada, visión de largo plazo, elección real sobre cómo usar la IA, no estar frenado por personas y procesos, y ausencia de resistencia real.",
+     "en la fuente": "p. 7 y 65 del informe (9 y 67 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni dijo «four or five factors»; la lámina y el informe dicen 4 de 5."
+    },
+    {
+     "id": "28--de-los-managers-reporta-un-roi-fuertemente-positivo-de-la-ia",
+     "enunciado": "28 % de los managers+ reporta un ROI fuertemente positivo de la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#28--de-los-managers-reporta-un-roi-fuertemente-positivo-de-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [08:07]"
+     ],
+     "cifra": "En 2026, el 28 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. reporta un ROI fuertemente positivo de la IA en su departamento.",
+     "en la fuente": "p. 7 y 10 del informe (9 y 12 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst dijo «casi el 30 %»; la lámina da 28 %."
+    },
+    {
+     "id": "67--de-los-departamentos-usa-agentes-de-ia-17--los-deja-actuar-sin-aprobar-cada-paso",
+     "enunciado": "67 % de los departamentos usa agentes de IA; 17 % los deja actuar sin aprobar cada paso",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#67--de-los-departamentos-usa-agentes-de-ia-17--los-deja-actuar-sin-aprobar-cada-paso",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [21:23]"
+     ],
+     "cifra": "En 2026, el 67 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que su departamento usa agentes de IA en alguna forma, pero solo el 17 % los deja actuar sin que una persona apruebe cada paso.",
+     "en la fuente": "p. 7, 15, 44 y 53 del informe (9, 17, 46 y 55 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Tambe dio el 67 % de la lámina; el 17 % es sobre los managers+ que eligieron un nivel de autonomía (n = 984): el 10 % revisa una muestra después y el 7 % usa monitoreo y barreras automáticas."
+    },
+    {
+     "id": "roi-fuerte-por-rango-11--entrada-y-medio-24--gerentes-y-directores-33--vp",
+     "enunciado": "ROI fuerte por rango: 11 % entrada y medio, 24 % gerentes y directores, 33 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#roi-fuerte-por-rango-11--entrada-y-medio-24--gerentes-y-directores-33--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [28:59]"
+     ],
+     "cifra": "Según la lámina 15 del webinar de Wharton del 20 de octubre de 2026, el ROI fuertemente positivo de la IA que se reporta en grandes empresas de EE. UU. sube con el rango: 11 % entre los trabajadores de nivel de entrada y medio, 24 % entre gerentes y directores y 33 % entre VP+.",
+     "verificación": "Solo en la sesión. El informe no desglosa el ROI por rango: da solo el 28 % del total de managers+, con el que cuadran el 24 % y el 33 % de la lámina."
+    },
+    {
+     "id": "62--de-los-managers-usa-ia-a-diario-en-2026-16-puntos-más-que-en-2025",
+     "enunciado": "62 % de los managers+ usa IA a diario en 2026, 16 puntos más que en 2025",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#62--de-los-managers-usa-ia-a-diario-en-2026-16-puntos-más-que-en-2025",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [10:45]"
+     ],
+     "cifra": "El 62 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. usa IA a diario en 2026, 16 puntos más que el 46 % de 2025.",
+     "en la fuente": "p. 8, 22 y 41 del informe (10, 24 y 43 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst dijo «over 60 percent»."
+    },
+    {
+     "id": "la-palabra-excited-para-describir-la-ia-baja-8-puntos-a-51-",
+     "enunciado": "La palabra «excited» para describir la IA baja 8 puntos, a 51 %",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#la-palabra-excited-para-describir-la-ia-baja-8-puntos-a-51-",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [11:07]"
+     ],
+     "cifra": "Entre 2025 y 2026, la proporción de managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. que describe la IA como «excited» bajó 8 puntos, a 51 %.",
+     "en la fuente": "p. 8, 22 y 77 del informe (10, 24 y 79 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. La lámina advierte que la comparación con 2025 no es exacta, porque cambió la lista de palabras y la pregunta pasó de «Gen AI» a «AI»; el informe muestra la serie 2023–2026 sin esa advertencia."
+    },
+    {
+     "id": "20--de-los-departamentos-transformó-sus-flujos-de-trabajo-con-ia",
+     "enunciado": "20 % de los departamentos transformó sus flujos de trabajo con IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#20--de-los-departamentos-transformó-sus-flujos-de-trabajo-con-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [08:42]"
+     ],
+     "cifra": "En 2026, uno de cada cinco departamentos de grandes empresas de EE. UU. (20 %) transformó sus flujos de trabajo con IA, según los managers+ (gerentes y cargos superiores): cumple a la vez las tres condiciones del estudio, que son tener la IA plenamente integrada, usar agentes y haber cambiado de forma significativa sus flujos.",
+     "en la fuente": "p. 10 y 47 del informe (12 y 49 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "39--de-los-managers-describe-una-organización-alineada-en-torno-a-la-ia",
+     "enunciado": "39 % de los managers+ describe una organización alineada en torno a la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#39--de-los-managers-describe-una-organización-alineada-en-torno-a-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [09:47]"
+     ],
+     "cifra": "En 2026, el 39 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. describe una organización alineada en torno a la IA, es decir, que cumple 4 de los 5 factores de personas del estudio.",
+     "en la fuente": "p. 10, 19 y 65 del informe (12, 21 y 67 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst dijo «cerca del 40 %»."
+    },
+    {
+     "id": "solo-7--de-las-organizaciones-cumple-a-la-vez-los-tres-marcadores-de-éxito",
+     "enunciado": "Solo 7 % de las organizaciones cumple a la vez los tres marcadores de éxito",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#solo-7--de-las-organizaciones-cumple-a-la-vez-los-tres-marcadores-de-éxito",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [10:16]"
+     ],
+     "cifra": "En 2026, solo el 7 % de las organizaciones de grandes empresas de EE. UU. cumple a la vez los tres marcadores de éxito del estudio de Wharton y GBK (ROI fuertemente positivo, flujos transformados y organización alineada), según los managers+ (gerentes y cargos superiores); Korst las llama organizaciones adaptativas.",
+     "en la fuente": "p. 10 del informe (12 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Que el 7 % será la vara del estudio en los próximos años lo dijo Korst; el informe no lo anuncia."
+    },
+    {
+     "id": "los-departamentos-transformados-reportan-roi-fuerte-en-67--contra-19--del-resto",
+     "enunciado": "Los departamentos transformados reportan ROI fuerte en 67 %, contra 19 % del resto",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#los-departamentos-transformados-reportan-roi-fuerte-en-67--contra-19--del-resto",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [21:57]"
+     ],
+     "cifra": "En 2026, los departamentos de grandes empresas de EE. UU. que cumplen las tres condiciones de transformación (flujos cambiados, agentes en uso e IA plenamente integrada), que son el 20 %, reportan ROI fuertemente positivo de la IA en un 67 %, contra el 19 % del resto, según los managers+ (gerentes y cargos superiores).",
+     "en la fuente": "p. 10, 15 y 47 del informe (12, 17 y 49 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "organización-alineada-39--de-los-managers-contra-26--de-entrada-y-nivel-medio",
+     "enunciado": "Organización alineada: 39 % de los managers+ contra 26 % de entrada y nivel medio",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#organización-alineada-39--de-los-managers-contra-26--de-entrada-y-nivel-medio",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [26:57]"
+     ],
+     "cifra": "En 2026, el 39 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. describe una organización alineada en torno a la IA, contra el 26 % de los trabajadores de nivel de entrada y medio.",
+     "en la fuente": "p. 10, 19 y 65 del informe (12, 21 y 67 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El informe llama a esta brecha en el marcador de alineamiento su hallazgo más consistente (p. 19 y 66)."
+    },
+    {
+     "id": "ia-integrada-en-los-flujos-por-rango-45--entrada-y-medio-64--gerentes-82--vp",
+     "enunciado": "IA integrada en los flujos por rango: 45 % entrada y medio, 64 % gerentes, 82 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#ia-integrada-en-los-flujos-por-rango-45--entrada-y-medio-64--gerentes-82--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [28:59]"
+     ],
+     "cifra": "Según la lámina 15 del webinar de Wharton del 20 de octubre de 2026, la IA integrada en los flujos de trabajo de grandes empresas de EE. UU. sube con el rango: 45 % entre los trabajadores de nivel de entrada y medio, 64 % entre gerentes y directores y 82 % entre VP+, 37 puntos entre los extremos.",
+     "verificación": "Solo en la sesión. El informe no desglosa la integración por rango (da 73 % de managers+ con la IA plena o sustancialmente integrada, con el que cuadra), y Tambe redondeó la diferencia a casi 40 puntos."
+    },
+    {
+     "id": "roi-fuerte-35--al-medir-crecimiento-contra-13--al-medir-solo-eficiencia",
+     "enunciado": "ROI fuerte: 35 % al medir crecimiento, contra 13 % al medir solo eficiencia",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#roi-fuerte-35--al-medir-crecimiento-contra-13--al-medir-solo-eficiencia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [13:39]",
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [12:11](https://www.youtube.com/watch?v=4N6I6PXycMw&t=15266s)"
+     ],
+     "cifra": "En 2026, los departamentos de grandes empresas de EE. UU. que miden el ROI de la IA con al menos un indicador de crecimiento reportan ROI fuertemente positivo en un 35 %, contra el 13 % de los que miden solo eficiencia, unas 2,7 veces; con dos indicadores de crecimiento sube a 37 % y con tres, a 43 %. Es correlación, no causa.",
+     "en la fuente": "p. 11 y 31 del informe (13 y 33 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. En el webinar Puntoni dijo «more than twice» (la lámina dice casi tres veces), y en la keynote del 2 de septiembre, antes de la publicación, «más de un tercio contra menos del 20 %»."
+    },
+    {
+     "id": "rol-principal-de-la-ia-a-1224-meses-52--productividad-o-costos-22--crecimiento",
+     "enunciado": "Rol principal de la IA a 12–24 meses: 52 % productividad o costos, 22 % crecimiento",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#rol-principal-de-la-ia-a-1224-meses-52--productividad-o-costos-22--crecimiento",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [14:49]"
+     ],
+     "cifra": "En 2026, el 52 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. ve el rol principal de la IA en los próximos 12 a 24 meses en la productividad o los costos, y solo el 22 % en el crecimiento, que el informe define como experiencia del cliente (14 %) más ingresos o productos nuevos (8 %).",
+     "en la fuente": "p. 11 y 26 del informe (13 y 28 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni no dio las cifras; están en la lámina."
+    },
+    {
+     "id": "productividad-contra-crecimiento-el-adelanto-de-unas-siete-veces-quedó-en-24",
+     "enunciado": "Productividad contra crecimiento: el adelanto de unas siete veces quedó en 2,4",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#productividad-contra-crecimiento-el-adelanto-de-unas-siete-veces-quedó-en-24",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [05:29](https://www.youtube.com/watch?v=4N6I6PXycMw&t=14864s)"
+     ],
+     "cifra": "En el informe publicado en octubre de 2026, el 52 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. ve el rol principal de la IA en los próximos 12 a 24 meses en la productividad o los costos, contra el 22 % que lo ve en el crecimiento: unas 2,4 veces.",
+     "en la fuente": "p. 11 y 26 del informe (13 y 28 del PDF)",
+     "verificación": "Preliminar. El 2 de septiembre de 2026, con los datos recién levantados, Puntoni adelantó que las respuestas mencionaban la productividad unas siete veces más que el crecimiento (6,6 en la lámina), según una codificación de texto libre que el informe no publica; esa proporción solo se repite si se cuenta como crecimiento únicamente «ingresos o productos nuevos» (52 contra 8)."
+    },
+    {
+     "id": "crecimiento-como-rol-principal-de-la-ia-cerca-del-10--en-el-adelanto-22--al-final",
+     "enunciado": "Crecimiento como rol principal de la IA: cerca del 10 % en el adelanto, 22 % al final",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#crecimiento-como-rol-principal-de-la-ia-cerca-del-10--en-el-adelanto-22--al-final",
+     "dicha en": [
+      "[Against Productivity: Reaping the rewards of the AI revolution](../eventos/impacta-ia-2026/sesiones/dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · Stefano Puntoni · [05:29](https://www.youtube.com/watch?v=4N6I6PXycMw&t=14864s)"
+     ],
+     "cifra": "En el informe publicado en octubre de 2026, el 22 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que el rol principal de la IA en los próximos 12 a 24 meses será el crecimiento: experiencia del cliente (14 %) más ingresos o productos nuevos (8 %).",
+     "en la fuente": "p. 11 y 26 del informe (13 y 28 del PDF)",
+     "verificación": "Preliminar. El 2 de septiembre de 2026 Puntoni adelantó «cerca del 10 %», que se acerca al 8 % de «ingresos o productos nuevos», pero el informe final cuenta como crecimiento también la experiencia del cliente."
+    },
+    {
+     "id": "roi-fuerte-58--con-un-caio-recién-designado-24--con-el-rol-sumado-8--sin-caio",
+     "enunciado": "ROI fuerte: 58 % con un CAIO recién designado, 24 % con el rol sumado, 8 % sin CAIO",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#roi-fuerte-58--con-un-caio-recién-designado-24--con-el-rol-sumado-8--sin-caio",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [16:12]"
+     ],
+     "cifra": "En 2026, el 58 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. en organizaciones con un Chief AI Officer (CAIO) recién designado reporta ROI fuertemente positivo de la IA, contra el 24 % donde el rol se sumó a un cargo existente y el 8 % donde no hay CAIO ni planes de tenerlo; dos tercios (67 %) ya tienen un CAIO o equivalente (42 % sumado a un cargo y 25 % en un cargo nuevo).",
+     "en la fuente": "p. 12, 28 y 29 del informe (14, 30 y 31 del PDF)",
+     "verificación": "Corregida. Korst lo dijo al revés, que casi el 60 % de quienes reportan ROI fuerte tiene un CAIO (nota 1 de la transcripción); con las bases del informe, de quienes reportan ROI fuerte cerca del 51 % tiene un CAIO dedicado."
+    },
+    {
+     "id": "roi-fuerte-50--al-estandarizar-una-plataforma-30--con-varias-19--con-un-hub",
+     "enunciado": "ROI fuerte: 50 % al estandarizar una plataforma, 30 % con varias, 19 % con un hub",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#roi-fuerte-50--al-estandarizar-una-plataforma-30--con-varias-19--con-un-hub",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [17:15]"
+     ],
+     "cifra": "En 2026, el 50 % de las organizaciones de grandes empresas de EE. UU. que estandarizan una sola plataforma de IA aprobada reporta ROI fuertemente positivo, contra el 30 % de las que aprueban varias herramientas, el 19 % de las que usan un hub central y el 9 % de las que aún experimentan; solo el 19 % de las organizaciones estandariza en una plataforma.",
+     "en la fuente": "p. 12 y 30 del informe (14 y 32 del PDF)",
+     "verificación": "Corregida. Korst lo dijo al revés, que la mitad de quienes reportan ROI positivo había estandarizado una sola plataforma (nota 2 de la transcripción); con las bases del informe, de quienes reportan ROI fuerte solo cerca de un tercio estandarizó."
+    },
+    {
+     "id": "costo-de-herramientas-y-desempeño-de-la-ia-34--cada-uno-primeras-barreras-al-roi",
+     "enunciado": "Costo de herramientas y desempeño de la IA, 34 % cada uno: primeras barreras al ROI",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#costo-de-herramientas-y-desempeño-de-la-ia-34--cada-uno-primeras-barreras-al-roi",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [18:44]"
+     ],
+     "cifra": "En 2026, el costo de herramientas, cómputo o licencias y los problemas de desempeño de la IA empatan como principal barrera al ROI de la IA, con 34 % cada uno entre los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU., por delante de la escasez de habilidades (27 %); además, el 64 % ve el alza de tokens, licencias y API como una barrera mayor (74 % de los VP+ y 54 % de gerentes y directores).",
+     "en la fuente": "p. 13 y 32 del informe (15 y 34 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst lo liga al *token maxing* y a los agentes; las cifras están en la lámina."
+    },
+    {
+     "id": "roi-fuerte-56--de-quienes-confían-en-seguir-su-gasto-en-ia-contra-10--del-resto",
+     "enunciado": "ROI fuerte: 56 % de quienes confían en seguir su gasto en IA, contra 10 % del resto",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#roi-fuerte-56--de-quienes-confían-en-seguir-su-gasto-en-ia-contra-10--del-resto",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [19:33]"
+     ],
+     "cifra": "En 2026, el 56 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. que confían en poder seguir su gasto total en IA reporta ROI fuertemente positivo, contra el 10 % de los demás; solo el 40 % tiene esa confianza.",
+     "en la fuente": "p. 13, 35 y 36 del informe (15, 37 y 38 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El informe advierte que parte de la diferencia puede ser convicción más que capacidad."
+    },
+    {
+     "id": "73--de-los-departamentos-cambió-sus-flujos-de-trabajo-por-la-ia",
+     "enunciado": "73 % de los departamentos cambió sus flujos de trabajo por la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#73--de-los-departamentos-cambió-sus-flujos-de-trabajo-por-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [21:23]"
+     ],
+     "cifra": "En 2026, el 73 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que su departamento cambió sus flujos de trabajo por la IA, contra el 58 % de los trabajadores de nivel de entrada y medio.",
+     "en la fuente": "p. 15 y 46 del informe (17 y 48 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Tambe dijo «cerca de tres cuartos»."
+    },
+    {
+     "id": "28--de-los-departamentos-tiene-la-ia-plenamente-integrada-en-sus-flujos",
+     "enunciado": "28 % de los departamentos tiene la IA plenamente integrada en sus flujos",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#28--de-los-departamentos-tiene-la-ia-plenamente-integrada-en-sus-flujos",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [21:23]"
+     ],
+     "cifra": "En 2026, el 28 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que su departamento tiene la IA plenamente integrada en sus flujos de trabajo, y el 46 %, sustancialmente integrada.",
+     "en la fuente": "p. 15 y 45 del informe (17 y 47 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "acciones-permitidas-a-la-ia-66--tareas-internas-de-bajo-impacto-63--rutinarias",
+     "enunciado": "Acciones permitidas a la IA: 66 % tareas internas de bajo impacto, 63 % rutinarias",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#acciones-permitidas-a-la-ia-66--tareas-internas-de-bajo-impacto-63--rutinarias",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [22:53]"
+     ],
+     "cifra": "En 2026, entre los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento deja actuar a la IA al menos con aprobación previa (n = 636, cerca del 65 % de los que eligieron un nivel de autonomía), el 66 % le permite actuar en tareas internas de bajo impacto y el 63 % en operaciones rutinarias.",
+     "en la fuente": "p. 17 y 55 del informe (19 y 57 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Tambe habló de dos tercios de los departamentos, pero la base no son todos los departamentos, sino los que ya dejan actuar a la IA."
+    },
+    {
+     "id": "acciones-permitidas-a-la-ia-45--de-cara-al-cliente-32--financieras-o-legales",
+     "enunciado": "Acciones permitidas a la IA: 45 % de cara al cliente, 32 % financieras o legales",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#acciones-permitidas-a-la-ia-45--de-cara-al-cliente-32--financieras-o-legales",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [23:20]"
+     ],
+     "cifra": "En 2026, entre los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento deja actuar a la IA al menos con aprobación previa (n = 636), el 45 % le permite acciones que tocan a clientes o terceros y el 32 %, acciones financieras, legales u otras irreversibles.",
+     "en la fuente": "p. 17 y 55 del informe (19 y 57 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Las acciones irreversibles las permite el 38 % de los VP+, contra el 24 % de gerentes y directores."
+    },
+    {
+     "id": "seguridad-y-privacidad-43--la-mayor-barrera-para-dar-más-autonomía-a-la-ia",
+     "enunciado": "Seguridad y privacidad, 43 %: la mayor barrera para dar más autonomía a la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#seguridad-y-privacidad-43--la-mayor-barrera-para-dar-más-autonomía-a-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [23:59]"
+     ],
+     "cifra": "En 2026, la seguridad y privacidad de los datos es, lejos, la mayor barrera para dar más autonomía a la IA: la cita el 43 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU.",
+     "en la fuente": "p. 17 y 56 del informe (19 y 58 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El vínculo con incidentes de hackeo recientes es comentario de Tambe."
+    },
+    {
+     "id": "otras-barreras-a-la-autonomía-de-la-ia-regulación-24--desconfianza-23-",
+     "enunciado": "Otras barreras a la autonomía de la IA: regulación 24 %, desconfianza 23 %",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#otras-barreras-a-la-autonomía-de-la-ia-regulación-24--desconfianza-23-",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [23:59]"
+     ],
+     "cifra": "En 2026, después de la seguridad (43 %), las barreras que citan los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. para dar más autonomía a la IA son la regulación (24 %), la desconfianza en su razonamiento (23 %), la trazabilidad y auditoría y la resistencia interna (17 % cada una), la infraestructura (16 %), los casos de uso y el costo o ROI incierto (15 % cada uno) y la falta de habilidades (8 %).",
+     "en la fuente": "p. 17 y 56 del informe (19 y 58 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Tambe nombró la regulación y la confianza; las cifras están en la lámina."
+    },
+    {
+     "id": "ningún-responsable-pasa-del-30--cuando-la-ia-autónoma-comete-un-error-grave",
+     "enunciado": "Ningún responsable pasa del 30 % cuando la IA autónoma comete un error grave",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#ningún-responsable-pasa-del-30--cuando-la-ia-autónoma-comete-un-error-grave",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [56:02]"
+     ],
+     "cifra": "En 2026, ante la pregunta de quién responde cuando la IA autónoma comete un error grave, ningún responsable llega al 30 % entre los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU.: el equipo de gobernanza o riesgo (28 %), el jefe de quien la desplegó (26 %), el empleado (25 %) y el proveedor (9 %); el 11 % dice que nadie o no sabe.",
+     "en la fuente": "p. 17 y 58 del informe (19 y 60 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Tambe lo planteó como falta de acuerdo sobre quién responde por los agentes que cruzan áreas y quién puede desconectarlos; esa formulación es suya, y el 30 % no lo dijo en voz alta."
+    },
+    {
+     "id": "pasar-de-crear-a-revisar-lo-que-produce-la-ia-56--entrada-y-medio-82--vp",
+     "enunciado": "Pasar de crear a revisar lo que produce la IA: 56 % entrada y medio, 82 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#pasar-de-crear-a-revisar-lo-que-produce-la-ia-56--entrada-y-medio-82--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [33:15]"
+     ],
+     "cifra": "En 2026, la proporción de personas de grandes empresas de EE. UU. que dice que su trabajo pasó de crear resultados a revisar lo que produce la IA sube con el rango: 56 % entre los trabajadores de nivel de entrada y medio, 63 % entre gerentes y directores y 82 % entre VP+ (72 % del total de managers+).",
+     "en la fuente": "p. 20 y 62 del informe (22 y 64 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst dijo «over half» y «80% plus»."
+    },
+    {
+     "id": "más-de-la-mitad-de-las-organizaciones-alineadas-no-recortó-personal-por-la-ia",
+     "enunciado": "Más de la mitad de las organizaciones alineadas no recortó personal por la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#más-de-la-mitad-de-las-organizaciones-alineadas-no-recortó-personal-por-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [33:59]"
+     ],
+     "cifra": "Según Jeremy Korst, más de la mitad de las organizaciones de grandes empresas de EE. UU. alineadas en torno a la IA no había recortado personal por la IA en 2026; con las bases del informe (369 departamentos con recortes, 522 sin recortes y 390 alineados), son cerca del 71 %.",
+     "verificación": "Solo en la sesión. El informe no publica esa lectura sino la inversa (53 % de organizaciones alineadas donde no se recortó, contra 20 % donde sí; p. 20 y 80), pero la de Korst se deriva de sus bases (p. 79 a 81) y es correcta, como dice la nota 4 de la transcripción."
+    },
+    {
+     "id": "solo-20--de-los-departamentos-que-recortaron-personal-por-la-ia-está-alineado",
+     "enunciado": "Solo 20 % de los departamentos que recortaron personal por la IA está alineado",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#solo-20--de-los-departamentos-que-recortaron-personal-por-la-ia-está-alineado",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [33:59]"
+     ],
+     "cifra": "En 2026, solo el 20 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento recortó personal por la IA describe una organización alineada en torno a la IA, contra el 53 % donde no se recortó.",
+     "en la fuente": "p. 20 y 80 del informe (22 y 82 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "preocupación-por-las-propias-habilidades-66--donde-se-recortó-personal-20--donde-no",
+     "enunciado": "Preocupación por las propias habilidades: 66 % donde se recortó personal, 20 % donde no",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#preocupación-por-las-propias-habilidades-66--donde-se-recortó-personal-20--donde-no",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [35:01]"
+     ],
+     "cifra": "En 2026, el 66 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento recortó personal por la IA se preocupa por sus propias habilidades, contra el 20 % donde no se recortó.",
+     "en la fuente": "p. 20 y 79 del informe (22 y 81 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "temor-a-que-el-propio-cargo-sobre-61--donde-se-recortó-personal-18--donde-no",
+     "enunciado": "Temor a que el propio cargo sobre: 61 % donde se recortó personal, 18 % donde no",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#temor-a-que-el-propio-cargo-sobre-61--donde-se-recortó-personal-18--donde-no",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [35:01]"
+     ],
+     "cifra": "En 2026, el 61 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento recortó personal por la IA teme que la IA reduzca la necesidad de su propio cargo («I worry AI could reduce the need for my role»), contra el 18 % donde no se recortó.",
+     "en la fuente": "p. 20 y 79 del informe (22 y 81 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "formación-adecuada-22-puntos-de-brecha-entre-managers-y-entrada-y-nivel-medio",
+     "enunciado": "Formación adecuada: 22 puntos de brecha entre managers+ y entrada y nivel medio",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#formación-adecuada-22-puntos-de-brecha-entre-managers-y-entrada-y-nivel-medio",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [26:57]"
+     ],
+     "cifra": "En 2026, el 78 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que hay formación adecuada en IA, contra el 56 % de los trabajadores de nivel de entrada y medio (+22 puntos), la mayor brecha entre ambos grupos; siguen los jefes que empoderan el uso (+19), la política de IA responsable (+18), la confianza para usarla (+17) y la visión clara (+15).",
+     "en la fuente": "p. 21, 70, 72 y 73 del informe (23, 72, 74 y 75 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. La lámina da un punto menos en los jefes (+18) y en la política (+17), y el hallazgo más consistente del informe es la brecha en el marcador de alineamiento, no esta."
+    },
+    {
+     "id": "confianza-para-usar-la-ia-62--entrada-y-medio-72--gerentes-87--vp",
+     "enunciado": "Confianza para usar la IA: 62 % entrada y medio, 72 % gerentes, 87 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#confianza-para-usar-la-ia-62--entrada-y-medio-72--gerentes-87--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [28:59]"
+     ],
+     "cifra": "Según la lámina 15 del webinar de Wharton del 20 de octubre de 2026, la confianza de los empleados de grandes empresas de EE. UU. para usar la IA sube con el rango: 62 % entre los trabajadores de nivel de entrada y medio, 72 % entre gerentes y directores y 87 % entre VP+, 25 puntos entre los extremos; el informe solo compara a los managers+ (79 %) con los de nivel de entrada y medio (62 %), 17 puntos.",
+     "en la fuente": "p. 21 y 70 del informe (23 y 72 del PDF), solo managers+ contra nivel de entrada y medio",
+     "verificación": "Corregida. Tambe dijo «about a 20% gap»; la nota 3 de la transcripción lo corrige con la lámina 15 (25 puntos), cuyo desglose por rango no está en el informe."
+    },
+    {
+     "id": "visión-clara-de-la-ia-por-rango-64--entrada-y-medio-71--gerentes-87--vp",
+     "enunciado": "Visión clara de la IA por rango: 64 % entrada y medio, 71 % gerentes, 87 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#visión-clara-de-la-ia-por-rango-64--entrada-y-medio-71--gerentes-87--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [28:59]"
+     ],
+     "cifra": "En 2026, la proporción de personas de grandes empresas de EE. UU. que ve una visión clara de la IA en su organización sube con el rango: 64 % entre los trabajadores de nivel de entrada y medio, 71 % entre gerentes y directores y 87 % entre VP+ (79 % del total de managers+).",
+     "en la fuente": "p. 21 y 72 del informe (23 y 74 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El 71 % de gerentes y directores está solo en la lámina 15, y cuadra con el 79 % de los managers+."
+    },
+    {
+     "id": "suben-cautious-a-44--skeptical-a-25--y-worried-a-16--al-describir-la-ia",
+     "enunciado": "Suben «cautious» a 44 %, «skeptical» a 25 % y «worried» a 16 % al describir la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#suben-cautious-a-44--skeptical-a-25--y-worried-a-16--al-describir-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [11:07]"
+     ],
+     "cifra": "En 2026 subieron las palabras de cautela con que los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. describen la IA: «cautious» llega a 44 % (+7 puntos), «skeptical» a 25 % (+8) y «worried» a 16 % (+5), mientras «optimistic» se mantiene en 59 %.",
+     "en la fuente": "p. 22 y 77 del informe (24 y 79 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst no dio las cifras; están en la lámina, que advierte que la comparación con 2025 no es exacta."
+    },
+    {
+     "id": "productividad-44--el-rol-principal-de-la-ia-en-los-próximos-12-a-24-meses",
+     "enunciado": "Productividad, 44 %: el rol principal de la IA en los próximos 12 a 24 meses",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#productividad-44--el-rol-principal-de-la-ia-en-los-próximos-12-a-24-meses",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [14:49]"
+     ],
+     "cifra": "En 2026, para el 44 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. el rol principal de la IA en los próximos 12 a 24 meses será la productividad, por amplio margen; siguen la calidad de las decisiones (15 %), la experiencia del cliente (14 %), el riesgo y cumplimiento (10 %), los ingresos o productos nuevos (8 %) y la reducción de costos (7 %).",
+     "en la fuente": "p. 26 del informe (28 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni no dio las cifras; están en la lámina."
+    },
+    {
+     "id": "horas-ahorradas-40--el-indicador-más-usado-para-medir-el-roi-de-la-ia",
+     "enunciado": "Horas ahorradas, 40 %: el indicador más usado para medir el ROI de la IA",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#horas-ahorradas-40--el-indicador-más-usado-para-medir-el-roi-de-la-ia",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [12:46]"
+     ],
+     "cifra": "En 2026, los indicadores más usados por los departamentos de grandes empresas de EE. UU. para medir el ROI de la IA son las horas ahorradas (40 %), las tasas de error (37 %), el volumen de producción (35 %) y el tiempo por tarea, los costos operativos y la satisfacción de clientes (34 % cada uno); el menos usado son los ingresos nuevos (27 %). La base son los managers+ (gerentes y cargos superiores) que miden el ROI (n = 941).",
+     "en la fuente": "p. 27 del informe (29 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni no dio las cifras; están en la lámina."
+    },
+    {
+     "id": "87--de-los-managers-cree-que-la-ia-mejora-las-habilidades-de-los-empleados",
+     "enunciado": "87 % de los managers+ cree que la IA mejora las habilidades de los empleados",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#87--de-los-managers-cree-que-la-ia-mejora-las-habilidades-de-los-empleados",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [31:05]"
+     ],
+     "cifra": "En 2026, el 87 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que la IA mejora las habilidades de los empleados de su departamento en algunas tareas.",
+     "en la fuente": "p. 43 del informe (45 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. La pregunta es por el departamento; en 2025 era por la organización, así que no se compara."
+    },
+    {
+     "id": "66--de-los-managers-reconoce-que-la-ia-reemplaza-algunas-habilidades",
+     "enunciado": "66 % de los managers+ reconoce que la IA reemplaza algunas habilidades",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#66--de-los-managers-reconoce-que-la-ia-reemplaza-algunas-habilidades",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [31:05]"
+     ],
+     "cifra": "En 2026, el 66 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que la IA reemplaza habilidades de los empleados en algunas tareas.",
+     "en la fuente": "p. 43 del informe (45 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Que la cifra se mueve entre dos tercios y 70 % desde el comienzo del estudio lo dijo Korst."
+    },
+    {
+     "id": "42--ve-declinar-las-habilidades-de-su-departamento-cerca-del-40--teme-por-las-propias",
+     "enunciado": "42 % ve declinar las habilidades de su departamento; cerca del 40 % teme por las propias",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#42--ve-declinar-las-habilidades-de-su-departamento-cerca-del-40--teme-por-las-propias",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [32:36]"
+     ],
+     "cifra": "En 2026, el 42 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. ve declinar la competencia en habilidades de su departamento por la IA, y cerca del 40 % teme que la IA erosione sus propias habilidades críticas.",
+     "en la fuente": "p. 43 y 68 del informe (45 y 70 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El informe no da el 40 % de la lámina para las propias habilidades: da 32 % de gerentes y directores y 48 % de VP+, que ponderados dan cerca del 40 %."
+    },
+    {
+     "id": "flujos-transformados-por-rango-9--entrada-y-medio-17--gerentes-24--vp",
+     "enunciado": "Flujos transformados por rango: 9 % entrada y medio, 17 % gerentes, 24 % VP+",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#flujos-transformados-por-rango-9--entrada-y-medio-17--gerentes-24--vp",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [28:59]"
+     ],
+     "cifra": "En 2026, los flujos de trabajo transformados por la IA que se reportan en grandes empresas de EE. UU. suben con el rango: 9 % entre los trabajadores de nivel de entrada y medio, 17 % entre gerentes y directores y 24 % entre VP+ (20 % del total de managers+).",
+     "en la fuente": "p. 47 del informe (49 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. El 17 % y el 24 % están solo en la lámina 15, y cuadran con el 20 % de los managers+."
+    },
+    {
+     "id": "inquietudes-éticas-85--donde-se-recortó-personal-por-la-ia-52--donde-no",
+     "enunciado": "Inquietudes éticas: 85 % donde se recortó personal por la IA, 52 % donde no",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#inquietudes-éticas-85--donde-se-recortó-personal-por-la-ia-52--donde-no",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [35:01]"
+     ],
+     "cifra": "En 2026, el 85 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento recortó personal por la IA tiene inquietudes éticas, contra el 52 % donde no se recortó. Es correlación, no causa.",
+     "en la fuente": "p. 79 del informe (81 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "resistencia-de-colegas-80--donde-se-recortó-personal-por-la-ia-38--donde-no",
+     "enunciado": "Resistencia de colegas: 80 % donde se recortó personal por la IA, 38 % donde no",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#resistencia-de-colegas-80--donde-se-recortó-personal-por-la-ia-38--donde-no",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [35:01]"
+     ],
+     "cifra": "En 2026, el 80 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. cuyo departamento recortó personal por la IA ve resistencia de sus colegas a la IA, contra el 38 % donde no se recortó.",
+     "en la fuente": "p. 79 del informe (81 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "65--dice-que-lo-que-frena-a-su-departamento-son-las-personas-y-los-procesos",
+     "enunciado": "65 % dice que lo que frena a su departamento son las personas y los procesos",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#65--dice-que-lo-que-frena-a-su-departamento-son-las-personas-y-los-procesos",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [25:11]"
+     ],
+     "cifra": "En 2026, el 65 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que lo que frena a su departamento con la IA son las personas y los procesos, no la tecnología.",
+     "en la fuente": "p. 82 del informe (84 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026."
+    },
+    {
+     "id": "talento-avanzado-en-ia-44--el-mayor-desafío-de-talento-en-2026",
+     "enunciado": "Talento avanzado en IA, 44 %: el mayor desafío de talento en 2026",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#talento-avanzado-en-ia-44--el-mayor-desafío-de-talento-en-2026",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Prasanna Tambe · [25:55]"
+     ],
+     "cifra": "Los mayores desafíos de talento para la IA en 2026, según los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU., son el talento avanzado en IA (44 %), el aprendizaje continuo (43 %) y los programas de formación (42 %), seguidos de la alfabetización básica y la moral (33 % cada una) y el liderazgo del cambio (31 %); en 2025 eran 49, 43, 46, 43, 43 y 41 %.",
+     "en la fuente": "p. 82 del informe (84 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Todos bajan o empatan con 2025; la p. 6 dice que los desafíos de talento no se comparan entre olas, aunque la p. 82 los muestra junto a los de 2025."
+    },
+    {
+     "id": "51--de-los-usuarios-de-chatgpt-en-el-trabajo-lo-usa-con-una-cuenta-personal",
+     "enunciado": "51 % de los usuarios de ChatGPT en el trabajo lo usa con una cuenta personal",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#51--de-los-usuarios-de-chatgpt-en-el-trabajo-lo-usa-con-una-cuenta-personal",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Stefano Puntoni · [57:42]"
+     ],
+     "cifra": "En 2026, el 51 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. que usan ChatGPT (OpenAI) lo hace con una cuenta personal; con Meta AI es el 52 % y con Gemini, el 46 %.",
+     "en la fuente": "p. 84 del informe (86 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Puntoni dijo «cerca de la mitad»."
+    },
+    {
+     "id": "77--cree-que-su-organización-adopta-la-ia-más-rápido-que-sus-pares",
+     "enunciado": "77 % cree que su organización adopta la IA más rápido que sus pares",
+     "url": "https://github.com/Brinca-MMC/open-brinca/blob/main/estudios/wharton-gbk-adopcion-ia-2026.md#77--cree-que-su-organización-adopta-la-ia-más-rápido-que-sus-pares",
+     "dicha en": [
+      "[The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Jeremy Korst · [43:20]"
+     ],
+     "cifra": "En 2026, el 77 % de los managers+ (gerentes y cargos superiores) de grandes empresas de EE. UU. dice que su organización va más rápido que sus pares en la adopción de IA, contra el 73 % en 2025 y el 69 % en 2024.",
+     "en la fuente": "p. 88 del informe, Apéndice (90 del PDF)",
+     "verificación": "Verificada contra el informe, el 27 de octubre de 2026. Korst dijo «más de la mitad, año tras año» (la serie del informe parte en 2024), y la conclusión de que la aritmética prueba que algunas percepciones están equivocadas es suya."
+    }
+   ]
+  }
+ ]
+}

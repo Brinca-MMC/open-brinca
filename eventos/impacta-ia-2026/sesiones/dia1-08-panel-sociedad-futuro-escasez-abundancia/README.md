@@ -1,8 +1,19 @@
 ---
 id: dia1-08-panel-sociedad-futuro-escasez-abundancia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "Sociedad del futuro: de la escasez a la abundancia"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [alberto-mayol, raphael-bergoeing, alfredo-persico]
+modera: [eduardo-gomien]
+idiomas: [es]
+duracion_min: 76
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=29095s
+temas: [ia-y-sociedad, futuro-del-trabajo, productividad-y-crecimiento, gobierno-de-la-ia]
+estudios: [cepr-penalizacion-aprendizaje-ia-china-2026, mit-media-lab-your-brain-on-chatgpt-2025]
 tags: [impacta-ia, panel, abundancia, futuro-del-trabajo, gobernanza-ia, educacion]
+actualizado: 2026-10-27
 ---
 
 # Panel «Sociedad del futuro: de la escasez a la abundancia» · Impacta IA Chile 2026
@@ -123,3 +134,17 @@ Las tres son láminas de Alberto Mayol, el único que proyectó (Bergoeing y Pé
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `tensiona` [Apertura Impacta IA Chile 2026](../dia1-01-apertura-impacta-ia-chile-2026/README.md) · [04:57] · Francisco Martínez (Brinca) abre el evento sosteniendo que la IA es una tecnología de propósito general, como el vapor o la electricidad, que cambia la economía entera y no algunas industrias. Alberto Mayol (USACH) pone como lo estadísticamente más probable que la IA se absorba como una herramienta más, porque las transformaciones no ocurren por reemplazo (en la banca, el canal tradicional siguió creciendo mientras el digital explotaba), aunque él mismo la describe como una crisis por exceso de energía.
+- `confirma` [Keynote «The Quiet Reckoning for Leaders»](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md) · [23:18] · Daniel Strode (Duke) llama deuda de desarrollo a la brecha entre lo que la IA ahorra en el corto plazo y lo que agota en silencio en el largo, y la ilustra con anécdotas (Klarna, la compra del Banco Popular en quince minutos). Alfredo Pérsico (Agents4Future) llega a la misma idea, que llama deuda cognitiva, con estudios: con 26 mil estudiantes chinos, las entregas hechas con IA salen 17 % mejores pero el rendimiento a libro cerrado cae 22 %, y en el estudio del MIT con electroencefalograma el cerebro del grupo que usó ChatGPT mostró un «apagón».
+- `confirma` [Keynote «Against Productivity»](../dia1-05-keynote-against-productivity-reaping-rewards-ai-revolution/README.md) · [02:40] · Stefano Puntoni (Wharton) sostiene que las empresas usan la IA casi solo para bajar costos y que su roadmap de IA termina pareciendo un plan de reducción de costos. Raphael Bergoeing, economista, llega a lo mismo por otra vía, citando a Acemoglu: las empresas privadas han usado la IA para automatizar, como con las cajas de autoservicio, que no bajaron los precios sino que subieron la última línea y le pasaron una tarea al cliente.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma` ← [La revolución del vibe coding al interior de las empresas: nuevos paradigmas](../dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas/README.md)
+- `tensiona` ← [La mente humana en la era de la IA](../dia2-06-charla-mente-humana-era-ia/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

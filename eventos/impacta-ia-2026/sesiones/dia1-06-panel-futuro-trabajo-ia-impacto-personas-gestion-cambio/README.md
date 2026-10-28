@@ -1,8 +1,19 @@
 ---
 id: dia1-06-panel-futuro-trabajo-ia-impacto-personas-gestion-cambio
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "El Futuro del Trabajo con IA: impacto en personas y gestión del cambio"
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [francisco-martinez, paula-aguirre, denisse-goldfarb]
+modera: [patricio-millar]
+idiomas: [es]
+duracion_min: 44
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=22796s
+temas: [futuro-del-trabajo, gestion-del-cambio, productividad-y-crecimiento, ia-y-sociedad]
+estudios: [openai-ai-jobs-transition-framework-2026, mckinsey-mgi-agentes-robots-2025]
 tags: [impacta-ia, panel, futuro-del-trabajo, gestion-del-cambio, talento, estructura-organizacional]
+actualizado: 2026-10-27
 ---
 
 # Panel «El Futuro del Trabajo con IA: impacto en personas y gestión del cambio» · Impacta IA Chile 2026
@@ -142,3 +153,15 @@ Todas se vieron a pantalla completa en el stream, con un recuadro de cámara en 
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `tensiona` [Charla «El ROI real de la IA»](../dia1-04-charla-roi-real-ia-impacto-rentabilidad-negocio/README.md) · [10:03] · Edmundo Casas (Kauel) afirma que hoy la IA ya puede reemplazar a cualquier persona en el trabajo digital, de la contabilidad a las ventas. En el panel sobre el futuro del trabajo, Denisse Goldfarb (The People Future) separa lo que la tecnología puede hacer de lo que de verdad reemplaza (al cliente que genera el 60 % de los ingresos no se lo atiende con un chatbot), y Paula Aguirre (UC) estima con el marco de OpenAI que solo cerca del 18 % de los empleos está en riesgo muy alto de automatización [14:19].
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `complementa` ← [The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md)
+- `profundiza` ← [IA como Motor de Productividad e Innovación para Chile](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md)
+- `confirma` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

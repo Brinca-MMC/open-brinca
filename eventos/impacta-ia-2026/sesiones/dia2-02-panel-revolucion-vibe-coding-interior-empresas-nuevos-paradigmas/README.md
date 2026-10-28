@@ -1,8 +1,19 @@
 ---
 id: dia2-02-panel-revolucion-vibe-coding-interior-empresas-nuevos-paradigmas
 tipo: sesion
-actualizado: 2026-10-20
+titulo: "La revolución del vibe coding al interior de las empresas: nuevos paradigmas"
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [angel-izurieta, carlos-araya, nicolas-rivas]
+modera: [marcos-thomas]
+idiomas: [es]
+duracion_min: 54
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=3973s
+temas: [desarrollo-con-ia, gobierno-de-la-ia, futuro-del-trabajo, liderazgo]
+estudios: [metr-duracion-tareas-ia-2025]
 tags: [impacta-ia, panel, vibe-coding, gobierno-ia, liderazgo, adopcion-ia]
+actualizado: 2026-10-27
 ---
 
 # Panel «La revolución del vibe coding al interior de las empresas: nuevos paradigmas» · Impacta IA Chile 2026
@@ -143,3 +154,14 @@ El vibe coding cambia quién puede crear dentro de una empresa [03:52], pero no 
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Conexiones
+
+- `confirma` [Panel «Gobernanza Corporativa de la IA»](../dia1-03-panel-gobernanza-corporativa-ia/README.md) · [18:25] · En el panel de gobernanza, Nicolás Rivas (Brinca) propone dejar de bloquear y pasar a registrar y gobernar a posteriori, porque el software se volvió abundante y ya no se puede revisar solución por solución. Al día siguiente, Carlos Araya (ANASAC), gerente de finanzas y tecnología, llega a lo mismo desde la práctica: libertad completa para que el negocio cree y control del «por dónde» (acceso al dato real, métodos para integrar y un catálogo que detecte desarrollos duplicados).
+- `confirma` [Panel «Sociedad del futuro: de la escasez a la abundancia»](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · [30:06] · Alfredo Pérsico (Agents4Future) advierte una deuda de control: el software hecho con IA termina en «Frankensteins» y las empresas se llenan de agentes individuales (Claude Code, Codex) sin una plataforma que los gobierne. Carlos Araya (ANASAC) lo vive en su empresa: gente del negocio que no sabe programar llega con apps casi listas hechas con Claude o Codex, sin pedir permiso, y si nadie cuida la duplicidad, la integración y los datos conectados, el vibe coding traerá «la siguiente generación de Excel gigantesco».
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma`, `tensiona` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

@@ -1,8 +1,19 @@
 ---
 id: dia2-06-charla-mente-humana-era-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: La mente humana en la era de la IA
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: charla
+speakers: [alvaro-fischer]
+modera: [jose-manuel-morales]
+intervienen: [francisco-martinez]
+idiomas: [es]
+duracion_min: 44
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=25675s
+temas: [ia-y-sociedad, agentes, futuro-del-trabajo]
 tags: [impacta-ia, charla, psicologia-evolutiva, agencia-ia, democracia, educacion]
+actualizado: 2026-10-27
 ---
 
 # Charla «La mente humana en la era de la IA» · Impacta IA Chile 2026
@@ -113,3 +124,7 @@ Sin imágenes notables. Fue una entrevista sin slides: la etapa automática dete
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `tensiona` [Panel «Sociedad del futuro: de la escasez a la abundancia»](../dia1-08-panel-sociedad-futuro-escasez-abundancia/README.md) · [24:14] · Alfredo Pérsico (Agents4Future) cita estudios (26 mil estudiantes chinos, el electroencefalograma del MIT) para advertir que tercerizar el pensamiento deja una deuda cognitiva: menos retención y menos transferencia. Álvaro Fischer se declara escéptico de los estudios que dicen que la IA nos vacía de pensamiento, aunque reconoce malos usos como copiar en las pruebas: pedirle algo a la IA, leerlo y pedirle que arregle una parte ya es pensar, y si se demuestra lo contrario, dice, lo reconocerá.

@@ -1,8 +1,18 @@
 ---
 id: dia2-03-panel-desafios-tensiones-regulacion-ia
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Desafíos y tensiones de la regulación en IA
+evento: impacta-ia-2026
+fecha: 2026-09-03
+formato: panel
+speakers: [pedro-huichalaf, jose-rafael-correa, kenneth-pugh]
+modera: [ricardo-lillo]
+idiomas: [es]
+duracion_min: 66
+video: https://www.youtube.com/watch?v=NJu13g38nDc&t=9560s
+temas: [regulacion, soberania-e-infraestructura, gobierno-de-la-ia, futuro-del-trabajo]
 tags: [impacta-ia, panel, regulacion-ia, soberania-digital, proteccion-de-datos, gobernanza-ia]
+actualizado: 2026-10-27
 ---
 
 # Panel «Desafíos y tensiones de la regulación en IA» · Impacta IA Chile 2026
@@ -121,3 +131,15 @@ Sin imágenes proyectadas. En el escenario solo se vieron la placa del evento y 
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables (esta sesión no tiene).
+
+## Conexiones
+
+- `tensiona` [Panel «Encuentro público-privado para una adopción sin brechas»](../dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas/README.md) · [14:05] · Catherine Muñoz (Idónea) sostiene que la IA ya está regulada en Chile por normas sectoriales y que no hace falta una ley que agregue cargas, y George Lever (CCS) prefiere la autorregulación. José Rafael Correa (U. de Chile) da por hecho que se va a regular y pide hacerlo pronto, con una ley marco de principios, porque esperar arriesga legislar en la contingencia, después de una tragedia; en su mismo panel, Kenneth Pugh le da en parte la razón a Muñoz (el artículo 8 bis de la Ley de Protección de Datos Personales ya exige explicar las decisiones automatizadas), y los dos paneles coinciden en regular el uso y no la herramienta.
+- `analogo-a` [Panel «Gobernanza Corporativa de la IA»](../dia1-03-panel-gobernanza-corporativa-ia/README.md) · [21:39] · Nicolás Rivas (Brinca) propone repartir la atención de quien gobierna la IA en una empresa con la regla de Jeff Bezos: no preocuparse de lo reversible y sí de lo irreversible. José Rafael Correa (U. de Chile) llega por su cuenta al mismo criterio para la regulación del Estado: regular el despliegue según cuán reversible es el daño, con un regulador que, como la FDA, acompaña y solo detiene ante daños irreversibles [62:46].
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `confirma` ← [The Quiet Reckoning for Leaders: What Remains When AI Peels Back the Rest](../dia1-07-keynote-quiet-reckoning-leaders-what-remains-when-ai-peels-back-rest/README.md)
+- `analogo-a` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)

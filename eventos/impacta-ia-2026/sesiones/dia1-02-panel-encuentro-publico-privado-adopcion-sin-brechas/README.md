@@ -1,8 +1,20 @@
 ---
 id: dia1-02-panel-encuentro-publico-privado-adopcion-sin-brechas
 tipo: sesion
-actualizado: 2026-10-20
+titulo: Encuentro público-privado para una adopción sin brechas
+evento: impacta-ia-2026
+fecha: 2026-09-02
+formato: panel
+speakers: [fernando-hentzschel, catherine-munoz, george-lever]
+modera: [carolina-garlick]
+intervienen: [juan-pablo-silva]
+idiomas: [es]
+duracion_min: 57
+video: https://www.youtube.com/watch?v=4N6I6PXycMw&t=3400s
+temas: [adopcion-y-escala, regulacion, soberania-e-infraestructura, futuro-del-trabajo]
+estudios: [corfo-ccs-pmg-madurez-ia-2026, ccs-caracterizacion-industria-ia-2025, cenia-cepal-ilia-2025]
 tags: [impacta-ia, panel, soberania-digital, regulacion-ia, adopcion-ia, pymes]
+actualizado: 2026-10-27
 ---
 
 # Panel «Encuentro público-privado para una adopción sin brechas» · Impacta IA Chile 2026
@@ -34,7 +46,7 @@ Chile lidera la región en IA, pero solo el 9 % de sus empresas logra escalarla,
 
 ## Tesis
 
-La brecha de adopción de IA en Chile no se cierra con herramientas ni con más leyes, sino con una alianza público-privada que habilite. Garlick abre con el dato del índice de CORFO, la Cámara de Comercio de Santiago y KPMG: Chile lidera la región, pero solo el 9 % de las empresas escala con IA y en el sector industrial el país cae al lugar doce [02:31]. Hentzschel lo plantea como un tema de soberanía digital: si la IA es como la electricidad o el agua, depender de cómputo, algoritmos y precios ajenos es un riesgo país, y hay que avanzar en infraestructura, talento y gobernanza de datos en paralelo [06:01] [28:42]. Muñoz y Lever coinciden en que la sobrerregulación es una brecha en sí misma: hay que regular el uso y no la herramienta, con leyes habilitantes, *sandbox* y autorregulación [12:40] [23:28]. Lever agrega que la IA es la gran ausente de la estrategia de crecimiento del país [21:12], y todos ponen el foco en las pymes: si no adoptan, la crisis de empleo vendrá de la no adopción [41:36]. Garlick lo cierra: las brechas no se resuelven con herramientas, sino con colaboración entre el sector público y el privado, y con «que nos creamos el cuento» [55:28].
+La brecha de adopción de IA en Chile no se cierra con herramientas ni con más leyes, sino con una alianza público-privada que habilite. Garlick abre con el dato del índice de CORFO, la Cámara de Comercio de Santiago y la consultora PMG Chile (el ITD-IA Nacional 2026): Chile lidera la región, pero solo el 9 % de las empresas escala con IA y en el sector industrial el país cae al lugar doce [02:31]. Hentzschel lo plantea como un tema de soberanía digital: si la IA es como la electricidad o el agua, depender de cómputo, algoritmos y precios ajenos es un riesgo país, y hay que avanzar en infraestructura, talento y gobernanza de datos en paralelo [06:01] [28:42]. Muñoz y Lever coinciden en que la sobrerregulación es una brecha en sí misma: hay que regular el uso y no la herramienta, con leyes habilitantes, *sandbox* y autorregulación [12:40] [23:28]. Lever agrega que la IA es la gran ausente de la estrategia de crecimiento del país [21:12], y todos ponen el foco en las pymes: si no adoptan, la crisis de empleo vendrá de la no adopción [41:36]. Garlick lo cierra: las brechas no se resuelven con herramientas, sino con colaboración entre el sector público y el privado, y con «que nos creamos el cuento» [55:28].
 
 ## Resumen
 
@@ -43,7 +55,7 @@ La brecha de adopción de IA en Chile no se cierra con herramientas ni con más 
 
 ### Encuadre de la moderadora [01:45–04:59]
 - **Carolina Garlick (Diario Financiero) [01:45]: casos prácticos, lo que funciona y lo que falla.** Pide concentrarse en lo práctico en los 45 minutos del panel.
-- **[02:31]: cuatro señales.** El índice de IA 2026 de CORFO, la CCS y KPMG muestra a Chile liderando en Latinoamérica, pero solo el 9 % de las empresas escala con IA y en el sector industrial Chile pasa del primer lugar al doce. Suma el análisis reciente de Bill Gates en su blog sobre el impacto en trabajadores, empresas y jóvenes, y el «fallo de Meta» de la semana anterior, que reabre la pregunta de cuándo regular. Pide a cada panelista una idea en cuatro minutos.
+- **[02:31]: cuatro señales.** Según el índice de IA 2026 de CORFO, la CCS y PMG Chile, Chile lidera en Latinoamérica, pero solo el 9 % de las empresas escala con IA y en el sector industrial Chile pasa del primer lugar al doce. El 9 % sí es de ese índice; el liderazgo regional y el lugar 12 en industria calzan con otro, el ILIA de CENIA (ver [`estudios/`](../../../../estudios/README.md)). Suma el análisis reciente de Bill Gates en su blog sobre el impacto en trabajadores, empresas y jóvenes, y el «fallo de Meta» de la semana anterior, que reabre la pregunta de cuándo regular. Pide a cada panelista una idea en cuatro minutos.
 
 ### Primera ronda: una idea de cada panelista [04:59–24:50]
 - **Fernando Hentzschel (CORFO) [05:05]: la adopción ocurre parcelada y en zigzag.** Cambió su presentación dos días antes porque lo que ve es una adopción fragmentada; la lámina falla y luego avanza a «Soberanía Digital» (ver imágenes).
@@ -130,3 +142,12 @@ La brecha de adopción de IA en Chile no se cierra con herramientas ni con más 
 ## Archivos
 - `transcripcion.md`: el texto completo, revisado y limpio, por turnos.
 - `imagenes/`: las imágenes notables.
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `reencuadra` ← [IA como Motor de Productividad e Innovación para Chile](../dia2-01-keynote-ia-como-motor-productividad-innovacion-chile/README.md)
+- `tensiona` ← [Desafíos y tensiones de la regulación en IA](../dia2-03-panel-desafios-tensiones-regulacion-ia/README.md)
+- `reencuadra` ← [Datacenters e IA: ¿una oportunidad para Chile?](../dia2-05-panel-datacenters-ia-oportunidad-chile/README.md)
+- `tensiona` ← [The Adaptive Advantage: Who's Winning With AI and How](../../../../webinars/2026-10-20-wharton-adaptive-advantage/README.md)
