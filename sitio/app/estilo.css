@@ -1,54 +1,98 @@
 /* SPDX-License-Identifier: MIT · Copyright (c) 2026 Brinca */
 :root {
+  color-scheme: light;
   --fondo: #fbfaf7; --texto: #1d1f23; --suave: #5b6270; --linea: #e3e0d8; --acento: #1f3a5f; --enlace: #1d4f91;
-  --caja: #f1eee6; --codigo: #efece4;
+  --codigo: #efece4;
   --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --fondo: #15171b; --texto: #e7e5df; --suave: #a2a7b1; --linea: #2c3038; --acento: #9db8de; --enlace: #8fb4ec; --caja: #1d2026; --codigo: #22252c; }
+  :root { color-scheme: dark; --fondo: #15171b; --texto: #e7e5df; --suave: #a2a7b1; --linea: #2c3038; --acento: #9db8de; --enlace: #8fb4ec; --codigo: #22252c; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 var(--serif); }
-a { color: var(--enlace); text-underline-offset: 2px; }
+a { color: var(--enlace); text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 2px; }
+a:hover { text-decoration-color: currentColor; }
+:focus-visible { outline: 2px solid var(--enlace); outline-offset: 2px; }
 .cabecera { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between;
   padding: 14px 16px; border-bottom: 1px solid var(--linea); font-family: var(--sans); font-size: 15px; }
-.marca { font: 600 19px/1.2 var(--serif); color: var(--acento); text-decoration: none; }
-.marca span { font: 400 14px var(--sans); color: var(--suave); margin-left: 4px; }
-.cabecera nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.cabecera .marca { font: 600 19px/1.2 var(--serif); color: var(--acento); text-decoration: none; }
+.cabecera nav { display: flex; flex-wrap: wrap; gap: 4px 14px; }
 .cabecera nav a { color: var(--texto); text-decoration: none; }
 .cabecera nav a:hover { color: var(--enlace); text-decoration: underline; }
 main { max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; overflow-wrap: break-word; }
-h1 { font-size: 2rem; line-height: 1.2; margin: 0.4em 0 0.5em; color: var(--acento); }
-h2 { font-size: 1.4rem; margin: 1.8em 0 0.5em; padding-top: 0.4em; border-top: 1px solid var(--linea); }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0.4em 0 0.5em; color: var(--texto); }
+h2 { font-size: 1.4rem; margin: 2.2em 0 0.5em; }
 h3 { font-size: 1.12rem; margin: 1.5em 0 0.4em; }
 h1, h2, h3, h4 { position: relative; scroll-margin-top: 16px; }
+h2 > a:not(.ancla):not(.marca) { color: inherit; text-decoration: none; }
+h2 > a:not(.ancla):not(.marca):hover { text-decoration: underline; }
+.contenido :is(h2, h3) .marca { font-weight: 400; }
 .ancla { position: absolute; left: -1em; opacity: 0; text-decoration: none; color: var(--suave); font-weight: 400; }
 h1:hover .ancla, h2:hover .ancla, h3:hover .ancla, h4:hover .ancla { opacity: 1; }
-blockquote { margin: 1em 0; padding: 0.2em 1em; border-left: 3px solid var(--acento); color: var(--suave); }
+blockquote { margin: 1em 0; padding: 0 0 0 1em; border-left: 3px solid var(--linea); color: var(--texto); }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85em; background: var(--codigo); padding: 0.1em 0.3em; }
 pre { background: var(--codigo); padding: 12px 14px; overflow-x: auto; font-size: 0.85em; line-height: 1.45; }
 pre code { background: none; padding: 0; }
 img { max-width: 100%; height: auto; border: 1px solid var(--linea); }
-.tabla { overflow-x: auto; margin: 1em 0; }
-table { border-collapse: collapse; font-family: var(--sans); font-size: 0.86rem; line-height: 1.45; min-width: 100%; }
-th, td { border: 1px solid var(--linea); padding: 6px 8px; text-align: left; vertical-align: top; }
-th { background: var(--caja); }
 ul, ol { padding-left: 1.4em; }
 li { margin: 0.25em 0; }
 sup.ref a { text-decoration: none; font-family: var(--sans); font-size: 0.75em; padding: 0 1px; }
 .notas { font-size: 0.92rem; }
 .notas .volver { text-decoration: none; }
-.acciones { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; font-family: var(--sans); font-size: 14px;
-  color: var(--suave); padding: 8px 12px; background: var(--caja); border: 1px solid var(--linea); margin-bottom: 8px; }
-.conectar-aviso { font-family: var(--sans); font-size: 14px; padding: 10px 12px; border: 1px solid var(--acento); margin-bottom: 8px; }
-.citar { font-family: var(--sans); font-size: 13px; color: var(--suave); border-top: 1px solid var(--linea); padding-top: 12px; margin-top: 40px; word-break: break-word; }
-.pie { border-top: 1px solid var(--linea); padding: 16px; font-family: var(--sans); font-size: 13px; color: var(--suave); }
-.pie p { max-width: 820px; margin: 0 auto; }
-@media (max-width: 600px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } .ancla { display: none; } }
 
-/* Síntesis: cada hipótesis con su número, y cada evidencia como tarjeta con su relación y su clase. */
+/* Tablas: sin grilla ni fondo, solo una línea bajo cada fila. La Ficha (sin encabezado) es rótulo y valor. */
+.tabla { overflow-x: auto; margin: 1em 0; }
+table { border-collapse: collapse; font: 14px/1.45 var(--sans); min-width: 100%; }
+th, td { border: 0; border-bottom: 1px solid var(--linea); padding: 7px 14px 7px 0; text-align: left; vertical-align: top; }
+th { background: none; color: var(--suave); font-weight: 600; border-bottom-color: var(--suave); }
+th:last-child, td:last-child { padding-right: 0; }
+.tabla.ficha td:first-child { color: var(--suave); white-space: nowrap; width: 1%; }
+
+/* Lo secundario va en un solo registro: sans de 14 px, color suave, sin cajas. */
+.meta { font: 14px/1.45 var(--sans); color: var(--suave); margin: -0.3em 0 1.2em; }
+.fuente { font-weight: 600; margin: 1.4em 0 0.3em; }
+.fuente a { color: inherit; text-decoration: none; }
+.fuente a:hover { text-decoration: underline; }
+.procedencia { font: 14px/1.45 var(--sans); color: var(--suave); margin: -0.4em 0 0.6em; }
+.procedencia svg { width: 15px; height: 15px; vertical-align: -2px; margin-right: 6px; }
+.procedencia .ok { color: var(--favor); }
+.procedencia .duda { color: var(--matiz); }
+.procedencia .marca { font-size: 1em; }
+.pie { border-top: 1px solid var(--linea); padding: 16px; font: 14px/1.45 var(--sans); color: var(--suave); }
+.pie p { max-width: 788px; margin: 0 auto; }
+
+/* Un minuto es una marca: sans, cifras parejas y sin cortarse. */
+.contenido .marca { font-family: var(--sans); font-size: 0.85em; font-style: normal; font-weight: 400; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Las ideas numeradas de una síntesis, en la portada y en el tema; y la lista de temas. */
+.num { flex: none; font: 600 13px/1 var(--sans); color: var(--fondo); background: var(--acento); padding: 4px 7px; min-width: 1.8em; text-align: center; }
+ol.ideas { list-style: none; padding: 0; margin: 0.6em 0 0; display: grid; gap: 8px; }
+ol.ideas a { display: flex; gap: 12px; align-items: baseline; color: var(--texto); text-decoration: none; }
+ol.ideas a:hover { color: var(--enlace); }
+ul.temas { list-style: none; padding: 0; columns: 2; column-gap: 32px; }
+ul.temas li { margin: 0 0 0.35em; break-inside: avoid; }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  h1 { font-size: 1.6rem; }
+  .ancla { display: none; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+  ul.temas { columns: 1; }
+  /* Cada fila de una tabla se lee en una sola corrida; el encabezado queda para lectores de pantalla. */
+  .tabla table, .tabla tbody, .tabla tr { display: block; min-width: 0; }
+  .tabla thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .tabla tr { border-bottom: 1px solid var(--linea); padding: 8px 0; }
+  .tabla td { display: inline; border: 0; padding: 0; }
+  .tabla td + td::before { content: " · "; color: var(--suave); }
+  /* Sin encabezado, un conteo o un código suelto no se entiende: esas columnas y las celdas vacías no se muestran. */
+  .tabla .corta, .tabla td:empty { display: none; }
+  .tabla.ficha td { display: block; }
+  .tabla.ficha td + td::before { content: none; }
+}
+
+/* Síntesis y grafo: cada evidencia o relación es una tarjeta con su relación y su clase. */
 :root {
   --favor: #23744a; --favor-fondo: #ecf5ef; --contra: #b03434; --contra-fondo: #fbeded;
   --matiz: #8a5d00; --matiz-fondo: #faf3e2; --limite: #5b6270; --limite-fondo: #f0eee8;
@@ -62,8 +106,7 @@ sup.ref a { text-decoration: none; font-family: var(--sans); font-size: 0.75em; 
   }
 }
 h2.hipotesis { display: flex; gap: 12px; align-items: baseline; }
-h2.hipotesis .num { flex: none; font: 600 15px/1 var(--sans); color: var(--fondo); background: var(--acento);
-  padding: 5px 9px; position: relative; top: -3px; }
+h2.hipotesis .num { font-size: 15px; padding: 5px 9px; position: relative; top: -3px; }
 ul.evidencias { list-style: none; padding: 0; margin: 12px 0 8px; display: grid; gap: 10px; }
 .ev { margin: 0; padding: 10px 14px 12px; border-left: 4px solid var(--c); background: var(--f); }
 .ev-cabeza { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-bottom: 4px;
@@ -72,12 +115,32 @@ ul.evidencias { list-style: none; padding: 0; margin: 12px 0 8px; display: grid;
 .ev-rel svg { width: 17px; height: 17px; }
 .ev-clase { display: inline-flex; gap: 5px; align-items: center; color: var(--suave); font-weight: 500; }
 .ev-clase svg { width: 15px; height: 15px; }
+.ev-cabeza .marca { font-size: 1em; font-weight: 500; }
 .ev-texto { font-size: 0.97rem; line-height: 1.55; }
+.ev-destino { display: block; font-weight: 600; margin-bottom: 2px; }
 .ev-favor { --c: var(--favor); --f: var(--favor-fondo); }
 .ev-contra { --c: var(--contra); --f: var(--contra-fondo); }
 .ev-matiz { --c: var(--matiz); --f: var(--matiz-fondo); }
 .ev-limite { --c: var(--limite); --f: var(--limite-fondo); }
+.ev-neutro { --c: var(--limite); --f: transparent; }
 .ev-desprende { --c: var(--desprende); --f: var(--desprende-fondo); }
 
-/* Transcripción: el turno al que lleva un enlace con marca queda destacado. */
-p:has(> a:target), p.marcado { background: var(--matiz-fondo); outline: 6px solid var(--matiz-fondo); }
+/* «Referido por»: una línea por documento que llega aquí, con lo que hace en el color de su relación. */
+ul.referido { list-style: none; padding: 0; color: var(--suave); }
+ul.referido li { margin: 0 0 0.4em; }
+ul.referido .rel { font: 14px/1.4 var(--sans); white-space: nowrap; }
+ul.referido .rel span { color: var(--c); }
+
+/* Transcripción como guion: la marca de cada turno, chica y gris, cuelga en el margen. Todas sus
+   marcas son grises y se vuelven enlace al pasar encima. */
+.transcripcion .marca { color: var(--suave); text-decoration: none; }
+.transcripcion a.marca:hover, .transcripcion a.marca:focus-visible { color: var(--enlace); text-decoration: underline; }
+.transcripcion p > a[id^="t-"] + strong > a.marca:first-child { font: 400 12px var(--sans); font-variant-numeric: tabular-nums; margin-right: 6px; }
+@media (min-width: 900px) {
+  .transcripcion p:has(> a[id^="t-"]) { position: relative; }
+  .transcripcion p > a[id^="t-"] + strong > a.marca:first-child { position: absolute; right: calc(100% + 14px); top: 0.35em; margin: 0; }
+}
+/* El turno al que lleva un minuto queda marcado con una barra en el margen, sin moverse. */
+p:has(> a:target), p.marcado { position: relative; }
+p:has(> a:target)::before, p.marcado::before { content: ""; position: absolute; left: -9px; top: 0.2em; bottom: 0.2em; width: 3px; background: var(--enlace); }
+a[id^="t-"] { scroll-margin-top: 16px; }
