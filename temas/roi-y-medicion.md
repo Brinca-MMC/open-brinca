@@ -37,3 +37,9 @@ Cuánto retorno está dando la IA, cómo se mide y qué métricas acompañan a l
 - [Rediseño de procesos en CX con IA (Asociación DEC)](../eventos/impacta-ia-2026/sesiones/dia2-07-panel-rediseno-procesos-cx-ia-asociacion-dec/README.md) · Impacta IA Chile 2026, 3 sep 2026
 - [The Adaptive Advantage: Who's Winning With AI and How](../webinars/2026-10-20-wharton-adaptive-advantage/README.md) · Wharton AI Horizons, 20 oct 2026
 <!-- /AUTO:sesiones -->
+
+## Referido por
+
+<!-- AUTO-GENERADO por metodo/grafo/grafo.py · no editar a mano · el «por qué» vive en el origen (## Conexiones) -->
+
+- `deriva-de` ← [El retorno de la IA en las empresas](../sintesis/roi-y-medicion.md)
